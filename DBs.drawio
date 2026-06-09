@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="Trang-1" id="yB4xYkE9y6kxZqiLYbLg">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X8BWxk9ng8HkF_VfEi0z-1" value="EventBus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2KzSZh3O67uNwPczW_9O-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="2KzSZh3O67uNwPczW_9O-2" target="X8BWxk9ng8HkF_VfEi0z-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2KzSZh3O67uNwPczW_9O-16" value="thrift api" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" connectable="0" vertex="1" parent="2KzSZh3O67uNwPczW_9O-3">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2KzSZh3O67uNwPczW_9O-2" value="Notifier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2KzSZh3O67uNwPczW_9O-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2KzSZh3O67uNwPczW_9O-5" value="Watcher" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="580" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2KzSZh3O67uNwPczW_9O-6" value="Instance" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2KzSZh3O67uNwPczW_9O-7" value="Watcher" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="580" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HDKpm5i9qXrigkiqiV-I-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="2KzSZh3O67uNwPczW_9O-8" target="HDKpm5i9qXrigkiqiV-I-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2KzSZh3O67uNwPczW_9O-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="560" y="440" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2KzSZh3O67uNwPczW_9O-9" value="Watcher" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="580" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2KzSZh3O67uNwPczW_9O-10" value="Instance" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="560" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2KzSZh3O67uNwPczW_9O-11" value="Watcher" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="580" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2KzSZh3O67uNwPczW_9O-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;fontFamily=Comic Sans MS;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" target="2KzSZh3O67uNwPczW_9O-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2KzSZh3O67uNwPczW_9O-14" value="socket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" connectable="0" vertex="1" parent="2KzSZh3O67uNwPczW_9O-12">
+          <mxGeometry x="-0.1443" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2KzSZh3O67uNwPczW_9O-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;fontFamily=Comic Sans MS;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="X8BWxk9ng8HkF_VfEi0z-1" target="2KzSZh3O67uNwPczW_9O-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2KzSZh3O67uNwPczW_9O-15" value="socket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" connectable="0" vertex="1" parent="2KzSZh3O67uNwPczW_9O-13">
+          <mxGeometry x="-0.1803" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDKpm5i9qXrigkiqiV-I-1" value="&lt;u&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/u&gt;&lt;br&gt;* when restart instance recieve event start from&amp;nbsp;following to event it proccessed before&lt;div&gt;&amp;nbsp;* name define by &lt;b&gt;&lt;u&gt;tuple&lt;/u&gt;&lt;/b&gt; (instancename, source )&lt;/div&gt;&lt;div&gt;&amp;nbsp;* &lt;b&gt;persist&lt;/b&gt; = true / farse&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;+ &lt;b&gt;true&lt;/b&gt; :&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- when all watcher disconnect, instance still hold,&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- watcher reconnect it receive new events since watcher disconnect&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- need commit log to store all event : send event, ack event&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;+ &lt;b&gt;false&lt;/b&gt; :&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- when all watcher disconnect , instance -&amp;gt; remove &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- when watcher reconnect , it&#39;ll have recieved event since it reconnect&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;*&amp;nbsp;&lt;b&gt;multiWatcher&lt;/b&gt;=true/false&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;+ &lt;b&gt;true&lt;/b&gt; :&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- instance can hold multi watchers&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;+ &lt;b&gt;false&lt;/b&gt;:&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- maximum number of watcher instance can hold is 1&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="840" y="100" width="440" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="HDKpm5i9qXrigkiqiV-I-2" value="&lt;b&gt;&lt;u&gt;UnName&lt;/u&gt;&lt;/b&gt;&lt;br&gt;* When restart, recieve newest event&lt;div&gt;* when persist = false and multiWatcher = false&lt;/div&gt;&lt;div&gt;*&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="840" y="370" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HDKpm5i9qXrigkiqiV-I-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.002;entryY=0.332;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;entryPerimeter=0;" edge="1" parent="1" source="2KzSZh3O67uNwPczW_9O-4" target="HDKpm5i9qXrigkiqiV-I-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="460" as="sourcePoint" />
+            <mxPoint x="810" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="320" />
+              <mxPoint x="810" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDKpm5i9qXrigkiqiV-I-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="2KzSZh3O67uNwPczW_9O-4" target="HDKpm5i9qXrigkiqiV-I-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="460" as="sourcePoint" />
+            <mxPoint x="810" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDKpm5i9qXrigkiqiV-I-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="HDKpm5i9qXrigkiqiV-I-5" target="2KzSZh3O67uNwPczW_9O-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="200" />
+              <mxPoint x="640" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDKpm5i9qXrigkiqiV-I-5" value="a group of watcher follow one or more event&lt;div&gt;it manage :&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;* chosing a watcher to handle new event(round robin)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;* total jobs have sent&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;* list of events were sent a waiting for ACK&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;* progress sending job to watcher&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="100" width="332.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HDKpm5i9qXrigkiqiV-I-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="HDKpm5i9qXrigkiqiV-I-7" target="X8BWxk9ng8HkF_VfEi0z-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDKpm5i9qXrigkiqiV-I-7" value="* jobs are stored in the order server has been recieving&lt;div&gt;* is a &lt;b&gt;circular array&lt;/b&gt; have a fix &lt;b&gt;max_size.&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;* when queue evict it reject coming jobs&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HDKpm5i9qXrigkiqiV-I-9" value="Configs&lt;div&gt;* persist : true/false&lt;/div&gt;&lt;div&gt;* multiWatcher : true/false&lt;/div&gt;&lt;div&gt;*&amp;nbsp;neventsPerPackage: number of event which could be send in a packet&lt;/div&gt;&lt;div&gt;*&amp;nbsp;eventsRecv: list of events instance is following&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="660" y="630" width="290" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

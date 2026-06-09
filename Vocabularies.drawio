@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.9">
+  <diagram name="HouseHold Structure" id="odCfDjWknXMtECeCqLNI">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;curved=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="zqkSzmjsO5AOMt-KT8qr-2" target="zqkSzmjsO5AOMt-KT8qr-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-2" value="Thiết thực, thực tiễn, thực tế" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="680" y="330" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-4" value="&lt;b&gt;urban dwellers&lt;/b&gt; /ˈɜːbən ˈdwɛləz/&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Urban dwellers are increasingly exposed to environmental stressors such as air pollution and noise, which can have long-term health implications.&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="980" y="540" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-5" value="&lt;b&gt;practical&lt;/b&gt; /ˈpræktɪkəl/&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;The course is designed to provide students with both theoretical knowledge and practical skills relevant to modern industry demands.&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="980" y="240" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;curved=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="zqkSzmjsO5AOMt-KT8qr-6" target="zqkSzmjsO5AOMt-KT8qr-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-6" value="cư dân đô thị" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontStyle=6" vertex="1" parent="1">
+          <mxGeometry x="680" y="650" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;curved=1;fillColor=#d80073;strokeColor=#A50040;fontFamily=Comic Sans MS;" edge="1" parent="1" source="zqkSzmjsO5AOMt-KT8qr-8" target="zqkSzmjsO5AOMt-KT8qr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-8" value="nghĩa vụ, bổn phận" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="840" y="460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-9" value="&lt;b&gt;obligations&lt;/b&gt;&amp;nbsp;/ˌɒblɪˈɡeɪʃənz/&lt;br&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Citizens have legal and moral obligations to contribute to the welfare of the society in which they live&lt;/font&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="360" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-11" value="&lt;b&gt;autonomously&lt;/b&gt; /ɔːˈtɒnəməsli/&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;The robot is capable of navigating complex environments autonomously, without human intervention.&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="320" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.198;exitY=-0.105;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;fillColor=#d80073;strokeColor=#A50040;curved=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="zqkSzmjsO5AOMt-KT8qr-12" target="zqkSzmjsO5AOMt-KT8qr-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-12" value="một cách tự chủ, độc lập" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="1450" y="480" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-14" value="thúc đẩy, nuôi dưỡng, cổ vũ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="1460" y="540" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontFamily=Comic Sans MS;" edge="1" parent="1" source="zqkSzmjsO5AOMt-KT8qr-15" target="zqkSzmjsO5AOMt-KT8qr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-15" value="&lt;b&gt;fostering&lt;/b&gt;&amp;nbsp;&amp;nbsp;/ˈfɒstərɪŋ/&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Educational institutions play a vital role in fostering critical thinking and lifelong learning habits among students.&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="610" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-17" value="&lt;b&gt;self-reliance&lt;/b&gt;&amp;nbsp;/ˌself.rɪˈlaɪ.əns/&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Promoting self-reliance in young adults is essential for preparing them to navigate complex social and economic challenges.&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="320" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-18" value="sự tự lực, khả năng tự lo liệu mà không cần dựa dẫm vào người khác" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="1640" y="480" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.509;entryY=-0.117;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#008a00;strokeColor=#005700;curved=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="zqkSzmjsO5AOMt-KT8qr-17" target="zqkSzmjsO5AOMt-KT8qr-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;fillColor=#6a00ff;strokeColor=#3700CC;fontFamily=Comic Sans MS;" edge="1" parent="1" source="zqkSzmjsO5AOMt-KT8qr-20" target="zqkSzmjsO5AOMt-KT8qr-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-20" value="&lt;b&gt;appealing&lt;/b&gt; /əˈpiːlɪŋ/&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;The concept of flexible working hours is particularly appealing to employees seeking better work-life balance&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="980" y="690" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-21" value="hấp dẫn, lôi cuốn, thu hút" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="920" y="840" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontFamily=Comic Sans MS;" edge="1" parent="1" source="zqkSzmjsO5AOMt-KT8qr-23" target="zqkSzmjsO5AOMt-KT8qr-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1380" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-23" value="&lt;b&gt;identities&lt;/b&gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/aɪˈdentətiz/&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i style=&quot;&quot;&gt;Globalization has led many individuals to negotiate multiple cultural identities in their daily lives&lt;/i&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="690" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-24" value="danh tính, bản sắc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="1100" y="850" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;fillColor=#6a00ff;strokeColor=#3700CC;fontFamily=Comic Sans MS;" edge="1" parent="1" source="zqkSzmjsO5AOMt-KT8qr-26" target="zqkSzmjsO5AOMt-KT8qr-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-26" value="&lt;div&gt;&lt;b&gt;personal preferences&lt;/b&gt;&amp;nbsp;&amp;nbsp;/ˈpɜːsənl ˈprefərənsɪz/&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Designing user interfaces that accommodate personal preferences can significantly enhance user satisfaction and usability&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="680" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-27" value="sở thích cá nhân, xu hướng hoặc lựa chọn" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="1350" y="850" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-29" value="&lt;b&gt;prevalence&lt;/b&gt;&amp;nbsp;&amp;nbsp;/ˈprevələns/&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;The increasing prevalence of mental health disorders among adolescents has become a growing concern for public health officials&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="980" y="160" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;fillColor=#0050ef;strokeColor=#001DBC;fontFamily=Comic Sans MS;" edge="1" parent="1" source="zqkSzmjsO5AOMt-KT8qr-30" target="zqkSzmjsO5AOMt-KT8qr-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-30" value="tỷ lệ phổ biến, sự thịnh hành" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=4;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="660" y="290" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-32" value="&lt;div&gt;&amp;nbsp;&lt;b&gt;psychological well-being&lt;/b&gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/ˌsaɪkəˈlɒdʒɪkl ˌwelˈbiːɪŋ/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Engaging in regular physical activity has been shown to improve psychological well-being and reduce symptoms of depression and anxiety.&lt;/font&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="980" y="80" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=1;fillColor=#f0a30a;strokeColor=#BD7000;fontFamily=Comic Sans MS;" edge="1" parent="1" source="zqkSzmjsO5AOMt-KT8qr-33" target="zqkSzmjsO5AOMt-KT8qr-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-33" value="sức khỏe tâm lý — trạng thái tinh thần tích cực, bao gồm cảm giác hài lòng, sự tự chấp nhận, khả năng kiểm soát cuộc sống, và các mối quan hệ lành mạnh" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=4;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="670" y="80" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-35" value="&lt;b&gt;absence&lt;/b&gt; /ˈæbsəns/&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;The absence of clear guidelines can hinder effective policy implementation and lead to inconsistent outcomes&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="980" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e3c800;strokeColor=#B09500;curved=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="zqkSzmjsO5AOMt-KT8qr-36" target="zqkSzmjsO5AOMt-KT8qr-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-36" value="sự vắng mặt, sự thiếu vắng" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=4;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="800" y="-50" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zqkSzmjsO5AOMt-KT8qr-38" value="&lt;b&gt;mobility&lt;/b&gt;&amp;nbsp; /məʊˈbɪləti/&lt;div&gt;&lt;i&gt;Improved public transportation systems can significantly enhance urban mobility and reduce traffic congestion&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="-200" width="220" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

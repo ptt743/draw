@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
+  <diagram name="work" id="fl1Ub4_RzcGnxSHl35ew">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=0.5;fontFamily=Comic Sans MS;" edge="1" parent="1" source="1KC5uwtEEbrjknE-uHc_-1" target="1KC5uwtEEbrjknE-uHc_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=0.5;endArrow=none;endFill=0;" edge="1" parent="1" source="1KC5uwtEEbrjknE-uHc_-1" target="1KC5uwtEEbrjknE-uHc_-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-1" value="wor&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;k&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="440" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-4" value="&lt;div&gt;&lt;b&gt;assertion | ə&#39;sə:∫n |&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;danh từ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;1 (sự) đòi (quyền lợi...)&lt;/div&gt;&lt;div&gt;2 (sự) xác nhận, (sự) khẳng định, (sự) quả quyết, (sự) quyết đoán&lt;/div&gt;&lt;div&gt;3 điều xác nhận, điều khẳng định, điều quyết đoán&lt;/div&gt;&lt;div&gt;từ đồng nghĩa&lt;/div&gt;&lt;div&gt;affirmation, allegation, avowal, claim, contention, declaration, proclamation, statement&lt;/div&gt;&lt;div&gt;từ trái nghĩa&lt;/div&gt;&lt;div&gt;denial&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-8" value="&lt;div&gt;&lt;b&gt;considerable | kən&#39;sidərəbl |&lt;/b&gt;&lt;/div&gt;&lt;div&gt;tính từ&lt;/div&gt;&lt;div&gt;đáng kể, to tát, lớn lao&lt;/div&gt;&lt;div&gt;▸ a considerable distance&lt;/div&gt;&lt;div&gt;khoảng cách đáng kể&lt;/div&gt;&lt;div&gt;▸ bought at considerable expense&lt;/div&gt;&lt;div&gt;được mua với chi phí lớn (tốn nhiều tiền)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="640" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=0.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="1KC5uwtEEbrjknE-uHc_-1" target="1KC5uwtEEbrjknE-uHc_-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="810" as="sourcePoint" />
+            <mxPoint x="630" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-12" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;obligation | ,ɔbli&#39;gei∫n |&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;danh từ&lt;br&gt;1 nghĩa vụ; bổn phận&lt;br&gt;▸ rights and obligations of the seller&lt;br&gt;quyền và nghĩa vụ của bên bán&lt;br&gt;▸ the obligations of conscience&lt;br&gt;những bổn phận của lương tâm&lt;br&gt;▸ obligations imposed by parenthood&lt;br&gt;những nghĩa vụ do địa vị cha mẹ đặt ra&lt;br&gt;▸ to fulfill an obligation&lt;br&gt;thực hiện một nghĩa vụ&lt;br&gt;từ đồng nghĩa&lt;br&gt;commitment, compulsion, duty, onus, requirement, responsibility, agreement, commitment, contract, debt, promise, understanding, acknowledgement, appreciation, gratefulness, gratitude, indebtedness, thankfulness&lt;br&gt;từ trái nghĩa&lt;br&gt;option, ingratitude&lt;br&gt;2 Kinh tế nghĩa vụ&lt;br&gt;3 Kỹ thuật nghĩa vụ" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="900" y="280" width="190" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-13" value="&lt;b&gt;personal time and relaxation&amp;nbsp;/ˈpɜː.sən.əl taɪm ənd ˌrel.ækˈseɪ.ʃən/&lt;/b&gt;&lt;div&gt;&lt;div&gt;(noun). công việc có mục đích, hấp dẫn&lt;/div&gt;&lt;div&gt;People feel more fulfilled when doing purposeful, engaging work aligned with their values.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;align=left;verticalAlign=top;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="790" y="390" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.03;entryY=0.956;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=0.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="1KC5uwtEEbrjknE-uHc_-1" target="1KC5uwtEEbrjknE-uHc_-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="705" as="sourcePoint" />
+            <mxPoint x="690" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=0.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="1KC5uwtEEbrjknE-uHc_-1" target="1KC5uwtEEbrjknE-uHc_-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="744" as="sourcePoint" />
+            <mxPoint x="933" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-18" value="&lt;b&gt;stem | stem |&lt;/b&gt;&lt;div&gt;&lt;div&gt;ngoại động từ&lt;/div&gt;&lt;div&gt;1 ( + from something) xuất phát từ, nảy sinh từ, bắt nguồn từ, là nguồn gốc của, là nguyên nhân của&lt;/div&gt;&lt;div&gt;▸ discontent stemming from low pay and poor working conditions&lt;/div&gt;&lt;div&gt;sự bất mãn bắt nguồn từ tiền công thấp và các điều kiện làm việc tồi tệ&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Comic Sans MS;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="620" y="470" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-25" value="&lt;div&gt;&lt;b&gt;no fixed work schedule&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;/nəʊ fɪkst wɜːk ˈʃed.juːl/&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;không có lịch trình làm việc cố định&lt;/div&gt;&lt;div&gt;Freelancers often benefit from no fixed work schedule, offering greater flexibility&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Comic Sans MS;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="900" y="190" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.278;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;endArrow=none;endFill=0;strokeWidth=0.5;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="1KC5uwtEEbrjknE-uHc_-12" target="1KC5uwtEEbrjknE-uHc_-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-27" value="&lt;div&gt;devote | di&#39;vout |&lt;/div&gt;&lt;div&gt;ngoại động từ&lt;/div&gt;&lt;div&gt;1 hiến dâng&lt;/div&gt;&lt;div&gt;▸ devote one&#39;s life to the revolutionary cause&lt;/div&gt;&lt;div&gt;hiến đời mình cho sự nghiệp cách mạng&lt;/div&gt;&lt;div&gt;▸ She devoted her whole life to the cause.&lt;/div&gt;&lt;div&gt;Cô ấy hiến đời mình cho chính nghĩa.&lt;/div&gt;&lt;div&gt;▸ devote one&#39;s time to do something&lt;/div&gt;&lt;div&gt;dành hết thời gian làm việc gì&lt;/div&gt;&lt;div&gt;▸ devote oneself&lt;/div&gt;&lt;div&gt;hiến thân mình&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Comic Sans MS;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="830" y="20" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;endArrow=none;endFill=0;strokeWidth=0.5;" edge="1" parent="1" source="1KC5uwtEEbrjknE-uHc_-25" target="1KC5uwtEEbrjknE-uHc_-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;strokeWidth=0.5;" edge="1" parent="1" source="1KC5uwtEEbrjknE-uHc_-30" target="1KC5uwtEEbrjknE-uHc_-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;strokeWidth=0.5;" edge="1" parent="1" source="1KC5uwtEEbrjknE-uHc_-30" target="1KC5uwtEEbrjknE-uHc_-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="-70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;strokeWidth=0.5;" edge="1" parent="1" source="1KC5uwtEEbrjknE-uHc_-30" target="1KC5uwtEEbrjknE-uHc_-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="-50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;strokeWidth=0.5;" edge="1" parent="1" source="1KC5uwtEEbrjknE-uHc_-30" target="1KC5uwtEEbrjknE-uHc_-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="-125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-30" value="&lt;div&gt;abundance | ə&#39;bʌndəns |&lt;/div&gt;&lt;div&gt;danh từ&lt;/div&gt;&lt;div&gt;1 (sự) nhiều&lt;/div&gt;&lt;div&gt;▸ abundance of good food&lt;/div&gt;&lt;div&gt;nhiều thức ăn ngon&lt;/div&gt;&lt;div&gt;▸ exotic plants grew there in great abundance&lt;/div&gt;&lt;div&gt;thực vật ngoại lai mọc ở đó rất nhiều&lt;/div&gt;&lt;div&gt;2 (sự) giàu có, sung túc; (sự) dư dật, đầy đủ&lt;/div&gt;&lt;div&gt;▸ live in abundance&lt;/div&gt;&lt;div&gt;sống dư dật&lt;/div&gt;&lt;div&gt;3 (sự) dạt dào (tình cảm, cảm xúc)&lt;/div&gt;&lt;div&gt;▸ abundance of the heart&lt;/div&gt;&lt;div&gt;sự dạt dào tình cảm&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Comic Sans MS;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="740" y="136" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.269;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;endArrow=none;endFill=0;strokeWidth=0.5;" edge="1" parent="1" source="1KC5uwtEEbrjknE-uHc_-25" target="1KC5uwtEEbrjknE-uHc_-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-32" value="&lt;div&gt;high-stress occupation&lt;/div&gt;&lt;div&gt;/haɪ stres ˌɒk.jʊˈpeɪ.ʃən/&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;(noun). nghề nghiệp căng thẳng cao&lt;/div&gt;&lt;div&gt;Emergency room doctors work in a high-stress occupation that requires quick decision-making.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Comic Sans MS;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="690" y="60" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.002;entryY=0.464;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;endArrow=none;endFill=0;strokeWidth=0.5;" edge="1" parent="1" source="1KC5uwtEEbrjknE-uHc_-30" target="1KC5uwtEEbrjknE-uHc_-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="93" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-34" value="&lt;div&gt;tangible progress&lt;/div&gt;&lt;div&gt;/ˈtæn.dʒə.bəl&lt;/div&gt;&lt;div&gt;&lt;div&gt;(noun). sự tiến bộ rõ rệt&lt;/div&gt;&lt;div&gt;Employees stay motivated when they see tangible progress in their work.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Comic Sans MS;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-36" value="&lt;div&gt;reinforce | ,ri:in&#39;fɔ:s |&lt;/div&gt;&lt;div&gt;ngoại động từ&lt;/div&gt;&lt;div&gt;1 làm cho cái gì mạnh thêm bằng cách thêm vật liệu vào; tăng cường; gia cố&lt;/div&gt;&lt;div&gt;▸ reinforce a fortress/wall/bridge&lt;/div&gt;&lt;div&gt;gia cố một pháo đài/bức tường/cây cầu&lt;/div&gt;&lt;div&gt;▸ his behaviour merely reinforced my dislike of him&lt;/div&gt;&lt;div&gt;cách cư xử của hắn chỉ làm tôi thêm ghét hắn&lt;/div&gt;&lt;div&gt;2 ủng hộ thêm nữa; củng cố&lt;/div&gt;&lt;div&gt;▸ reinforce one&#39;s argument&lt;/div&gt;&lt;div&gt;làm cho lý lẽ mạnh thêm lên&lt;/div&gt;&lt;div&gt;▸ reinforce somebody&#39;s opinion&lt;/div&gt;&lt;div&gt;tăng thêm sức mạnh cho ý kiến của ai&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Comic Sans MS;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="830" y="-150" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-38" value="&lt;div&gt;professional network&lt;/div&gt;&lt;div&gt;/prəˈfeʃ.ən.əl ˈnet.wɜːk/&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;(noun). mạng lưới chuyên môn&lt;/div&gt;&lt;div&gt;Attending conferences helps you build a strong professional network.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Comic Sans MS;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1KC5uwtEEbrjknE-uHc_-40" value="&lt;div&gt;overall life satisfaction&lt;/div&gt;&lt;div&gt;/ˈəʊ.vər.ɔːl laɪf ˌsæt.ɪsˈfæk.ʃən/&lt;/div&gt;&lt;div&gt;&lt;div&gt;(noun). mức độ hài lòng trong cuộc sống nói chung&lt;/div&gt;&lt;div&gt;Meaningful work and good relationships enhance overall life satisfaction&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Comic Sans MS;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-160" width="120" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
