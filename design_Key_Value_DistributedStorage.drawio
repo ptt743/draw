@@ -86,7 +86,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gBEi2Q_ax8YupIhwqy2L" name="design">
-    <mxGraphModel dx="2232" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3059" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -229,10 +229,10 @@
           <mxGeometry height="30" width="30" x="-355" y="320" as="geometry" />
         </mxCell>
         <mxCell id="8suw7wFWzLLk237ZnHsq-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Comic Sans MS;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="P4" vertex="1">
-          <mxGeometry height="30" width="30" x="-320" y="380" as="geometry" />
+          <mxGeometry height="30" width="30" x="-307.5" y="400" as="geometry" />
         </mxCell>
         <mxCell id="8suw7wFWzLLk237ZnHsq-44" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Comic Sans MS;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="P2" vertex="1">
-          <mxGeometry height="30" width="30" x="-290" y="460" as="geometry" />
+          <mxGeometry height="30" width="30" x="-290" y="500" as="geometry" />
         </mxCell>
         <mxCell id="8suw7wFWzLLk237ZnHsq-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Comic Sans MS;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="P3" vertex="1">
           <mxGeometry height="30" width="30" x="-720" y="270" as="geometry" />
@@ -297,8 +297,11 @@
         <mxCell id="8suw7wFWzLLk237ZnHsq-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;" value="0xD2" vertex="1">
           <mxGeometry height="30" width="40" x="270" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="30MYEVUYCXdw72DU3zG1-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Comic Sans MS;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="P1" vertex="1">
+        <mxCell id="30MYEVUYCXdw72DU3zG1-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Comic Sans MS;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="P2" vertex="1">
           <mxGeometry height="110" width="110" x="-380" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="30MYEVUYCXdw72DU3zG1-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Comic Sans MS;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="P1" vertex="1">
+          <mxGeometry height="110" width="110" x="-860" y="550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
