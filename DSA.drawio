@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="Page-1" id="lTk_YM_8AerEHsBu_3yp">
-    <mxGraphModel dx="2871" dy="1714" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3115" dy="1823" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -358,12 +358,6 @@
         <mxCell id="shPWXI2h-lAmi9d6fGRz-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
           <mxGeometry height="24" width="24" x="2156" y="1098" as="geometry" />
         </mxCell>
-        <mxCell id="shPWXI2h-lAmi9d6fGRz-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;strokeColor=#6F0000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fillColor=#a20025;fontSize=10;fontFamily=Comic Sans MS;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1454" y="1134" as="sourcePoint" />
-            <mxPoint x="1792" y="1117" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="shPWXI2h-lAmi9d6fGRz-11" edge="1" parent="1" source="shPWXI2h-lAmi9d6fGRz-1" style="endArrow=none;html=1;rounded=0;endFill=0;strokeColor=#6F0000;exitX=0;exitY=1;exitDx=0;exitDy=0;fillColor=#a20025;fontSize=10;fontFamily=Comic Sans MS;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="shPWXI2h-lAmi9d6fGRz-2" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1703" y="1134" as="sourcePoint" />
@@ -388,7 +382,7 @@
             <mxPoint x="2394" y="1164" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="shPWXI2h-lAmi9d6fGRz-15" edge="1" parent="1" source="shPWXI2h-lAmi9d6fGRz-1" style="endArrow=none;html=1;rounded=0;endFill=0;strokeColor=#6F0000;exitX=1;exitY=1;exitDx=0;exitDy=0;fillColor=#a20025;fontSize=10;fontFamily=Comic Sans MS;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="shPWXI2h-lAmi9d6fGRz-3" value="">
+        <mxCell id="shPWXI2h-lAmi9d6fGRz-15" edge="1" parent="1" source="shPWXI2h-lAmi9d6fGRz-1" style="endArrow=none;html=1;rounded=0;endFill=0;strokeColor=#6F0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#a20025;fontSize=10;fontFamily=Comic Sans MS;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="shPWXI2h-lAmi9d6fGRz-3" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="2217" y="1197" as="sourcePoint" />
             <mxPoint x="2555" y="1180" as="targetPoint" />
@@ -411,6 +405,12 @@
             <mxPoint x="2159" y="1093" as="sourcePoint" />
             <mxPoint x="2497" y="1076" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="shPWXI2h-lAmi9d6fGRz-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;align=left;fontFamily=Comic Sans MS;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;int n, m;&lt;/div&gt;&lt;div&gt;vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; adj;&lt;/div&gt;&lt;div&gt;vector&amp;lt;int&amp;gt; num, low;&lt;/div&gt;&lt;div&gt;int time_dfs = 0;&lt;/div&gt;&lt;div&gt;vector&amp;lt;pair&amp;lt;int, int&amp;gt;&amp;gt; bridges;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;void dfs(int u, int p = -1) {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; num[u] = low[u] = ++time_dfs;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; for (int v : adj[u]) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (v == p) continue;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (num[v]) {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; low[u] = min(low[u], num[v]);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; } else {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; dfs(v, u);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; low[u] = min(low[u], low[v]);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (low[v] &amp;gt; num[u]) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; bridges.push_back({u, v});&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="271.5" width="171.5" x="1996.5" y="662.5" as="geometry" />
+        </mxCell>
+        <mxCell id="shPWXI2h-lAmi9d6fGRz-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;fontFamily=Comic Sans MS;" value="&lt;span style=&quot;background-color: rgb(255, 204, 255);&quot;&gt;Bridge&lt;/span&gt;" vertex="1">
+          <mxGeometry height="16" width="46" x="1989" y="660" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
