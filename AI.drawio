@@ -134,14 +134,14 @@
             <mxPoint x="440" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RL8-EkVr3OvldoPUYXMJ-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=9;" value="&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;Linear Algebra&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="90" x="760" y="450" as="geometry" />
+        <mxCell id="RL8-EkVr3OvldoPUYXMJ-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=9;" value="&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;Linear Algebra&lt;/span&gt;&lt;span&gt;&amp;nbsp;hông chỉ nhân ma trận, mà hiểu eigenvalue, SVD, không gian vector&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="760" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="RL8-EkVr3OvldoPUYXMJ-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=9;" value="&lt;span style=&quot;background-color: rgb(230, 255, 204);&quot;&gt;Calculus +&amp;nbsp;Optimization&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="760" y="490" as="geometry" />
+        <mxCell id="RL8-EkVr3OvldoPUYXMJ-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=9;strokeWidth=2;" value="&lt;span style=&quot;background-color: rgb(230, 255, 204);&quot;&gt;Calculus +&amp;nbsp;Optimization&lt;/span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;đạo hàm nhiều biến, gradient, và đặc biệt là lý thuyết tối ưu (convex optimization)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="760" y="490" as="geometry" />
         </mxCell>
-        <mxCell id="RL8-EkVr3OvldoPUYXMJ-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=9;" value="&lt;span style=&quot;background-color: rgb(204, 204, 255);&quot;&gt;Probability &amp;amp;&amp;nbsp;Statistics&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="760" y="530" as="geometry" />
+        <mxCell id="RL8-EkVr3OvldoPUYXMJ-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=9;" value="&lt;span style=&quot;background-color: rgb(204, 204, 255);&quot;&gt;Probability &amp;amp;&amp;nbsp;Statistics&lt;/span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;phân phối, kỳ vọng, ước lượng, suy luận Bayesian&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="760" y="530" as="geometry" />
         </mxCell>
         <mxCell id="RL8-EkVr3OvldoPUYXMJ-12" edge="1" parent="1" source="zTdwEjZ7j_-9_ITJUfBh-2" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" target="RL8-EkVr3OvldoPUYXMJ-9" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
