@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" pages="4">
   <diagram name="overview" id="cAlCBEzrJN6Ur7Pin5lN">
-    <mxGraphModel dx="790" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1149" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,11 +81,6 @@
             <mxPoint x="350" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RL8-EkVr3OvldoPUYXMJ-8" connectable="0" parent="zTdwEjZ7j_-9_ITJUfBh-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="research" vertex="1">
-          <mxGeometry relative="1" x="0.2809" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="zTdwEjZ7j_-9_ITJUfBh-19" edge="1" parent="1" source="zTdwEjZ7j_-9_ITJUfBh-11" style="endArrow=openThin;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="zTdwEjZ7j_-9_ITJUfBh-14" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="290" y="800" as="sourcePoint" />
@@ -159,6 +154,18 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="560" y="500" as="sourcePoint" />
             <mxPoint x="610" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RL8-EkVr3OvldoPUYXMJ-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 204, 153);&quot;&gt;courses&lt;/span&gt;&lt;/div&gt;+ deep learning của Andrew Ng,&amp;nbsp;&lt;div&gt;+ cs231n (Stanford, cho vision),&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ cs224n (Stanford, cho NLP)&lt;br&gt;+ cs229n&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="450" y="595.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RL8-EkVr3OvldoPUYXMJ-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;fontFamily=Comic Sans MS;strokeWidth=0.75;" value="read &amp;amp;&amp;nbsp;active retelling paper&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="150" x="10" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="RL8-EkVr3OvldoPUYXMJ-17" edge="1" parent="1" source="zTdwEjZ7j_-9_ITJUfBh-8" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="RL8-EkVr3OvldoPUYXMJ-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="480" as="sourcePoint" />
+            <mxPoint x="330" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
