@@ -43,7 +43,7 @@
             <mxPoint x="400" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zTdwEjZ7j_-9_ITJUfBh-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;" value="DeepLearning" vertex="1">
+        <mxCell id="zTdwEjZ7j_-9_ITJUfBh-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;" value="DeepLearning&lt;br&gt;Pytorch - transformer" vertex="1">
           <mxGeometry height="30" width="110" x="210" y="740" as="geometry" />
         </mxCell>
         <mxCell id="zTdwEjZ7j_-9_ITJUfBh-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;" value="LLM &amp;amp; API" vertex="1">
@@ -52,8 +52,8 @@
         <mxCell id="zTdwEjZ7j_-9_ITJUfBh-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;" value="RAG &amp;amp; Embeddings" vertex="1">
           <mxGeometry height="30" width="120" x="400" y="820" as="geometry" />
         </mxCell>
-        <mxCell id="zTdwEjZ7j_-9_ITJUfBh-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;" value="MLOps" vertex="1">
-          <mxGeometry height="30" width="110" x="210" y="820" as="geometry" />
+        <mxCell id="zTdwEjZ7j_-9_ITJUfBh-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;" value="MLOps&lt;div&gt;docker - cloud - deploy&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="200" y="880" as="geometry" />
         </mxCell>
         <mxCell id="zTdwEjZ7j_-9_ITJUfBh-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;" value="Portfolio &amp;amp; interview" vertex="1">
           <mxGeometry height="30" width="320" x="200" y="940" as="geometry" />
@@ -87,12 +87,6 @@
             <mxPoint x="340" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zTdwEjZ7j_-9_ITJUfBh-20" edge="1" parent="1" source="zTdwEjZ7j_-9_ITJUfBh-14" style="endArrow=openThin;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.201;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" target="zTdwEjZ7j_-9_ITJUfBh-15" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="290" y="800" as="sourcePoint" />
-            <mxPoint x="340" y="750" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="zTdwEjZ7j_-9_ITJUfBh-21" edge="1" parent="1" source="zTdwEjZ7j_-9_ITJUfBh-12" style="endArrow=openThin;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zTdwEjZ7j_-9_ITJUfBh-13" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="290" y="800" as="sourcePoint" />
@@ -113,6 +107,15 @@
         </mxCell>
         <mxCell id="RL8-EkVr3OvldoPUYXMJ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;" value="project machine learning" vertex="1">
           <mxGeometry height="31" width="114.5" x="305.5" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="RL8-EkVr3OvldoPUYXMJ-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;" value="MLOps" vertex="1">
+          <mxGeometry height="30" width="110" x="210" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="RL8-EkVr3OvldoPUYXMJ-4" edge="1" parent="1" source="zTdwEjZ7j_-9_ITJUfBh-14" style="endArrow=openThin;html=1;rounded=0;strokeColor=#808080;endFill=0;strokeWidth=0.85;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.202;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="zTdwEjZ7j_-9_ITJUfBh-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="820" as="sourcePoint" />
+            <mxPoint x="440" y="770" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
