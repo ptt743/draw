@@ -203,22 +203,22 @@
           <mxGeometry height="40" width="90" x="320" y="80" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;basic syntax&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="480" y="-40" as="geometry" />
+          <mxGeometry height="10" width="60" x="480" y="-20" as="geometry" />
         </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="basic syntax" vertex="1">
-          <mxGeometry height="30" width="60" x="560" y="-40" as="geometry" />
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 204, 255);&quot;&gt;Variables and Data Types&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="10" width="110" x="540" y="-20" as="geometry" />
         </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="basic syntax" vertex="1">
-          <mxGeometry height="30" width="60" x="640" y="-40" as="geometry" />
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;Operators&lt;/span&gt;" vertex="1">
+          <mxGeometry height="10" width="60" x="660" y="-20" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="basic syntax" vertex="1">
-          <mxGeometry height="30" width="60" x="480" y="10" as="geometry" />
+          <mxGeometry height="10" width="60" x="480" y="10" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="basic syntax" vertex="1">
-          <mxGeometry height="30" width="60" x="560" y="10" as="geometry" />
+          <mxGeometry height="10" width="60" x="560" y="10" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="basic syntax" vertex="1">
-          <mxGeometry height="30" width="60" x="630" y="10" as="geometry" />
+          <mxGeometry height="10" width="60" x="630" y="10" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-13" edge="1" parent="1" source="P0_2-fBT4Hr2tdqicJL_-2" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=0.75;exitY=0;exitDx=0;exitDy=0;curved=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -229,17 +229,31 @@
             <mxPoint x="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="" vertex="1">
-          <mxGeometry height="120" width="300" x="170" y="-200" as="geometry" />
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="print(&quot;Xin chào Python&quot;)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;# Comment 1 dòng dùng dấu #&lt;/div&gt;&lt;div&gt;&quot;&quot;&quot;&lt;/div&gt;&lt;div&gt;Comment nhiều dòng&lt;/div&gt;&lt;div&gt;dùng 3 dấu nháy&lt;/div&gt;&lt;div&gt;&quot;&quot;&quot;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;if &lt;b&gt;&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;True&lt;/font&gt;&lt;/b&gt;:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(&quot;Khối lệnh này thụt vào 4 dấu cách&quot;)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="210" x="260" y="-180" as="geometry" />
         </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-17" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-2" style="endArrow=openThin;html=1;rounded=0;strokeColor=#808080;endFill=0;strokeWidth=0.85;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" target="k3pyEaVrTMzoU7TMlGMi-15" value="">
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;ten = &quot;An&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # str (chuỗi)&lt;/div&gt;&lt;div&gt;tuoi = 25&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# int (số nguyên)&lt;/div&gt;&lt;div&gt;chieu_cao = 1.75&amp;nbsp; &amp;nbsp; # float (số thực)&lt;/div&gt;&lt;div&gt;da_ket_hon = False&amp;nbsp; # bool (True/False)&lt;/div&gt;&lt;div&gt;gia_tri = None&amp;nbsp; &amp;nbsp; &amp;nbsp; # None (rỗng/không có giá trị)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;print(type(tuoi))&amp;nbsp; &amp;nbsp;# &amp;lt;class &#39;int&#39;&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="480" y="-180" as="geometry" />
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-23" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-2" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="k3pyEaVrTMzoU7TMlGMi-15" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="510" y="-60" />
-              <mxPoint x="340" y="-60" />
-            </Array>
             <mxPoint x="390" y="-30" as="sourcePoint" />
             <mxPoint x="440" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-24" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-3" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="k3pyEaVrTMzoU7TMlGMi-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="547" as="sourcePoint" />
+            <mxPoint x="470" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;# Số học&lt;/div&gt;&lt;div&gt;10 + 3&amp;nbsp; &amp;nbsp;# 13&lt;/div&gt;&lt;div&gt;10 - 3&amp;nbsp; &amp;nbsp;# 7&lt;/div&gt;&lt;div&gt;10 * 3&amp;nbsp; &amp;nbsp;# 30&lt;/div&gt;&lt;div&gt;10 / 3&amp;nbsp; &amp;nbsp;# 3.333... (luôn ra float)&lt;/div&gt;&lt;div&gt;10 // 3&amp;nbsp; # 3&amp;nbsp; (chia lấy phần nguyên)&lt;/div&gt;&lt;div&gt;10 % 3&amp;nbsp; &amp;nbsp;# 1&amp;nbsp; (chia lấy dư)&lt;/div&gt;&lt;div&gt;10 ** 3&amp;nbsp; # 1000 (lũy thừa)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# So sánh (trả về True/False)&lt;/div&gt;&lt;div&gt;5 == 5&amp;nbsp; &amp;nbsp;# True (bằng)&lt;/div&gt;&lt;div&gt;5 != 3&amp;nbsp; &amp;nbsp;# True (khác)&lt;/div&gt;&lt;div&gt;5 &amp;gt; 3&amp;nbsp; &amp;nbsp; # True&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Logic&lt;/div&gt;&lt;div&gt;True and False&amp;nbsp; # False&lt;/div&gt;&lt;div&gt;True or False&amp;nbsp; &amp;nbsp;# True&lt;/div&gt;&lt;div&gt;not True&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # False&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="150" x="690" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-26" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-4" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="k3pyEaVrTMzoU7TMlGMi-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="770" y="-90" as="sourcePoint" />
+            <mxPoint x="820" y="-140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
