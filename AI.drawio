@@ -195,7 +195,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UOBW3iFDmhUj1Tzh1QrL" name="python">
-    <mxGraphModel dx="1934" dy="1665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1356" dy="1406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -250,8 +250,11 @@
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;s = &quot;Python&quot;&lt;/div&gt;&lt;div&gt;len(s)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # 6 (độ dài)&lt;/div&gt;&lt;div&gt;s.upper()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# &quot;PYTHON&quot;&lt;/div&gt;&lt;div&gt;s.lower()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# &quot;python&quot;&lt;/div&gt;&lt;div&gt;s[0]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # &quot;P&quot; (lấy ký tự đầu)&lt;/div&gt;&lt;div&gt;s[-1]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# &quot;n&quot; (ký tự cuối)&lt;/div&gt;&lt;div&gt;s[0:3]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # &quot;Pyt&quot; (cắt chuỗi - slicing)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Nối chuỗi &amp;amp; f-string (cách hiện đại nhất)&lt;/div&gt;&lt;div&gt;ten = &quot;An&quot;&lt;/div&gt;&lt;div&gt;print(f&quot;Chào {ten}, bạn {25} tuổi&quot;)&amp;nbsp; # Chào An, bạn 25 tuổi&lt;/div&gt;&lt;div&gt;&quot;a,b,c&quot;.split(&quot;,&quot;)&amp;nbsp; &amp;nbsp;# [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;]&lt;/div&gt;&lt;div&gt;&quot;-&quot;.join([&quot;a&quot;,&quot;b&quot;])&amp;nbsp; # &quot;a-b&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry height="170" width="250" x="400" y="-50" as="geometry" />
         </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-29" edge="1" parent="1" source="P0_2-fBT4Hr2tdqicJL_-2" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.75;exitX=0.35;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-29" edge="1" parent="1" source="P0_2-fBT4Hr2tdqicJL_-2" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.75;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="263" y="-100" />
+            </Array>
             <mxPoint x="280" y="70" as="sourcePoint" />
             <mxPoint x="480" y="-140" as="targetPoint" />
           </mxGeometry>
@@ -300,6 +303,9 @@
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-53" edge="1" parent="1" source="P0_2-fBT4Hr2tdqicJL_-2" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.75;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="263" y="-100" />
+            </Array>
             <mxPoint x="260" y="70" as="sourcePoint" />
             <mxPoint x="130" y="-100" as="targetPoint" />
           </mxGeometry>
