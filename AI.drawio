@@ -304,6 +304,15 @@
             <mxPoint x="130" y="-100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;int(&quot;10&quot;)&amp;nbsp; &amp;nbsp; &amp;nbsp; # 10&amp;nbsp; &amp;nbsp;(str -&amp;gt; int)&lt;/div&gt;&lt;div&gt;float(&quot;3.14&quot;)&amp;nbsp; # 3.14 (str -&amp;gt; float)&lt;/div&gt;&lt;div&gt;str(100)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# &quot;100&quot; (int -&amp;gt; str)&lt;/div&gt;&lt;div&gt;int(3.99)&amp;nbsp; &amp;nbsp; &amp;nbsp; # 3&amp;nbsp; &amp;nbsp; (float -&amp;gt; int, cắt phần thập phân)&lt;/div&gt;&lt;div&gt;bool(0)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # False&lt;/div&gt;&lt;div&gt;bool(1)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # True&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Ứng dụng phổ biến: nhập liệu từ người dùng&lt;/div&gt;&lt;div&gt;tuoi = int(input(&quot;Nhập tuổi: &quot;))&amp;nbsp; # input luôn trả về str&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="220" x="30" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-55" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-49" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="k3pyEaVrTMzoU7TMlGMi-54" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="-200" as="sourcePoint" />
+            <mxPoint x="250" y="-250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
