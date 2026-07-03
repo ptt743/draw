@@ -195,7 +195,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UOBW3iFDmhUj1Tzh1QrL" name="python">
-    <mxGraphModel dx="1740" dy="1578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1934" dy="1665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -295,7 +295,7 @@
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 204, 255);&quot;&gt;Tuples&lt;/span&gt;" vertex="1">
           <mxGeometry height="10" width="30" x="-30" y="-90" as="geometry" />
         </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;basic syntax&lt;/span&gt;" vertex="1">
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;Dictionaries&lt;/span&gt;" vertex="1">
           <mxGeometry height="10" width="53" x="49.25" y="-90" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-53" edge="1" parent="1" source="P0_2-fBT4Hr2tdqicJL_-2" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.75;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" value="">
@@ -359,6 +359,15 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-150" y="40" as="sourcePoint" />
             <mxPoint x="-100" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;sv = {&quot;ten&quot;: &quot;An&quot;, &quot;tuoi&quot;: 20, &quot;diem&quot;: 8.5}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sv[&quot;ten&quot;]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# &quot;An&quot; (truy cập bằng key)&lt;/div&gt;&lt;div&gt;sv[&quot;lop&quot;] = &quot;12A&quot;&amp;nbsp; &amp;nbsp;# thêm cặp mới&lt;/div&gt;&lt;div&gt;sv.get(&quot;email&quot;, &quot;chưa có&quot;)&amp;nbsp; # tránh lỗi nếu key không tồn tại&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for key, value in sv.items():&amp;nbsp; &amp;nbsp;# duyệt toàn bộ&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(key, &quot;=&quot;, value)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sv.keys()&amp;nbsp; &amp;nbsp; # các key&lt;/div&gt;&lt;div&gt;sv.values()&amp;nbsp; # các giá trị&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="260" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-73" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-52" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.496;entryY=-0.021;entryDx=0;entryDy=0;dashed=1;entryPerimeter=0;" target="k3pyEaVrTMzoU7TMlGMi-72" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="225" as="sourcePoint" />
+            <mxPoint x="200" y="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
