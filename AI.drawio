@@ -289,14 +289,14 @@
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;typecasting&lt;/span&gt;" vertex="1">
           <mxGeometry height="10" width="60" x="120" y="-120" as="geometry" />
         </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;Strings&lt;/span&gt;" vertex="1">
-          <mxGeometry height="10" width="60" x="-60" y="-90" as="geometry" />
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;Lists&lt;/span&gt;" vertex="1">
+          <mxGeometry height="10" width="20" x="-60" y="-90" as="geometry" />
         </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 204, 255);&quot;&gt;Conditionals&lt;/span&gt;" vertex="1">
-          <mxGeometry height="10" width="60" x="-10" y="-90" as="geometry" />
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 204, 255);&quot;&gt;Tuples&lt;/span&gt;" vertex="1">
+          <mxGeometry height="10" width="30" x="-30" y="-90" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;basic syntax&lt;/span&gt;" vertex="1">
-          <mxGeometry height="10" width="53" x="57" y="-90" as="geometry" />
+          <mxGeometry height="10" width="53" x="49.25" y="-90" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-53" edge="1" parent="1" source="P0_2-fBT4Hr2tdqicJL_-2" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.75;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -313,8 +313,8 @@
             <mxPoint x="250" y="-250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;# Định nghĩa hàm&lt;/div&gt;&lt;div&gt;def cong(a, b):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return a + b&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;def chao(ten=&quot;bạn&quot;):&amp;nbsp; &amp;nbsp;# tham số mặc định&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(f&quot;Xin chào {ten}&quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;cong(3, 5)&amp;nbsp; &amp;nbsp; # 8&lt;/div&gt;&lt;div&gt;chao()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # Xin chào bạn&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# *args (nhiều tham số), **kwargs (tham số dạng key-value)&lt;/div&gt;&lt;div&gt;def tong(*so):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return sum(so)&lt;/div&gt;&lt;div&gt;tong(1, 2, 3, 4)&amp;nbsp; # 10&lt;br&gt;&lt;br&gt;&lt;div&gt;def hien_thi_thong_tin(**kwargs):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Lúc này, kwargs là một Dictionary&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(type(kwargs)) # Sẽ in ra: &amp;lt;class &#39;dict&#39;&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Duyệt qua từng key và value trong Dictionary&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; for key, value in kwargs.items():&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; print(f&quot;{key}: {value}&quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Gọi hàm với các số lượng key-value khác nhau&lt;/div&gt;&lt;div&gt;print(&quot;--- Người thứ 1 ---&quot;)&lt;/div&gt;&lt;div&gt;hien_thi_thong_tin(ten=&quot;An&quot;, tuoi=25)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;print(&quot;\n--- Người thứ 2 ---&quot;)&lt;/div&gt;&lt;div&gt;hien_thi_thong_tin(ten=&quot;Bình&quot;, nghe_nghiep=&quot;Lập trình viên&quot;, so_thich=&quot;Đọc sách&quot;)&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="370" width="351.5" x="-100" y="-520" as="geometry" />
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;# Định nghĩa hàm&lt;/div&gt;&lt;div&gt;def cong(a, b):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return a + b&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;def chao(ten=&quot;bạn&quot;):&amp;nbsp; &amp;nbsp;# tham số mặc định&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(f&quot;Xin chào {ten}&quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;cong(3, 5)&amp;nbsp; &amp;nbsp; # 8&lt;/div&gt;&lt;div&gt;chao()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # Xin chào bạn&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# *args (nhiều tham số), **kwargs (tham số dạng key-value)&lt;/div&gt;&lt;div&gt;def tong(*so):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return sum(so)&lt;/div&gt;&lt;div&gt;tong(1, 2, 3, 4)&amp;nbsp; # 10&lt;br&gt;&lt;br&gt;&lt;div&gt;def hien_thi_thong_tin(**kwargs):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Lúc này, kwargs là một Dictionary&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(type(kwargs)) # Sẽ in ra: &amp;lt;class &#39;dict&#39;&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; # Duyệt qua từng key và value trong Dictionary&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; for key, value in kwargs.items():&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; print(f&quot;{key}: {value}&quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;print(&quot;\n--- Người thứ 2 ---&quot;)&lt;/div&gt;&lt;div&gt;hien_thi_thong_tin(ten=&quot;Bình&quot;, nghe_nghiep=&quot;Lập trình viên&quot;, so_thich=&quot;Đọc sách&quot;)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="320" width="351.5" x="-100" y="-470" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-58" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-48" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="k3pyEaVrTMzoU7TMlGMi-57" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -329,6 +329,18 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-180" y="-210" as="sourcePoint" />
             <mxPoint x="-130" y="-260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;Sets&lt;/span&gt;" vertex="1">
+          <mxGeometry height="10" width="25" x="10" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;ds = [3, 1, 2, &quot;x&quot;]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ds.append(5)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# thêm cuối -&amp;gt; [3,1,2,&quot;x&quot;,5]&lt;/div&gt;&lt;div&gt;ds.insert(0, 9)&amp;nbsp; &amp;nbsp; # chèn vị trí&lt;/div&gt;&lt;div&gt;ds.remove(&quot;x&quot;)&amp;nbsp; &amp;nbsp; &amp;nbsp;# xóa phần tử&lt;/div&gt;&lt;div&gt;ds[0]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # truy cập theo chỉ số&lt;/div&gt;&lt;div&gt;ds.sort()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # sắp xếp&lt;/div&gt;&lt;div&gt;len(ds)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # số phần tử&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# List comprehension (rất mạnh trong Python)&lt;/div&gt;&lt;div&gt;binh_phuong = [x**2 for x in range(5)]&amp;nbsp; # [0,1,4,9,16]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="230" x="-350" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-66" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-50" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" target="k3pyEaVrTMzoU7TMlGMi-65" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-200" y="-40" as="sourcePoint" />
+            <mxPoint x="-150" y="-90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
