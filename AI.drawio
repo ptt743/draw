@@ -352,23 +352,23 @@
             <mxPoint x="-150" y="-30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;s = {1, 2, 2, 3}&amp;nbsp; &amp;nbsp;# {1, 2, 3} - tự loại trùng&lt;/div&gt;&lt;div&gt;s.add(4)&lt;/div&gt;&lt;div&gt;s.remove(1)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;a = {1, 2, 3}&lt;/div&gt;&lt;div&gt;b = {2, 3, 4}&lt;/div&gt;&lt;div&gt;a &amp;amp; b&amp;nbsp; &amp;nbsp;# {2, 3} giao&lt;/div&gt;&lt;div&gt;a | b&amp;nbsp; &amp;nbsp;# {1,2,3,4} hợp&lt;/div&gt;&lt;div&gt;a - b&amp;nbsp; &amp;nbsp;# {1} hiệu&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="180" x="-90" y="25" as="geometry" />
-        </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-70" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-63" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="k3pyEaVrTMzoU7TMlGMi-69" value="">
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-70" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-63" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="k3pyEaVrTMzoU7TMlGMi-74" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-150" y="40" as="sourcePoint" />
-            <mxPoint x="-100" y="-10" as="targetPoint" />
+            <mxPoint x="45" y="25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;sv = {&quot;ten&quot;: &quot;An&quot;, &quot;tuoi&quot;: 20, &quot;diem&quot;: 8.5}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sv[&quot;ten&quot;]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# &quot;An&quot; (truy cập bằng key)&lt;/div&gt;&lt;div&gt;sv[&quot;lop&quot;] = &quot;12A&quot;&amp;nbsp; &amp;nbsp;# thêm cặp mới&lt;/div&gt;&lt;div&gt;sv.get(&quot;email&quot;, &quot;chưa có&quot;)&amp;nbsp; # tránh lỗi nếu key không tồn tại&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for key, value in sv.items():&amp;nbsp; &amp;nbsp;# duyệt toàn bộ&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(key, &quot;=&quot;, value)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sv.keys()&amp;nbsp; &amp;nbsp; # các key&lt;/div&gt;&lt;div&gt;sv.values()&amp;nbsp; # các giá trị&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="260" x="40" y="150" as="geometry" />
+          <mxGeometry height="140" width="260" x="-80" y="160" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-73" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-52" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.496;entryY=-0.021;entryDx=0;entryDy=0;dashed=1;entryPerimeter=0;" target="k3pyEaVrTMzoU7TMlGMi-72" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="225" as="sourcePoint" />
             <mxPoint x="200" y="-40" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;s = {1, 2, 2, 3}&amp;nbsp; &amp;nbsp;# {1, 2, 3} - tự loại trùng&lt;/div&gt;&lt;div&gt;s.add(4)&lt;/div&gt;&lt;div&gt;s.remove(1)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;a = {1, 2, 3}&lt;/div&gt;&lt;div&gt;b = {2, 3, 4}&lt;/div&gt;&lt;div&gt;a &amp;amp; b&amp;nbsp; &amp;nbsp;# {2, 3} giao&lt;/div&gt;&lt;div&gt;a | b&amp;nbsp; &amp;nbsp;# {1,2,3,4} hợp&lt;/div&gt;&lt;div&gt;a - b&amp;nbsp; &amp;nbsp;# {1} hiệu&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="-90" y="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
