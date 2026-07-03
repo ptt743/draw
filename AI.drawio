@@ -200,60 +200,84 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="P0_2-fBT4Hr2tdqicJL_-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=31;" value="&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;Python&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="90" x="320" y="80" as="geometry" />
+          <mxGeometry height="40" width="90" x="240" y="80" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;basic syntax&lt;/span&gt;" vertex="1">
-          <mxGeometry height="10" width="60" x="480" y="-20" as="geometry" />
+          <mxGeometry height="10" width="60" x="480" y="-160" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 204, 255);&quot;&gt;Variables and Data Types&amp;nbsp;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="10" width="110" x="540" y="-20" as="geometry" />
+          <mxGeometry height="10" width="110" x="540" y="-160" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;Operators&lt;/span&gt;" vertex="1">
-          <mxGeometry height="10" width="60" x="660" y="-20" as="geometry" />
+          <mxGeometry height="10" width="60" x="660" y="-160" as="geometry" />
         </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="basic syntax" vertex="1">
-          <mxGeometry height="10" width="60" x="480" y="10" as="geometry" />
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;Strings&lt;/span&gt;" vertex="1">
+          <mxGeometry height="10" width="60" x="480" y="-130" as="geometry" />
         </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="basic syntax" vertex="1">
-          <mxGeometry height="10" width="60" x="560" y="10" as="geometry" />
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 204, 255);&quot;&gt;Conditionals&lt;/span&gt;" vertex="1">
+          <mxGeometry height="10" width="60" x="530" y="-130" as="geometry" />
         </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="basic syntax" vertex="1">
-          <mxGeometry height="10" width="60" x="630" y="10" as="geometry" />
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;basic syntax&lt;/span&gt;" vertex="1">
+          <mxGeometry height="10" width="53" x="597" y="-130" as="geometry" />
         </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-13" edge="1" parent="1" source="P0_2-fBT4Hr2tdqicJL_-2" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=0.75;exitY=0;exitDx=0;exitDy=0;curved=1;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="390" y="20" />
-            </Array>
-            <mxPoint x="390" y="-30" as="sourcePoint" />
-            <mxPoint x="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="k3pyEaVrTMzoU7TMlGMi-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="print(&quot;Xin chào Python&quot;)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;# Comment 1 dòng dùng dấu #&lt;/div&gt;&lt;div&gt;&quot;&quot;&quot;&lt;/div&gt;&lt;div&gt;Comment nhiều dòng&lt;/div&gt;&lt;div&gt;dùng 3 dấu nháy&lt;/div&gt;&lt;div&gt;&quot;&quot;&quot;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;if &lt;b&gt;&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;True&lt;/font&gt;&lt;/b&gt;:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(&quot;Khối lệnh này thụt vào 4 dấu cách&quot;)&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="210" x="260" y="-180" as="geometry" />
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="print(&quot;Xin chào Python&quot;)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;# Comment 1 dòng dùng dấu #&lt;/div&gt;&lt;div&gt;&quot;&quot;&quot;&lt;/div&gt;&lt;div&gt;Comment nhiều dòng&lt;/div&gt;&lt;div&gt;dùng 3 dấu nháy&lt;/div&gt;&lt;div&gt;&quot;&quot;&quot;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;if &lt;b&gt;&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;True&lt;/font&gt;&lt;/b&gt;:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(&quot;Khối lệnh này thụt vào 4 dấu cách&quot;)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="210" x="260" y="-310" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;ten = &quot;An&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # str (chuỗi)&lt;/div&gt;&lt;div&gt;tuoi = 25&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# int (số nguyên)&lt;/div&gt;&lt;div&gt;chieu_cao = 1.75&amp;nbsp; &amp;nbsp; # float (số thực)&lt;/div&gt;&lt;div&gt;da_ket_hon = False&amp;nbsp; # bool (True/False)&lt;/div&gt;&lt;div&gt;gia_tri = None&amp;nbsp; &amp;nbsp; &amp;nbsp; # None (rỗng/không có giá trị)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;print(type(tuoi))&amp;nbsp; &amp;nbsp;# &amp;lt;class &#39;int&#39;&amp;gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="200" x="480" y="-180" as="geometry" />
+          <mxGeometry height="100" width="200" x="480" y="-320" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-23" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-2" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="k3pyEaVrTMzoU7TMlGMi-15" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="390" y="-30" as="sourcePoint" />
-            <mxPoint x="440" y="-80" as="targetPoint" />
+            <mxPoint x="390" y="-170" as="sourcePoint" />
+            <mxPoint x="440" y="-220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-24" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-3" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="k3pyEaVrTMzoU7TMlGMi-22" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="547" as="sourcePoint" />
-            <mxPoint x="470" y="-30" as="targetPoint" />
+            <mxPoint x="547" y="-140" as="sourcePoint" />
+            <mxPoint x="470" y="-170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;# Số học&lt;/div&gt;&lt;div&gt;10 + 3&amp;nbsp; &amp;nbsp;# 13&lt;/div&gt;&lt;div&gt;10 - 3&amp;nbsp; &amp;nbsp;# 7&lt;/div&gt;&lt;div&gt;10 * 3&amp;nbsp; &amp;nbsp;# 30&lt;/div&gt;&lt;div&gt;10 / 3&amp;nbsp; &amp;nbsp;# 3.333... (luôn ra float)&lt;/div&gt;&lt;div&gt;10 // 3&amp;nbsp; # 3&amp;nbsp; (chia lấy phần nguyên)&lt;/div&gt;&lt;div&gt;10 % 3&amp;nbsp; &amp;nbsp;# 1&amp;nbsp; (chia lấy dư)&lt;/div&gt;&lt;div&gt;10 ** 3&amp;nbsp; # 1000 (lũy thừa)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# So sánh (trả về True/False)&lt;/div&gt;&lt;div&gt;5 == 5&amp;nbsp; &amp;nbsp;# True (bằng)&lt;/div&gt;&lt;div&gt;5 != 3&amp;nbsp; &amp;nbsp;# True (khác)&lt;/div&gt;&lt;div&gt;5 &amp;gt; 3&amp;nbsp; &amp;nbsp; # True&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Logic&lt;/div&gt;&lt;div&gt;True and False&amp;nbsp; # False&lt;/div&gt;&lt;div&gt;True or False&amp;nbsp; &amp;nbsp;# True&lt;/div&gt;&lt;div&gt;not True&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # False&lt;/div&gt;" vertex="1">
-          <mxGeometry height="230" width="150" x="690" y="-280" as="geometry" />
+          <mxGeometry height="230" width="150" x="690" y="-420" as="geometry" />
         </mxCell>
         <mxCell id="k3pyEaVrTMzoU7TMlGMi-26" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-4" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="k3pyEaVrTMzoU7TMlGMi-25" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="770" y="-90" as="sourcePoint" />
-            <mxPoint x="820" y="-140" as="targetPoint" />
+            <mxPoint x="770" y="-230" as="sourcePoint" />
+            <mxPoint x="820" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;s = &quot;Python&quot;&lt;/div&gt;&lt;div&gt;len(s)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # 6 (độ dài)&lt;/div&gt;&lt;div&gt;s.upper()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# &quot;PYTHON&quot;&lt;/div&gt;&lt;div&gt;s.lower()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# &quot;python&quot;&lt;/div&gt;&lt;div&gt;s[0]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # &quot;P&quot; (lấy ký tự đầu)&lt;/div&gt;&lt;div&gt;s[-1]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# &quot;n&quot; (ký tự cuối)&lt;/div&gt;&lt;div&gt;s[0:3]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; # &quot;Pyt&quot; (cắt chuỗi - slicing)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Nối chuỗi &amp;amp; f-string (cách hiện đại nhất)&lt;/div&gt;&lt;div&gt;ten = &quot;An&quot;&lt;/div&gt;&lt;div&gt;print(f&quot;Chào {ten}, bạn {25} tuổi&quot;)&amp;nbsp; # Chào An, bạn 25 tuổi&lt;/div&gt;&lt;div&gt;&quot;a,b,c&quot;.split(&quot;,&quot;)&amp;nbsp; &amp;nbsp;# [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;]&lt;/div&gt;&lt;div&gt;&quot;-&quot;.join([&quot;a&quot;,&quot;b&quot;])&amp;nbsp; # &quot;a-b&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="250" x="400" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-29" edge="1" parent="1" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="70" as="sourcePoint" />
+            <mxPoint x="480" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-30" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-5" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;dashed=1;" target="k3pyEaVrTMzoU7TMlGMi-27" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="-80" as="sourcePoint" />
+            <mxPoint x="520" y="-130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;diem = 7&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if diem &amp;gt;= 8:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(&quot;Giỏi&quot;)&lt;/div&gt;&lt;div&gt;elif diem &amp;gt;= 5:&amp;nbsp; &amp;nbsp; &amp;nbsp; # else if&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(&quot;Trung bình&quot;)&lt;/div&gt;&lt;div&gt;else:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(&quot;Yếu&quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Toán tử 3 ngôi&lt;/div&gt;&lt;div&gt;ket_qua = &quot;Đậu&quot; if diem &amp;gt;= 5 else &quot;Rớt&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="170" x="657" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-32" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-6" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" target="k3pyEaVrTMzoU7TMlGMi-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="750" y="-20" as="sourcePoint" />
+            <mxPoint x="800" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;# for: lặp qua dãy số hoặc phần tử&lt;/div&gt;&lt;div&gt;for i in range(5):&amp;nbsp; &amp;nbsp; &amp;nbsp; # 0,1,2,3,4&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(i)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for mon in [&quot;Toán&quot;, &quot;Lý&quot;, &quot;Hóa&quot;]:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(mon)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# while: lặp khi điều kiện còn đúng&lt;/div&gt;&lt;div&gt;n = 0&lt;/div&gt;&lt;div&gt;while n &amp;lt; 3:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(n)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; n += 1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# break dừng vòng lặp, continue bỏ qua lượt hiện tại&lt;/div&gt;&lt;div&gt;for i in range(10):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if i == 5:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if i % 2 == 0:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; continue&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(i)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="220" x="850" y="-250" as="geometry" />
+        </mxCell>
+        <mxCell id="k3pyEaVrTMzoU7TMlGMi-34" edge="1" parent="1" source="k3pyEaVrTMzoU7TMlGMi-7" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" target="k3pyEaVrTMzoU7TMlGMi-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="780" y="-80" as="sourcePoint" />
+            <mxPoint x="830" y="-130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
