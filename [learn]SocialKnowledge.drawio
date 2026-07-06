@@ -1,9 +1,39 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="kWZireViU0mcPRZV5NTn">
-    <mxGraphModel dx="1826" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="870" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="l5ZFv6kpHyuS5KY4fWYq-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(126, 166, 224);&quot;&gt;cuộc sống tốt&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="414" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="l5ZFv6kpHyuS5KY4fWYq-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=17;" value="&lt;span style=&quot;background-color: rgb(229, 204, 255);&quot;&gt;Khắc Kỷ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="240" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="l5ZFv6kpHyuS5KY4fWYq-4" edge="1" parent="1" source="l5ZFv6kpHyuS5KY4fWYq-3" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="l5ZFv6kpHyuS5KY4fWYq-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5ZFv6kpHyuS5KY4fWYq-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="quản lí bản thân" vertex="1">
+          <mxGeometry height="20" width="80" x="520" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="l5ZFv6kpHyuS5KY4fWYq-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="sống hòa hợp với xã hội&amp;nbsp;" vertex="1">
+          <mxGeometry height="20" width="110" x="520" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="l5ZFv6kpHyuS5KY4fWYq-9" edge="1" parent="1" source="l5ZFv6kpHyuS5KY4fWYq-1" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="l5ZFv6kpHyuS5KY4fWYq-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5ZFv6kpHyuS5KY4fWYq-10" edge="1" parent="1" source="l5ZFv6kpHyuS5KY4fWYq-1" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.85;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="l5ZFv6kpHyuS5KY4fWYq-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
