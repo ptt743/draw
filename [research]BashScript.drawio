@@ -63,6 +63,30 @@
         <mxCell id="yHV59lyykjLdx_5fFAOr-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(230, 255, 204);&quot;&gt;echo&lt;/span&gt;" vertex="1">
           <mxGeometry height="20" width="30" x="765" y="360" as="geometry" />
         </mxCell>
+        <mxCell id="yHV59lyykjLdx_5fFAOr-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;rmdir&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="30" x="855" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="yHV59lyykjLdx_5fFAOr-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(229, 204, 255);&quot;&gt;rm&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="30" x="825" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="yHV59lyykjLdx_5fFAOr-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;touch&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="30" x="795" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="yHV59lyykjLdx_5fFAOr-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(230, 255, 204);&quot;&gt;mkdir&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="30" x="765" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="yHV59lyykjLdx_5fFAOr-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;find&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="30" x="990" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="yHV59lyykjLdx_5fFAOr-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(229, 204, 255);&quot;&gt;cat&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="30" x="960" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="yHV59lyykjLdx_5fFAOr-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;cp&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="30" x="930" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="yHV59lyykjLdx_5fFAOr-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(230, 255, 204);&quot;&gt;mv&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="30" x="900" y="330" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
