@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
   <diagram name="Page-1" id="lTk_YM_8AerEHsBu_3yp">
-    <mxGraphModel dx="2699" dy="1765" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2640" dy="1731" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -468,6 +468,36 @@
         </mxCell>
         <mxCell id="tBfQWLmHobLjrvh3ItGC-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=#FFE6CC;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 10px;&quot;&gt;LCA &lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(54, 33, 10));&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(229, 204, 255), rgb(54, 33, 10));&quot;&gt; RMQ&lt;/span&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="16" width="60" x="-957" y="1048" as="geometry" />
+        </mxCell>
+        <mxCell id="KxjbS8jVGQ-QvBuWlJB0-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;DSU&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="32" x="311" y="1209" as="geometry" />
+        </mxCell>
+        <mxCell id="KxjbS8jVGQ-QvBuWlJB0-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;font style=&quot;background-color: rgb(204, 255, 255);&quot;&gt;intermediate graph algorithms&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="145" x="629" y="1319" as="geometry" />
+        </mxCell>
+        <mxCell id="KxjbS8jVGQ-QvBuWlJB0-3" edge="1" parent="1" source="IvPajCChKvYk8BWptkef-21" style="endArrow=openThin;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;fontSize=10;fontFamily=Comic Sans MS;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KxjbS8jVGQ-QvBuWlJB0-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="599" y="1026" as="sourcePoint" />
+            <mxPoint x="830" y="1457" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KxjbS8jVGQ-QvBuWlJB0-4" edge="1" parent="1" source="KxjbS8jVGQ-QvBuWlJB0-2" style="endArrow=openThin;html=1;rounded=0;endFill=0;strokeColor=#001DBC;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fillColor=#0050ef;fontSize=10;fontFamily=Comic Sans MS;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="KxjbS8jVGQ-QvBuWlJB0-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="742" y="1239" as="sourcePoint" />
+            <mxPoint x="629" y="1123" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KxjbS8jVGQ-QvBuWlJB0-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Comic Sans MS;strokeWidth=0.5;fontSize=10;strokeColor=#808080;" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;&quot;&gt;struct DSU{&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; vector&amp;lt;int&amp;gt; parent, sz, sum;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; DSU(int n) : parent(n), sz(n), sum(n) {};&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; void make_set(int v) {&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; parent[v] = v;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; sz[v] = 1;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; sum[v] = a[v];&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; int find_set(int v) {&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return v == parent[v] ? v : parent[v] = find_set(parent[v]);&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; void join_sets(int a, int b) {&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; a = find_set(a);&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; b = find_set(b);&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (a != b) {&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (sz[a] &amp;lt; sz[b]) swap(a,b);&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; parent[b] = a;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; sz[a] += sz[b];&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; sum[a] += sum[b];&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;&quot;&gt;};&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="322" width="299" x="42" y="887" as="geometry" />
+        </mxCell>
+        <mxCell id="KxjbS8jVGQ-QvBuWlJB0-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;Topological Sort&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="108" x="940" y="1257" as="geometry" />
+        </mxCell>
+        <mxCell id="KxjbS8jVGQ-QvBuWlJB0-7" edge="1" parent="1" source="IvPajCChKvYk8BWptkef-21" style="endArrow=openThin;html=1;rounded=0;endFill=0;strokeColor=#001DBC;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#0050ef;fontSize=10;fontFamily=Comic Sans MS;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KxjbS8jVGQ-QvBuWlJB0-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1067" y="1151" as="sourcePoint" />
+            <mxPoint x="954" y="1035" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

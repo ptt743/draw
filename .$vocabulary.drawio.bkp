@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0" pages="2">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0" pages="3">
   <diagram name="work" id="fl1Ub4_RzcGnxSHl35ew">
     <mxGraphModel dx="1371" dy="5364" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -490,7 +490,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zOXB8WlpJKRDr_XNSwBv-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;align=left;verticalAlign=top;strokeColor=#999999;strokeWidth=0.5;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="380" width="520" x="180" y="480" as="geometry" />
+          <mxGeometry height="360" width="380" x="180" y="480" as="geometry" />
         </mxCell>
         <mxCell id="zOXB8WlpJKRDr_XNSwBv-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;strokeWidth=0.5;fontStyle=1" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;introduce&lt;/font&gt;" vertex="1">
           <mxGeometry height="20" width="140" x="180" y="480" as="geometry" />
@@ -518,6 +518,17 @@
         </mxCell>
         <mxCell id="zOXB8WlpJKRDr_XNSwBv-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#9673a6;fillColor=#e1d5e7;" value="job title" vertex="1">
           <mxGeometry height="20" width="140" x="200" y="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vmCXjuXgalqYuzPa9X-j" name="draw">
+    <mxGraphModel dx="863" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X_75hy8x_WdMDGE9uJPh-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;- yes,i do.&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;- i only read a few pages&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;- stop. at&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;-&amp;nbsp; mon an quen thuoc&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;- trai nghiem.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;-&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;- immerse&lt;/font&gt;&lt;/div&gt;&lt;div&gt;- broaden&amp;nbsp;&lt;/div&gt;&lt;div&gt;learn from different characters&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="480" x="170" y="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
