@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="Page-1" id="n3nyEJ4kgbD7jWuKOy95">
-    <mxGraphModel dx="1304" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1353" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,7 +83,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="48Jv2C9wjBzbgeSbcpPr-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=center;verticalAlign=top;fontSize=10;dashed=1;" value="&lt;u&gt;common technology&lt;/u&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="170" width="160" x="680" y="502" as="geometry" />
+          <mxGeometry height="138" width="160" x="680" y="502" as="geometry" />
         </mxCell>
         <mxCell id="48Jv2C9wjBzbgeSbcpPr-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span&gt;&lt;span style=&quot;background-color: light-dark(rgb(204, 204, 255), rgb(0, 43, 0));&quot;&gt;AI vs AGI&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="10" width="65" x="754.5" y="546.5" as="geometry" />
@@ -445,6 +445,24 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1285" y="760" as="sourcePoint" />
             <mxPoint x="1260" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7DRn1bYesRj_FAgbpVT-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="Feed datasets to the algorithm so it can learn. Continuous training helps the algorithm adjust its weights and improve its predictive capabilities" vertex="1">
+          <mxGeometry height="75" width="133" x="980" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="V7DRn1bYesRj_FAgbpVT-45" edge="1" parent="1" source="V7DRn1bYesRj_FAgbpVT-9" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="V7DRn1bYesRj_FAgbpVT-44" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1015" y="690" as="sourcePoint" />
+            <mxPoint x="990" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7DRn1bYesRj_FAgbpVT-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="Adjust the hyperparameters for optimization, helping the model achieve the highest possible accuracy" vertex="1">
+          <mxGeometry height="60" width="130" x="825" y="771" as="geometry" />
+        </mxCell>
+        <mxCell id="V7DRn1bYesRj_FAgbpVT-47" edge="1" parent="1" source="V7DRn1bYesRj_FAgbpVT-11" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="V7DRn1bYesRj_FAgbpVT-46" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1015" y="750" as="sourcePoint" />
+            <mxPoint x="990" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
