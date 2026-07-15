@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="Page-1" id="n3nyEJ4kgbD7jWuKOy95">
-    <mxGraphModel dx="425" dy="190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1304" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -364,16 +364,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V7DRn1bYesRj_FAgbpVT-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;Supervised Learning&lt;/span&gt;" vertex="1">
-          <mxGeometry height="18" width="100" x="1160" y="711" as="geometry" />
+          <mxGeometry height="18" width="100" x="1137" y="711" as="geometry" />
         </mxCell>
         <mxCell id="V7DRn1bYesRj_FAgbpVT-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;Unsupervised Learning&lt;/span&gt;" vertex="1">
-          <mxGeometry height="21" width="112" x="1160" y="739" as="geometry" />
+          <mxGeometry height="21" width="112" x="1137" y="739" as="geometry" />
         </mxCell>
         <mxCell id="V7DRn1bYesRj_FAgbpVT-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;Reinforcement Learning&lt;/span&gt;" vertex="1">
-          <mxGeometry height="19" width="118" x="1160" y="770" as="geometry" />
+          <mxGeometry height="19" width="118" x="1137" y="770" as="geometry" />
         </mxCell>
         <mxCell id="V7DRn1bYesRj_FAgbpVT-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;Neural Networks &amp;amp; Deep Learning&lt;/span&gt;" vertex="1">
-          <mxGeometry height="18" width="160" x="1160" y="806" as="geometry" />
+          <mxGeometry height="18" width="160" x="1137" y="806" as="geometry" />
         </mxCell>
         <mxCell id="V7DRn1bYesRj_FAgbpVT-26" edge="1" parent="1" source="V7DRn1bYesRj_FAgbpVT-8" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.5;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="V7DRn1bYesRj_FAgbpVT-22" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -409,6 +409,42 @@
             </Array>
             <mxPoint x="1070" y="790" as="sourcePoint" />
             <mxPoint x="1174" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7DRn1bYesRj_FAgbpVT-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="CNN,&amp;nbsp;RNN / LSTM" vertex="1">
+          <mxGeometry height="30" width="180" x="1340" y="826" as="geometry" />
+        </mxCell>
+        <mxCell id="V7DRn1bYesRj_FAgbpVT-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="Q-Learning, Deep Q-Network (DQN)." vertex="1">
+          <mxGeometry height="30" width="180" x="1340" y="786" as="geometry" />
+        </mxCell>
+        <mxCell id="V7DRn1bYesRj_FAgbpVT-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="Clustering :&amp;nbsp;K-Means, DBSCAN&lt;br&gt;Dimensionality Reduction:&amp;nbsp;PCA" vertex="1">
+          <mxGeometry height="30" width="180" x="1340" y="739.5" as="geometry" />
+        </mxCell>
+        <mxCell id="V7DRn1bYesRj_FAgbpVT-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="Regression :&amp;nbsp;Linear Regression&lt;div&gt;Classification : Logistic Regression, Decision Trees, Random Forest,SVM - Support Vector Machine&lt;/div&gt;" vertex="1">
+          <mxGeometry height="48" width="220" x="1340" y="679.25" as="geometry" />
+        </mxCell>
+        <mxCell id="V7DRn1bYesRj_FAgbpVT-39" edge="1" parent="1" source="V7DRn1bYesRj_FAgbpVT-22" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" target="V7DRn1bYesRj_FAgbpVT-37" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1285" y="760" as="sourcePoint" />
+            <mxPoint x="1260" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7DRn1bYesRj_FAgbpVT-40" edge="1" parent="1" source="V7DRn1bYesRj_FAgbpVT-23" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" target="V7DRn1bYesRj_FAgbpVT-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1285" y="760" as="sourcePoint" />
+            <mxPoint x="1260" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7DRn1bYesRj_FAgbpVT-41" edge="1" parent="1" source="V7DRn1bYesRj_FAgbpVT-24" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" target="V7DRn1bYesRj_FAgbpVT-35" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1285" y="760" as="sourcePoint" />
+            <mxPoint x="1260" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7DRn1bYesRj_FAgbpVT-42" edge="1" parent="1" source="V7DRn1bYesRj_FAgbpVT-25" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" target="V7DRn1bYesRj_FAgbpVT-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1285" y="760" as="sourcePoint" />
+            <mxPoint x="1260" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
