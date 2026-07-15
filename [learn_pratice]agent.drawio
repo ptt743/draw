@@ -8,7 +8,7 @@
           <mxGeometry height="40" width="160" x="400" y="360" as="geometry" />
         </mxCell>
         <mxCell id="48Jv2C9wjBzbgeSbcpPr-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;fontStyle=4" value="how LLM work?" vertex="1">
-          <mxGeometry height="30" width="90" x="435" y="530" as="geometry" />
+          <mxGeometry height="30" width="90" x="435" y="522.75" as="geometry" />
         </mxCell>
         <mxCell id="48Jv2C9wjBzbgeSbcpPr-6" edge="1" parent="1" source="48Jv2C9wjBzbgeSbcpPr-1" style="endArrow=openThin;html=1;rounded=0;strokeWidth=0.75;endFill=0;strokeColor=#666666;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" target="48Jv2C9wjBzbgeSbcpPr-3" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -497,6 +497,9 @@
         </mxCell>
         <mxCell id="V7DRn1bYesRj_FAgbpVT-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;background-color: rgb(204, 204, 255);&quot;&gt;Inference&lt;/font&gt;" vertex="1">
           <mxGeometry height="13.5" width="50" x="773" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="V7DRn1bYesRj_FAgbpVT-59" edge="1" parent="1" source="48Jv2C9wjBzbgeSbcpPr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="48Jv2C9wjBzbgeSbcpPr-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
