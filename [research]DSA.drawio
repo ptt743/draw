@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
   <diagram name="Page-1" id="lTk_YM_8AerEHsBu_3yp">
-    <mxGraphModel dx="2612" dy="1716" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2562" dy="1687" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,9 +62,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-DmCGCNFtCowsvC-I4bx-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;font style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;binary exponent&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="100" x="680" y="-200" as="geometry" />
+          <mxGeometry height="22" width="100" x="680" y="-200" as="geometry" />
         </mxCell>
-        <mxCell id="-DmCGCNFtCowsvC-I4bx-18" edge="1" parent="1" source="2UC4lkJaAp2TDeO5gQIq-2" style="endArrow=openThin;html=1;rounded=0;endFill=0;strokeColor=#001DBC;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fillColor=#0050ef;fontSize=10;" target="-DmCGCNFtCowsvC-I4bx-17" value="">
+        <mxCell id="-DmCGCNFtCowsvC-I4bx-18" edge="1" parent="1" source="2UC4lkJaAp2TDeO5gQIq-2" style="endArrow=openThin;html=1;rounded=0;endFill=0;strokeColor=#001DBC;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fillColor=#0050ef;fontSize=10;" target="-DmCGCNFtCowsvC-I4bx-17" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="730" y="-10" as="sourcePoint" />
             <mxPoint x="780" y="-60" as="targetPoint" />
@@ -299,7 +299,7 @@
           <mxGeometry height="265.5" width="159" x="742" y="482.5" as="geometry" />
         </mxCell>
         <mxCell id="MkppUUAqe2ix7ECvJ5JX-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;fontFamily=Comic Sans MS;" value="&lt;span style=&quot;text-align: left; background-color: rgb(255, 204, 255);&quot;&gt;flood fill&lt;/span&gt;" vertex="1">
-          <mxGeometry height="16" width="43" x="901" y="482.5" as="geometry" />
+          <mxGeometry height="16" width="43" x="901" y="480.5" as="geometry" />
         </mxCell>
         <mxCell id="MkppUUAqe2ix7ECvJ5JX-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=10;fontFamily=Comic Sans MS;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(204, 204, 255);&quot;&gt;shortest path&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(204, 255, 255);&quot;&gt;connected components&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="14" width="182" x="740" y="488" as="geometry" />
