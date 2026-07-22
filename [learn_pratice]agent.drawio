@@ -580,10 +580,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RreDaSVfhYIk49Yz23y1-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="by the same ML model embedding data set" vertex="1">
-          <mxGeometry height="30" width="110" x="590" y="995.25" as="geometry" />
+          <mxGeometry height="30" width="110" x="600" y="996.25" as="geometry" />
         </mxCell>
         <mxCell id="RreDaSVfhYIk49Yz23y1-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="queried with this embedding, and returns a set of the most similar vector embeddings to the provided query" vertex="1">
-          <mxGeometry height="30" width="180" x="590" y="1044.25" as="geometry" />
+          <mxGeometry height="30" width="180" x="600" y="1039.25" as="geometry" />
         </mxCell>
         <mxCell id="RreDaSVfhYIk49Yz23y1-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="returned embeddings are used to retrieve the original source objects from dedicated storage (for example, R2, KV, and D1)" vertex="1">
           <mxGeometry height="40" width="200" x="600" y="1090" as="geometry" />
