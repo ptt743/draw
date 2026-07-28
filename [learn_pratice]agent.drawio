@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="Page-1" id="n3nyEJ4kgbD7jWuKOy95">
-    <mxGraphModel dx="1557" dy="327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2975" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -738,8 +738,8 @@
             <mxPoint x="649" y="1275" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8UdPn7aWc33QUwkkUSG8-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;u&gt;How do AI agents work?&lt;/u&gt;" vertex="1">
-          <mxGeometry height="30" width="110" x="480" y="1310" as="geometry" />
+        <mxCell id="8UdPn7aWc33QUwkkUSG8-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;u&gt;&lt;b&gt;How do AI agents work?&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="479" y="1320" as="geometry" />
         </mxCell>
         <mxCell id="8UdPn7aWc33QUwkkUSG8-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;fontFamily=Comic Sans MS;strokeWidth=0.75;fontSize=10;" value="Perception and input processing" vertex="1">
           <mxGeometry height="30" width="161" x="479" y="1360" as="geometry" />
