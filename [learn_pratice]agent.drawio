@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="Page-1" id="n3nyEJ4kgbD7jWuKOy95">
-    <mxGraphModel dx="1647" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1934" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -713,6 +713,30 @@
         </mxCell>
         <mxCell id="8UdPn7aWc33QUwkkUSG8-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="Infinite loops :&amp;nbsp;action chain that leads back to the original action and starts an endless cycle" vertex="1">
           <mxGeometry height="30" width="210" x="560" y="1263" as="geometry" />
+        </mxCell>
+        <mxCell id="8UdPn7aWc33QUwkkUSG8-19" edge="1" parent="1" source="8UdPn7aWc33QUwkkUSG8-14" style="endArrow=openThin;html=1;rounded=0;strokeWidth=0.5;endFill=0;strokeColor=#666666;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8UdPn7aWc33QUwkkUSG8-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="945" y="1180" as="sourcePoint" />
+            <mxPoint x="995" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8UdPn7aWc33QUwkkUSG8-20" edge="1" parent="1" source="8UdPn7aWc33QUwkkUSG8-14" style="endArrow=openThin;html=1;rounded=0;strokeWidth=0.5;endFill=0;strokeColor=#666666;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8UdPn7aWc33QUwkkUSG8-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="960" y="1210" as="sourcePoint" />
+            <mxPoint x="1010" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8UdPn7aWc33QUwkkUSG8-21" edge="1" parent="1" source="8UdPn7aWc33QUwkkUSG8-14" style="endArrow=openThin;html=1;rounded=0;strokeWidth=0.5;endFill=0;strokeColor=#666666;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8UdPn7aWc33QUwkkUSG8-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="1140" as="sourcePoint" />
+            <mxPoint x="629" y="1195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8UdPn7aWc33QUwkkUSG8-22" edge="1" parent="1" source="8UdPn7aWc33QUwkkUSG8-14" style="endArrow=openThin;html=1;rounded=0;strokeWidth=0.5;endFill=0;strokeColor=#666666;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.086;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="8UdPn7aWc33QUwkkUSG8-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="1220" as="sourcePoint" />
+            <mxPoint x="649" y="1275" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
