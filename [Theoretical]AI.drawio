@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" pages="4">
   <diagram name="overview" id="cAlCBEzrJN6Ur7Pin5lN">
     <mxGraphModel dx="1976" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -195,7 +195,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UOBW3iFDmhUj1Tzh1QrL" name="python">
-    <mxGraphModel dx="2470" dy="2106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1899" dy="1775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -524,7 +524,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CRHFPJ7j8yvhZNBcchAA-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;iterators&lt;/span&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="20" width="60" x="-210" y="412" as="geometry" />
+          <mxGeometry height="20" width="50" x="-240" y="410" as="geometry" />
         </mxCell>
         <mxCell id="CRHFPJ7j8yvhZNBcchAA-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Comic Sans MS;strokeWidth=0.5;fontSize=10;strokeColor=#808080;" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;&quot;&gt;my_list = [&quot;Táo&quot;, &quot;Chuối&quot;, &quot;Cam&quot;]&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;# Biến danh sách thành một bộ lặp (Iterator)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;my_iterator = iter(my_list)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;# Lấy từng giá trị ra bằng hàm next()&lt;/div&gt;&lt;div style=&quot;&quot;&gt;print(next(my_iterator)) # Output: Táo&lt;/div&gt;&lt;div style=&quot;&quot;&gt;print(next(my_iterator)) # Output: Chuối&lt;/div&gt;&lt;div style=&quot;&quot;&gt;print(next(my_iterator)) # Output: Cam&lt;/div&gt;&lt;div style=&quot;&quot;&gt;# Nếu gọi next() nữa sẽ báo lỗi StopIteration vì đã hết phần tử&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="310" x="-630" y="370" as="geometry" />
@@ -533,6 +533,18 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-310" y="440" as="sourcePoint" />
             <mxPoint x="-260" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i__x81SxGrvfJwudwnkt-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=12;" value="&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(204, 255, 204), rgb(0, 43, 0));&quot;&gt;Regular Expressions&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="110" x="-190" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="i__x81SxGrvfJwudwnkt-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="re.findall()&lt;div&gt;re.search()&lt;/div&gt;&lt;div&gt;re.sub()&lt;/div&gt;&lt;div&gt;re.split()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;metacharacters :&amp;nbsp;&lt;/div&gt;&lt;div&gt;\d :&amp;nbsp;&lt;/div&gt;&lt;div&gt;\D :&lt;br&gt;\w :&lt;/div&gt;&lt;div&gt;\W :&lt;br&gt;\s&lt;br&gt;.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="160" x="-440" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="i__x81SxGrvfJwudwnkt-3" edge="1" parent="1" source="i__x81SxGrvfJwudwnkt-1" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" target="i__x81SxGrvfJwudwnkt-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-265" y="440" as="sourcePoint" />
+            <mxPoint x="-290" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
@@ -875,74 +887,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="iIlrw0R1UCY4nR05RIuw" name="agent">
-    <mxGraphModel dx="2265" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="3Uv-7dnaONPzhC1kDc2I-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;working flow&amp;nbsp;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="110" x="600" y="480" as="geometry" />
-        </mxCell>
-        <mxCell id="3Uv-7dnaONPzhC1kDc2I-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;prompt chaining&amp;nbsp;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="110" x="820" y="230" as="geometry" />
-        </mxCell>
-        <mxCell id="3Uv-7dnaONPzhC1kDc2I-4" edge="1" parent="1" source="3Uv-7dnaONPzhC1kDc2I-1" style="endArrow=openThin;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3Uv-7dnaONPzhC1kDc2I-3" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="790" y="370" as="sourcePoint" />
-            <mxPoint x="840" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3Uv-7dnaONPzhC1kDc2I-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;routing&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="80" x="820" y="350" as="geometry" />
-        </mxCell>
-        <mxCell id="3Uv-7dnaONPzhC1kDc2I-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Evaluator - Optimizer / Reflection&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="220" x="820" y="480" as="geometry" />
-        </mxCell>
-        <mxCell id="3Uv-7dnaONPzhC1kDc2I-7" edge="1" parent="1" source="3Uv-7dnaONPzhC1kDc2I-1" style="endArrow=openThin;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3Uv-7dnaONPzhC1kDc2I-5" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="790" y="440" as="sourcePoint" />
-            <mxPoint x="840" y="390" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3Uv-7dnaONPzhC1kDc2I-8" edge="1" parent="1" source="3Uv-7dnaONPzhC1kDc2I-1" style="endArrow=openThin;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="3Uv-7dnaONPzhC1kDc2I-6" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="790" y="440" as="sourcePoint" />
-            <mxPoint x="840" y="390" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3Uv-7dnaONPzhC1kDc2I-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Orchestrator - Workers&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="150" x="820" y="590" as="geometry" />
-        </mxCell>
-        <mxCell id="3Uv-7dnaONPzhC1kDc2I-10" edge="1" parent="1" source="3Uv-7dnaONPzhC1kDc2I-1" style="endArrow=openThin;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="3Uv-7dnaONPzhC1kDc2I-9" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="790" y="610" as="sourcePoint" />
-            <mxPoint x="840" y="560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3Uv-7dnaONPzhC1kDc2I-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;RAG - Retrieval-Augmented Generation&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="240" x="820" y="710" as="geometry" />
-        </mxCell>
-        <mxCell id="3Uv-7dnaONPzhC1kDc2I-12" edge="1" parent="1" source="3Uv-7dnaONPzhC1kDc2I-1" style="endArrow=openThin;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="3Uv-7dnaONPzhC1kDc2I-11" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="790" y="490" as="sourcePoint" />
-            <mxPoint x="840" y="440" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3Uv-7dnaONPzhC1kDc2I-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;" value="LLM" vertex="1">
-          <mxGeometry height="30" width="80" x="-160" y="520" as="geometry" />
-        </mxCell>
-        <mxCell id="3Uv-7dnaONPzhC1kDc2I-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;" value="Planning" vertex="1">
-          <mxGeometry height="30" width="90" x="-10" y="680" as="geometry" />
-        </mxCell>
-        <mxCell id="3Uv-7dnaONPzhC1kDc2I-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;" value="Memory" vertex="1">
-          <mxGeometry height="30" width="80" x="240" y="560" as="geometry" />
-        </mxCell>
-        <mxCell id="3Uv-7dnaONPzhC1kDc2I-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;" value="Tools/Actions" vertex="1">
-          <mxGeometry height="30" width="90" x="70" y="400" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
