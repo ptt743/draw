@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="6SSf2VelquPIgazPrQPq" name="Page-1">
-    <mxGraphModel dx="689" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="870" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,8 +22,14 @@
             <mxPoint x="884" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ClVCqajoh-32apDv93EL-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="Core concept :&lt;br&gt;+&amp;nbsp;random experiment :&amp;nbsp;An experiment whose outcome cannot be predicted with certainty, such as tossing a coin or rolling a die.&lt;div&gt;+ sample space :&amp;nbsp;The set of all possible outcomes&lt;/div&gt;&lt;div&gt;+ outcome : a item of&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="ClVCqajoh-32apDv93EL-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;Core concept&lt;/span&gt; :&lt;br&gt;+&amp;nbsp;random experiment :&amp;nbsp;An experiment whose outcome cannot be predicted with certainty, such as tossing a coin or rolling a die.&lt;div&gt;+ sample space :&amp;nbsp;The set of all possible outcomes&lt;/div&gt;&lt;div&gt;+ outcome : a item of&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="290" x="960" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ClVCqajoh-32apDv93EL-8" edge="1" parent="1" source="ClVCqajoh-32apDv93EL-4" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" target="ClVCqajoh-32apDv93EL-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1145" y="290" as="sourcePoint" />
+            <mxPoint x="1120" y="250" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
