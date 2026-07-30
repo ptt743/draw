@@ -1,11 +1,29 @@
 <mxfile host="app.diagrams.net">
   <diagram id="6SSf2VelquPIgazPrQPq" name="Page-1">
-    <mxGraphModel dx="870" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="689" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NGLrHT55ZnVl7whE08PC-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=31;" value="&lt;span style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;Probability and Statistics&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="360" x="360" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ClVCqajoh-32apDv93EL-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(229, 204, 255);&quot;&gt;Sample space&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="80" x="840" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ClVCqajoh-32apDv93EL-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;Event&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="70" x="920" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ClVCqajoh-32apDv93EL-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;Probability axioms&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="130" x="840" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ClVCqajoh-32apDv93EL-6" edge="1" parent="1" source="NGLrHT55ZnVl7whE08PC-1" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.5;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ClVCqajoh-32apDv93EL-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="780" y="320" as="sourcePoint" />
+            <mxPoint x="884" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClVCqajoh-32apDv93EL-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="Core concept :&lt;br&gt;+&amp;nbsp;random experiment :&amp;nbsp;An experiment whose outcome cannot be predicted with certainty, such as tossing a coin or rolling a die.&lt;div&gt;+ sample space :&amp;nbsp;The set of all possible outcomes&lt;/div&gt;&lt;div&gt;+ outcome : a item of&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="290" x="960" y="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
