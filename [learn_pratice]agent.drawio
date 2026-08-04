@@ -843,7 +843,7 @@
             <mxPoint x="340" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fpZG4z-FW33Nk8lsMG76-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="is&amp;nbsp;&lt;span style=&quot;background-color: rgb(204, 255, 255);&quot;&gt;working memory&lt;/span&gt; of AI&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="fpZG4z-FW33Nk8lsMG76-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="- is&amp;nbsp;&lt;span style=&quot;background-color: rgb(204, 255, 255);&quot;&gt;working memory&lt;/span&gt; of AI&lt;div&gt;-&amp;nbsp;It determines how long of a conversation it can carry out without forgetting details from earlier in the exchange&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="260" x="420" y="160" as="geometry" />
         </mxCell>
       </root>
