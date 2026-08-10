@@ -1,9 +1,69 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="Page-1" id="MaonoWpx8MTePfaPkXTF">
-    <mxGraphModel dx="1725" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="913" dy="409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8HZx60X12JULxp7vq4h4-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=18;" value="&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;AWS&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="8HZx60X12JULxp7vq4h4-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span&gt;introduction&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="8HZx60X12JULxp7vq4h4-3" edge="1" parent="1" source="8HZx60X12JULxp7vq4h4-1" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="8HZx60X12JULxp7vq4h4-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="560" as="sourcePoint" />
+            <mxPoint x="304" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8HZx60X12JULxp7vq4h4-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="- delivery of computing services over the internet instead of using local servers&lt;br&gt;- offers reliable, scalable, and inexpensive cloud computing services which include data storage, databases, applications, analytics, machine learning, and even setting up virtual servers" vertex="1">
+          <mxGeometry height="70" width="320" x="580" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8HZx60X12JULxp7vq4h4-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;what is cloud computing&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="470" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="8HZx60X12JULxp7vq4h4-6" edge="1" parent="1" source="8HZx60X12JULxp7vq4h4-2" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="8HZx60X12JULxp7vq4h4-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="465" y="550" as="sourcePoint" />
+            <mxPoint x="440" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8HZx60X12JULxp7vq4h4-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(229, 204, 255);&quot;&gt;cloud computing types :&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="110" x="500" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8HZx60X12JULxp7vq4h4-8" edge="1" parent="1" source="8HZx60X12JULxp7vq4h4-2" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="8HZx60X12JULxp7vq4h4-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="615" y="530" as="sourcePoint" />
+            <mxPoint x="590" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8HZx60X12JULxp7vq4h4-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;IaaS&lt;/span&gt;&lt;span&gt;&amp;nbsp;Infrastructure as a Service&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="150" x="640" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8HZx60X12JULxp7vq4h4-10" edge="1" parent="1" source="8HZx60X12JULxp7vq4h4-7" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8HZx60X12JULxp7vq4h4-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="550" y="550" as="sourcePoint" />
+            <mxPoint x="654" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8HZx60X12JULxp7vq4h4-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;PaaS&amp;nbsp;Platform&lt;/span&gt;&lt;span&gt; as a Service provides runtime environments for developing, testing, and managing applications&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="650" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="8HZx60X12JULxp7vq4h4-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;SaaS&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="40" x="640" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="8HZx60X12JULxp7vq4h4-13" edge="1" parent="1" source="8HZx60X12JULxp7vq4h4-7" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8HZx60X12JULxp7vq4h4-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="620" y="510" as="sourcePoint" />
+            <mxPoint x="650" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8HZx60X12JULxp7vq4h4-14" edge="1" parent="1" source="8HZx60X12JULxp7vq4h4-7" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8HZx60X12JULxp7vq4h4-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="620" y="550" as="sourcePoint" />
+            <mxPoint x="650" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
