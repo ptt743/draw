@@ -797,7 +797,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tBM32NNUEKplR6O0RedK-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;DP Lexicographic Order&lt;/span&gt;" vertex="1">
-          <mxGeometry height="14" width="105" x="1344" y="2247" as="geometry" />
+          <mxGeometry height="14" width="105" x="1315" y="2242" as="geometry" />
         </mxCell>
         <mxCell id="tBM32NNUEKplR6O0RedK-2" edge="1" parent="1" source="gejDCW2IM3L-HhZqzkMl-1" style="endArrow=openThin;html=1;rounded=0;strokeWidth=0.75;endFill=0;strokeColor=#001DBC;fontFamily=Comic Sans MS;fillColor=#0050ef;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tBM32NNUEKplR6O0RedK-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
