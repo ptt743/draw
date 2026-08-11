@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="Page-1" id="lTk_YM_8AerEHsBu_3yp">
-    <mxGraphModel dx="2384" dy="1496" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2524" dy="1559" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -810,6 +810,15 @@
         </mxCell>
         <mxCell id="tBM32NNUEKplR6O0RedK-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; int n = 5; // Độ dài chuỗi (ví dụ)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; long long K = 10; // Cần tìm chuỗi thứ 10&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; vector&amp;lt;vector&amp;lt;long long&amp;gt;&amp;gt; d(n + 1, vector&amp;lt;long long&amp;gt;(3, 0));&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; d[1][0] = d[1][1] = d[1][2] = 1;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; for (int i = 2; i &amp;lt;= n; ++i) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Nếu chuỗi dài i bắt đầu bằng &#39;a&#39;, ký tự tiếp theo (ở chuỗi dài i-1) không được là &#39;b&#39;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; d[i][0] = d[i - 1][0] + d[i - 1][2];&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Nếu chuỗi dài i bắt đầu bằng &#39;b&#39;, ký tự tiếp theo không được là &#39;b&#39;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; d[i][1] = d[i - 1][0] + d[i - 1][2];&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Nếu chuỗi dài i bắt đầu bằng &#39;c&#39;, ký tự tiếp theo không được là &#39;a&#39;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; d[i][2] = d[i - 1][1] + d[i - 1][2];&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; string answer = &quot;&quot;;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; recurse(n, K, answer, d, -1);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; cout &amp;lt;&amp;lt; &quot;Chuoi thu &quot; &amp;lt;&amp;lt; K &amp;lt;&amp;lt; &quot; co do dai &quot; &amp;lt;&amp;lt; n &amp;lt;&amp;lt; &quot; la: &quot; &amp;lt;&amp;lt; answer &amp;lt;&amp;lt; endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;" vertex="1">
           <mxGeometry height="216" width="385" x="2005" y="2398" as="geometry" />
+        </mxCell>
+        <mxCell id="tBM32NNUEKplR6O0RedK-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;DP Bitmask&lt;/span&gt;" vertex="1">
+          <mxGeometry height="14" width="57" x="1055" y="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="tBM32NNUEKplR6O0RedK-8" edge="1" parent="1" source="gejDCW2IM3L-HhZqzkMl-1" style="endArrow=openThin;html=1;rounded=0;strokeWidth=0.75;endFill=0;strokeColor=#001DBC;fontFamily=Comic Sans MS;fillColor=#0050ef;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tBM32NNUEKplR6O0RedK-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="928" y="2334" as="sourcePoint" />
+            <mxPoint x="910" y="2483" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
