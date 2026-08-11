@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="Page-1" id="MaonoWpx8MTePfaPkXTF">
-    <mxGraphModel dx="579" dy="327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="870" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
             <mxPoint x="654" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8HZx60X12JULxp7vq4h4-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;PaaS&amp;nbsp;Platform&lt;/span&gt;&lt;span&gt; as a Service provides runtime environments for developing, testing, and managing applications&lt;/span&gt;" vertex="1">
+        <mxCell id="8HZx60X12JULxp7vq4h4-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;PaaS&lt;/span&gt;&lt;span&gt;&amp;nbsp;Platform&lt;/span&gt;&lt;span&gt; as&lt;/span&gt; a Service provides runtime environments for developing, testing, and managing applications" vertex="1">
           <mxGeometry height="40" width="200" x="650" y="470" as="geometry" />
         </mxCell>
         <mxCell id="8HZx60X12JULxp7vq4h4-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;SaaS&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;S&lt;/span&gt;oftware as a Service provides on-demand software accessed via the internet" vertex="1">
@@ -107,6 +107,42 @@
             </Array>
             <mxPoint x="760" y="650" as="sourcePoint" />
             <mxPoint x="864" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cmqC7Z3GetEW10xsxre-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span&gt;essential services&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="93" x="303.5" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="5cmqC7Z3GetEW10xsxre-2" edge="1" parent="1" source="8HZx60X12JULxp7vq4h4-2" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5cmqC7Z3GetEW10xsxre-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="780" y="830" as="sourcePoint" />
+            <mxPoint x="884" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cmqC7Z3GetEW10xsxre-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;EC2&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="30" x="550" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="5cmqC7Z3GetEW10xsxre-4" edge="1" parent="1" source="5cmqC7Z3GetEW10xsxre-1" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="5cmqC7Z3GetEW10xsxre-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="575" y="810" as="sourcePoint" />
+            <mxPoint x="550" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cmqC7Z3GetEW10xsxre-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;VPC&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="30" x="670" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="5cmqC7Z3GetEW10xsxre-6" edge="1" parent="1" source="5cmqC7Z3GetEW10xsxre-1" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="5cmqC7Z3GetEW10xsxre-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="575" y="920" as="sourcePoint" />
+            <mxPoint x="550" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cmqC7Z3GetEW10xsxre-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 153, 255);&quot;&gt;IAM&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="490" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="5cmqC7Z3GetEW10xsxre-9" edge="1" parent="1" source="5cmqC7Z3GetEW10xsxre-1" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="5cmqC7Z3GetEW10xsxre-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="575" y="980" as="sourcePoint" />
+            <mxPoint x="550" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
