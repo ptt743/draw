@@ -865,7 +865,7 @@
             <mxPoint x="1334" y="2057" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EbP4keyE78axfsPn_JKb-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="What are we trying to optimize or count? This is typically the value returned by the DP function. For example: &#39;number of ways&#39;, &#39;minimum cost&#39;, &#39;maximum length&#39;." vertex="1">
+        <mxCell id="EbP4keyE78axfsPn_JKb-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="What are we trying to optimize or count? typically the &lt;u&gt;value returned by the DP function&lt;/u&gt;. For example: &#39;number of ways&#39;, &#39;minimum cost&#39;, &#39;maximum length&#39;." vertex="1">
           <mxGeometry height="43" width="238" x="908" y="2164" as="geometry" />
         </mxCell>
         <mxCell id="EbP4keyE78axfsPn_JKb-12" edge="1" parent="1" source="EbP4keyE78axfsPn_JKb-1" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="EbP4keyE78axfsPn_JKb-11" value="">
