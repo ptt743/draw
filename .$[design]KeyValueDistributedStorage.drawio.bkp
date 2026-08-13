@@ -86,7 +86,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gBEi2Q_ax8YupIhwqy2L" name="design">
-    <mxGraphModel dx="3480" dy="1987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2524" dy="1559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1019,7 +1019,7 @@
         <mxCell id="9VtI152iQmr1BfhNecn9-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeWidth=0.5;strokeColor=#808080;align=left;verticalAlign=top;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;Database comparison rules&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(204, 255, 255);&quot;&gt;Domination rule&lt;/span&gt;: If all counters of one vector are greater than or equal to another, the larger vector is the latest version&lt;br&gt;&lt;span style=&quot;background-color: rgb(229, 204, 255);&quot;&gt;Concurrent rule&lt;/span&gt;: If the counters cross-dominate (neither vector is entirely greater), they are concurrent writes -&amp;gt;&amp;nbsp;database preserves both versions (siblings) and requiring the client to merge them." vertex="1">
           <mxGeometry height="85" width="288" x="-1018" y="-570" as="geometry" />
         </mxCell>
-        <mxCell id="9VtI152iQmr1BfhNecn9-27" edge="1" parent="1" source="9VtI152iQmr1BfhNecn9-25" style="endArrow=openThin;html=1;rounded=0;strokeWidth=0.75;endFill=0;strokeColor=#666666;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.006;exitY=0.845;exitDx=0;exitDy=0;exitPerimeter=0;" target="9VtI152iQmr1BfhNecn9-26" value="">
+        <mxCell id="9VtI152iQmr1BfhNecn9-27" edge="1" parent="1" source="9VtI152iQmr1BfhNecn9-25" style="endArrow=openThin;html=1;rounded=0;strokeWidth=0.75;endFill=0;strokeColor=#666666;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="9VtI152iQmr1BfhNecn9-26" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-1070" y="-480" as="sourcePoint" />
             <mxPoint x="-1020" y="-530" as="targetPoint" />
