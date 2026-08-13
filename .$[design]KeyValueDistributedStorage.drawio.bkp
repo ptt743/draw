@@ -1015,6 +1015,9 @@
             <mxPoint x="-1110" y="-260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9VtI152iQmr1BfhNecn9-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=17;" value="&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;vector clock&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="-1240" y="-390" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
