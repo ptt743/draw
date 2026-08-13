@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
   <diagram name="Page-1" id="n3nyEJ4kgbD7jWuKOy95">
-    <mxGraphModel dx="1688" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2852" dy="2327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -924,12 +924,75 @@
           <mxGeometry height="90" width="427" x="794.5" y="115" as="geometry" />
         </mxCell>
         <mxCell id="JUmKWIEeLmUpVpQY15gR-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;background-color: rgb(255, 204, 153);&quot;&gt;Context Management for LLM-Powered Agents&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="144.5" x="110" y="80" as="geometry" />
+          <mxGeometry height="40" width="144.5" x="139" y="-100" as="geometry" />
         </mxCell>
-        <mxCell id="JUmKWIEeLmUpVpQY15gR-7" edge="1" parent="1" source="NhLqZGZ8GNwamGoClYoX-2" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;dashed=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="JUmKWIEeLmUpVpQY15gR-6" value="">
+        <mxCell id="JUmKWIEeLmUpVpQY15gR-7" edge="1" parent="1" source="NhLqZGZ8GNwamGoClYoX-2" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;dashed=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="JUmKWIEeLmUpVpQY15gR-6" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="340" y="257" as="sourcePoint" />
             <mxPoint x="500" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCLo207K9mKh5YgbLk9u-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="the agents “take notes” on every generated output, iteratively adding the information to their context; this creates massive – and expensive – memory logs." vertex="1">
+          <mxGeometry height="50" width="270" x="-211.75" y="-460" as="geometry" />
+        </mxCell>
+        <mxCell id="mCLo207K9mKh5YgbLk9u-3" edge="1" parent="1" source="JUmKWIEeLmUpVpQY15gR-6" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;dashed=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="mCLo207K9mKh5YgbLk9u-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="-143" as="sourcePoint" />
+            <mxPoint x="240" y="-220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCLo207K9mKh5YgbLk9u-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="context increases, the number of tokens spent drastically increases" vertex="1">
+          <mxGeometry height="30" width="330" x="79.75" y="-480" as="geometry" />
+        </mxCell>
+        <mxCell id="mCLo207K9mKh5YgbLk9u-5" edge="1" parent="1" source="mCLo207K9mKh5YgbLk9u-2" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mCLo207K9mKh5YgbLk9u-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="201.25" y="-420" as="sourcePoint" />
+            <mxPoint x="361.25" y="-420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCLo207K9mKh5YgbLk9u-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="risk that the context window of modern LLMs is quickly exceeded" vertex="1">
+          <mxGeometry height="30" width="320" x="79.75" y="-430" as="geometry" />
+        </mxCell>
+        <mxCell id="mCLo207K9mKh5YgbLk9u-7" edge="1" parent="1" source="mCLo207K9mKh5YgbLk9u-2" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mCLo207K9mKh5YgbLk9u-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="201.25" y="-420" as="sourcePoint" />
+            <mxPoint x="361.25" y="-420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCLo207K9mKh5YgbLk9u-9" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=8.983050847457626;endSize=4.581355932203389;strokeColor=#666666;strokeWidth=0.65;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="419.75" y="-440" as="sourcePoint" />
+            <mxPoint x="469.75" y="-440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCLo207K9mKh5YgbLk9u-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;agent-generated context actually quickly turns into noise instead of being useful information&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="478" y="-460" as="geometry" />
+        </mxCell>
+        <mxCell id="mCLo207K9mKh5YgbLk9u-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;two main approaches to context management&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="159" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="mCLo207K9mKh5YgbLk9u-12" edge="1" parent="1" source="JUmKWIEeLmUpVpQY15gR-6" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="mCLo207K9mKh5YgbLk9u-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="-203" as="sourcePoint" />
+            <mxPoint x="320" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCLo207K9mKh5YgbLk9u-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;observation masking&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="350" y="-320" as="geometry" />
+        </mxCell>
+        <mxCell id="mCLo207K9mKh5YgbLk9u-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;LLM summarization&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="117.25" x="352.75" y="-250" as="geometry" />
+        </mxCell>
+        <mxCell id="mCLo207K9mKh5YgbLk9u-15" edge="1" parent="1" source="mCLo207K9mKh5YgbLk9u-11" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mCLo207K9mKh5YgbLk9u-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="-260" as="sourcePoint" />
+            <mxPoint x="500" y="-260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCLo207K9mKh5YgbLk9u-16" edge="1" parent="1" source="mCLo207K9mKh5YgbLk9u-11" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mCLo207K9mKh5YgbLk9u-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="-260" as="sourcePoint" />
+            <mxPoint x="500" y="-260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
