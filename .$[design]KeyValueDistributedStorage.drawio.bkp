@@ -1062,7 +1062,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9VtI152iQmr1BfhNecn9-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fontFamily=Comic Sans MS;strokeWidth=0.75;fontSize=10;align=center;verticalAlign=middle;fillColor=#f8cecc;" value="if fail" vertex="1">
-          <mxGeometry height="15" width="40" x="-180" y="65" as="geometry" />
+          <mxGeometry height="15" width="40" x="-188" y="60" as="geometry" />
         </mxCell>
         <mxCell id="9VtI152iQmr1BfhNecn9-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fontFamily=Comic Sans MS;strokeWidth=0.75;fontSize=10;verticalAlign=middle;align=left;fillColor=#f8cecc;" value="quorum&amp;nbsp;" vertex="1">
           <mxGeometry height="15" width="40" x="-730" y="-80.5" as="geometry" />
