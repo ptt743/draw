@@ -86,7 +86,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gBEi2Q_ax8YupIhwqy2L" name="design">
-    <mxGraphModel dx="2384" dy="1496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3480" dy="1987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -995,8 +995,8 @@
         <mxCell id="9VtI152iQmr1BfhNecn9-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#808080;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;strokeWidth=0.65;" value="&lt;span&gt;Client need to&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;Conflict Resolution&lt;/span&gt;&lt;span&gt;&amp;nbsp; belong to client:&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(229, 204, 255);&quot;&gt;read&lt;/span&gt; -&amp;gt; &lt;span style=&quot;background-color: rgb(255, 204, 230);&quot;&gt;merge&lt;/span&gt; -&amp;gt; &lt;span style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;write back&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="221" x="-1071" y="-400" as="geometry" />
         </mxCell>
-        <mxCell id="9VtI152iQmr1BfhNecn9-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=17;" value="&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;vector clock&amp;nbsp;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="110" x="-1240" y="-400" as="geometry" />
+        <mxCell id="9VtI152iQmr1BfhNecn9-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=17;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(204, 255, 204);&quot;&gt;vector clock&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 8px;&quot;&gt;instead of&amp;nbsp;Last-Write-Wins (LWW) depenent to wall-clock time&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="149" x="-1249" y="-440" as="geometry" />
         </mxCell>
         <mxCell id="9VtI152iQmr1BfhNecn9-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#808080;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;strokeWidth=0.65;" value="vector clock version read before and embedded to request write to DB" vertex="1">
           <mxGeometry height="40" width="171" x="-1071" y="-450" as="geometry" />
@@ -1029,6 +1029,12 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-1070" y="-430" as="sourcePoint" />
             <mxPoint x="-1020" y="-480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9VtI152iQmr1BfhNecn9-29" edge="1" parent="1" source="U2x-Qee0_XpDsbbtV3z2-7" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9VtI152iQmr1BfhNecn9-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1080" y="-300" as="sourcePoint" />
+            <mxPoint x="-976" y="-390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
