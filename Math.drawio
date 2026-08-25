@@ -16,7 +16,7 @@
             <mxPoint x="474" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wKzISTe3Uhw-T06Z4MEC-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;multiplication rule&lt;/span&gt;&lt;span&gt; :&amp;nbsp;If a task consists of $k$ consecutive steps, where step 1 can be performed in $n_1$ ways, step 2 can be performed in $n_2$ ways, ...&lt;br&gt;\( n_1 \times n_2 \times \cdots \times n_k \)&lt;/span&gt;" vertex="1">
+        <mxCell id="wKzISTe3Uhw-T06Z4MEC-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;multiplication rule&lt;/span&gt;&lt;span&gt; :&amp;nbsp;If a task consists of $k$ consecutive steps, where step 1 can be performed in $n_1$ ways, step 2 can be performed in $n_2$ ways, ...&lt;br&gt;&lt;span style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;\( n_1 \times n_2 \times \cdots \times n_k \)&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="240" x="640" y="410" as="geometry" />
         </mxCell>
         <mxCell id="wKzISTe3Uhw-T06Z4MEC-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;addition rule&lt;/span&gt;" vertex="1">
