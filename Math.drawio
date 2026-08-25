@@ -1,9 +1,39 @@
 <mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="5nLB6TXW81b87PniacPx">
-    <mxGraphModel>
+  <diagram name="fundemental" id="5nLB6TXW81b87PniacPx">
+    <mxGraphModel dx="566" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wKzISTe3Uhw-T06Z4MEC-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#808080;fontFamily=Comic Sans MS;strokeWidth=0.75;fontSize=10;" value="Combinatorics" vertex="1">
+          <mxGeometry height="20" width="80" x="240" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="wKzISTe3Uhw-T06Z4MEC-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;Two fundamental principles of counting&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="190" x="400" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="wKzISTe3Uhw-T06Z4MEC-4" edge="1" parent="1" source="wKzISTe3Uhw-T06Z4MEC-1" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="wKzISTe3Uhw-T06Z4MEC-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="480" as="sourcePoint" />
+            <mxPoint x="474" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wKzISTe3Uhw-T06Z4MEC-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;multiplication rule&lt;/span&gt;&lt;span&gt; :&amp;nbsp;If a task consists of $k$ consecutive steps, where step 1 can be performed in $n_1$ ways, step 2 can be performed in $n_2$ ways, ...&lt;br&gt;\( n_1 \times n_2 \times \cdots \times n_k \)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="640" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="wKzISTe3Uhw-T06Z4MEC-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;addition rule&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="80" x="640" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="wKzISTe3Uhw-T06Z4MEC-7" edge="1" parent="1" source="wKzISTe3Uhw-T06Z4MEC-3" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="wKzISTe3Uhw-T06Z4MEC-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="575" y="500" as="sourcePoint" />
+            <mxPoint x="550" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wKzISTe3Uhw-T06Z4MEC-8" edge="1" parent="1" source="wKzISTe3Uhw-T06Z4MEC-3" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#808080;endFill=1;strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="wKzISTe3Uhw-T06Z4MEC-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="470" as="sourcePoint" />
+            <mxPoint x="660" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
