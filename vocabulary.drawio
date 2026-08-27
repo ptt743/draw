@@ -818,7 +818,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="stFaZZRdPCZmpA_HVbOj" name="grammar">
-    <mxGraphModel dx="640" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="927" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -864,11 +864,14 @@
         <mxCell id="78msGC3faztg4URAcQrt-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=20;" value="&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;Tenses&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="60" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="78msGC3faztg4URAcQrt-10" edge="1" parent="1" source="78msGC3faztg4URAcQrt-9" style="endArrow=none;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#666666;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+        <mxCell id="78msGC3faztg4URAcQrt-10" edge="1" parent="1" source="78msGC3faztg4URAcQrt-9" style="endArrow=none;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#666666;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="3MOEmc-KA4-qszNozjQF-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="190" y="420" as="sourcePoint" />
             <mxPoint x="90" y="800" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3MOEmc-KA4-qszNozjQF-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=20;" value="&lt;span style=&quot;background-color: rgb(229, 204, 255);&quot;&gt;word types&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="35" y="820" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
