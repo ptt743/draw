@@ -1723,7 +1723,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XDEPJGhxCib3rmzDLEbu-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="*&amp;nbsp;used to find the best straight line that describes the relationship between a dependent variable and one or more independent variables&amp;nbsp;" vertex="1">
-          <mxGeometry height="60" width="239" x="-1893" y="780" as="geometry" />
+          <mxGeometry height="59" width="239" x="-1893" y="780" as="geometry" />
         </mxCell>
         <mxCell id="XDEPJGhxCib3rmzDLEbu-13" edge="1" parent="1" source="XDEPJGhxCib3rmzDLEbu-12" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;" target="XDEPJGhxCib3rmzDLEbu-8" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
