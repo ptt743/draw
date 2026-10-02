@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
   <diagram name="Page-1" id="n3nyEJ4kgbD7jWuKOy95">
-    <mxGraphModel dx="2356" dy="1571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2883" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1678,19 +1678,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0YYXMF9r5S2oJws5O7-J-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" value="&lt;span&gt;&lt;u&gt;prompt engineering&lt;/u&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="20" width="90.87" x="-670" y="-530" as="geometry" />
-        </mxCell>
-        <mxCell id="0YYXMF9r5S2oJws5O7-J-34" edge="1" parent="1" source="RreDaSVfhYIk49Yz23y1-2" style="endArrow=openThin;html=1;rounded=1;strokeWidth=0.75;endFill=0;strokeColor=#001DBC;fontFamily=Comic Sans MS;fillColor=#0050ef;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;curved=0;" target="0YYXMF9r5S2oJws5O7-J-33" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="-624.57" y="-560" />
-            </Array>
-            <mxPoint x="-180" y="-320" as="sourcePoint" />
-            <mxPoint x="-230" y="-275.6810344827586" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry height="20" width="160" x="-746" y="-530" as="geometry" />
         </mxCell>
         <mxCell id="0YYXMF9r5S2oJws5O7-J-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#82b366;strokeWidth=0.5;fontSize=8;fillColor=#d5e8d4;" value="Input Format" vertex="1">
-          <mxGeometry height="15" width="50" x="-710" y="-505" as="geometry" />
+          <mxGeometry height="15" width="60" x="-735" y="-505" as="geometry" />
+        </mxCell>
+        <mxCell id="-XMjmDKTVcscCErPUBqM-1" edge="1" parent="1" source="RreDaSVfhYIk49Yz23y1-2" style="endArrow=openThin;html=1;rounded=0;strokeWidth=0.75;endFill=0;strokeColor=#001DBC;fontFamily=Comic Sans MS;fillColor=#0050ef;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.932;entryY=1.079;entryDx=0;entryDy=0;entryPerimeter=0;" target="0YYXMF9r5S2oJws5O7-J-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-228.25" y="-302" as="sourcePoint" />
+            <mxPoint x="-270" y="-370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-XMjmDKTVcscCErPUBqM-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#82b366;strokeWidth=0.5;fontSize=8;fillColor=#d5e8d4;" value="system prompting" vertex="1">
+          <mxGeometry height="15" width="75" x="-670" y="-505" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
