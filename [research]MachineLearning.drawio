@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="Trang-1" id="bUrqccBIE45um2CTs345">
-    <mxGraphModel dx="2987" dy="289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="3291" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1858,10 +1858,10 @@
             <mxPoint x="-2119" y="696" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Im4pD4e8zuE_kqrU3kTy-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;# Import libraries.&lt;/div&gt;&lt;div&gt;import numpy as np&lt;/div&gt;&lt;div&gt;import pandas as pd&lt;/div&gt;&lt;div&gt;import matplotlib.pyplot as plt&lt;/div&gt;&lt;div&gt;import seaborn as sns&lt;/div&gt;" vertex="1">
+        <mxCell id="Im4pD4e8zuE_kqrU3kTy-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Import libraries.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;import numpy as np&lt;/div&gt;&lt;div&gt;import pandas as pd&lt;/div&gt;&lt;div&gt;import matplotlib.pyplot as plt&lt;/div&gt;&lt;div&gt;import seaborn as sns&lt;/div&gt;" vertex="1">
           <mxGeometry height="75" width="130" x="-1970" y="547" as="geometry" />
         </mxCell>
-        <mxCell id="Im4pD4e8zuE_kqrU3kTy-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;from sklearn.datasets import fetch_california_housing&lt;/div&gt;&lt;div&gt;housing = fetch_california_housing()&lt;/div&gt;" vertex="1">
+        <mxCell id="Im4pD4e8zuE_kqrU3kTy-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;from sklearn.datasets import&lt;/span&gt; fetch_california_housing&lt;/div&gt;&lt;div&gt;housing = fetch_california_housing()&lt;/div&gt;" vertex="1">
           <mxGeometry height="45" width="179" x="-2019.5" y="490" as="geometry" />
         </mxCell>
         <mxCell id="Im4pD4e8zuE_kqrU3kTy-14" edge="1" parent="1" source="Im4pD4e8zuE_kqrU3kTy-12" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;curved=0;" target="VK5OWhz-ldrb3tFtbXpc-22" value="">
@@ -1880,6 +1880,43 @@
             </Array>
             <mxPoint x="-1780" y="560" as="sourcePoint" />
             <mxPoint x="-1810" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M9CF0HtTcBQ8SMLniMor-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Import train_test_split.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;from sklearn.model_selection import train_test_split&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Create features X and target y.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;X = pd.DataFrame(housing.data, columns=housing.feature_names)[[&quot;AveRooms&quot;]]&lt;/div&gt;&lt;div&gt;y = housing.target&amp;nbsp; # Median house value in $100,000s&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Split the dataset into training (80%) and testing (20%) sets.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="366" x="-2450" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="M9CF0HtTcBQ8SMLniMor-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Import StandardScaler.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;from sklearn.preprocessing import StandardScaler&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Instantiate StandardScaler.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;scaler = StandardScaler()&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Fit and transform training data.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;X_train_scaled = scaler.fit_transform(X_train)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(128, 128, 128), rgb(255, 255, 255));&quot;&gt;# Also transform test data.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;X_test_scaled = scaler.transform(X_test)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="210.5" x="-2400.5" y="359" as="geometry" />
+        </mxCell>
+        <mxCell id="M9CF0HtTcBQ8SMLniMor-18" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.732;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" target="M9CF0HtTcBQ8SMLniMor-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2000" y="560" />
+            </Array>
+            <mxPoint x="-2000" y="534.78" as="sourcePoint" />
+            <mxPoint x="-2090" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M9CF0HtTcBQ8SMLniMor-19" edge="1" parent="1" source="M9CF0HtTcBQ8SMLniMor-17" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;" target="M9CF0HtTcBQ8SMLniMor-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2470" y="419" />
+              <mxPoint x="-2470" y="513.75" />
+            </Array>
+            <mxPoint x="-2010" y="470" as="sourcePoint" />
+            <mxPoint x="-2040" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M9CF0HtTcBQ8SMLniMor-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Import LinearRegression.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;from sklearn.linear_model import LinearRegression&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Instantiate linear regression model.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;model = LinearRegression()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="160" x="-2160" y="409" as="geometry" />
+        </mxCell>
+        <mxCell id="M9CF0HtTcBQ8SMLniMor-22" edge="1" parent="1" source="M9CF0HtTcBQ8SMLniMor-20" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;curved=0;" target="M9CF0HtTcBQ8SMLniMor-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2120" y="389" />
+            </Array>
+            <mxPoint x="-2140" y="540" as="sourcePoint" />
+            <mxPoint x="-2170" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
