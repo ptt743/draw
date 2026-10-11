@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
   <diagram name="Trang-1" id="bUrqccBIE45um2CTs345">
-    <mxGraphModel dx="3291" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="4264" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1671,7 +1671,7 @@
             <mxPoint x="-1150" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDEPJGhxCib3rmzDLEbu-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="Linear Regression" vertex="1">
+        <mxCell id="XDEPJGhxCib3rmzDLEbu-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#001DBC;strokeWidth=0.5;fontSize=10;" value="Linear Regression" vertex="1">
           <mxGeometry height="20" width="90" x="-1744" y="879" as="geometry" />
         </mxCell>
         <mxCell id="XDEPJGhxCib3rmzDLEbu-9" edge="1" parent="1" source="LblZvnUdHKmxPrajxAPx-13" style="endArrow=openThin;html=1;rounded=1;strokeWidth=0.75;endFill=0;strokeColor=#001DBC;fontFamily=Times New Roman;fillColor=#0050ef;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;" target="XDEPJGhxCib3rmzDLEbu-8" value="">
@@ -1683,7 +1683,7 @@
             <mxPoint x="-1520" y="733.3189655172414" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDEPJGhxCib3rmzDLEbu-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="Polynomial Regression" vertex="1">
+        <mxCell id="XDEPJGhxCib3rmzDLEbu-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#001DBC;strokeWidth=0.5;fontSize=10;" value="Polynomial Regression" vertex="1">
           <mxGeometry height="20" width="110" x="-1680" y="1015" as="geometry" />
         </mxCell>
         <mxCell id="XDEPJGhxCib3rmzDLEbu-11" edge="1" parent="1" source="LblZvnUdHKmxPrajxAPx-13" style="endArrow=openThin;html=1;rounded=1;strokeWidth=0.75;endFill=0;strokeColor=#001DBC;fontFamily=Times New Roman;fillColor=#0050ef;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;" target="XDEPJGhxCib3rmzDLEbu-10" value="">
@@ -1808,63 +1808,63 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Im4pD4e8zuE_kqrU3kTy-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#CCFFE6;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=10;" value="&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;$$y = b_0 + b_1x_1 + b_2x_2 + \dots + b_nx_n$$&lt;/span&gt;" vertex="1">
-          <mxGeometry height="20" width="200" x="-2219" y="780" as="geometry" />
+          <mxGeometry height="20" width="200" x="-2400.25" y="870" as="geometry" />
         </mxCell>
         <mxCell id="Im4pD4e8zuE_kqrU3kTy-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=center;verticalAlign=middle;fontSize=10;" value="\( x_i \) is an independent variable" vertex="1">
-          <mxGeometry height="20" width="130" x="-2272" y="740" as="geometry" />
+          <mxGeometry height="20" width="130" x="-2453.25" y="830" as="geometry" />
         </mxCell>
         <mxCell id="Im4pD4e8zuE_kqrU3kTy-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=center;verticalAlign=middle;fontSize=10;" value="corresponding \( b_i \) is its coefficient" vertex="1">
-          <mxGeometry height="20" width="148" x="-2290" y="710" as="geometry" />
+          <mxGeometry height="20" width="148" x="-2471.25" y="800" as="geometry" />
         </mxCell>
         <mxCell id="Im4pD4e8zuE_kqrU3kTy-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=middle;fontSize=10;" value="intercept(&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;\( b_0 \)&lt;/span&gt;) is the predicted value of y when all independent variables are 0" vertex="1">
-          <mxGeometry height="20" width="320" x="-2462" y="680" as="geometry" />
+          <mxGeometry height="20" width="320" x="-2643.25" y="770" as="geometry" />
         </mxCell>
         <mxCell id="Im4pD4e8zuE_kqrU3kTy-6" edge="1" parent="1" source="Im4pD4e8zuE_kqrU3kTy-3" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;fontFamily=Times New Roman;" target="Im4pD4e8zuE_kqrU3kTy-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-2119" y="750" />
+              <mxPoint x="-2300.25" y="840" />
             </Array>
-            <mxPoint x="-2210" y="760" as="sourcePoint" />
-            <mxPoint x="-2240" y="790" as="targetPoint" />
+            <mxPoint x="-2391.25" y="850" as="sourcePoint" />
+            <mxPoint x="-2421.25" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Im4pD4e8zuE_kqrU3kTy-7" edge="1" parent="1" source="Im4pD4e8zuE_kqrU3kTy-4" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fontFamily=Times New Roman;" target="Im4pD4e8zuE_kqrU3kTy-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-2119" y="720" />
+              <mxPoint x="-2300.25" y="810" />
             </Array>
-            <mxPoint x="-2210" y="760" as="sourcePoint" />
-            <mxPoint x="-2240" y="790" as="targetPoint" />
+            <mxPoint x="-2391.25" y="850" as="sourcePoint" />
+            <mxPoint x="-2421.25" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Im4pD4e8zuE_kqrU3kTy-8" edge="1" parent="1" source="Im4pD4e8zuE_kqrU3kTy-5" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fontFamily=Times New Roman;" target="Im4pD4e8zuE_kqrU3kTy-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-2119" y="690" />
+              <mxPoint x="-2300.25" y="780" />
             </Array>
-            <mxPoint x="-2130" y="720" as="sourcePoint" />
-            <mxPoint x="-2160" y="750" as="targetPoint" />
+            <mxPoint x="-2311.25" y="810" as="sourcePoint" />
+            <mxPoint x="-2341.25" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Im4pD4e8zuE_kqrU3kTy-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;fillColor=#FFFFCC;" value="&amp;nbsp;In three dimensions, the line is generalized to a plane. In higher dimensions, the plane becomes a &quot;hyperplane.&quot;" vertex="1">
-          <mxGeometry height="50" width="190.5" x="-2099.25" y="630" as="geometry" />
+          <mxGeometry height="50" width="190.5" x="-2280.5" y="720" as="geometry" />
         </mxCell>
         <mxCell id="Im4pD4e8zuE_kqrU3kTy-11" edge="1" parent="1" source="Im4pD4e8zuE_kqrU3kTy-9" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fontFamily=Times New Roman;" target="Im4pD4e8zuE_kqrU3kTy-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-2119" y="656" />
+              <mxPoint x="-2300.25" y="746" />
             </Array>
-            <mxPoint x="-2090" y="656" as="sourcePoint" />
-            <mxPoint x="-2119" y="696" as="targetPoint" />
+            <mxPoint x="-2271.25" y="746" as="sourcePoint" />
+            <mxPoint x="-2300.25" y="786" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Im4pD4e8zuE_kqrU3kTy-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Import libraries.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;import numpy as np&lt;/div&gt;&lt;div&gt;import pandas as pd&lt;/div&gt;&lt;div&gt;import matplotlib.pyplot as plt&lt;/div&gt;&lt;div&gt;import seaborn as sns&lt;/div&gt;" vertex="1">
-          <mxGeometry height="75" width="130" x="-1970" y="547" as="geometry" />
+        <mxCell id="Im4pD4e8zuE_kqrU3kTy-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=8;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Import libraries.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;import numpy as np&lt;/div&gt;&lt;div&gt;import pandas as pd&lt;/div&gt;&lt;div&gt;import matplotlib.pyplot as plt&lt;/div&gt;&lt;div&gt;import seaborn as sns&lt;/div&gt;" vertex="1">
+          <mxGeometry height="63" width="130" x="-1970" y="553" as="geometry" />
         </mxCell>
-        <mxCell id="Im4pD4e8zuE_kqrU3kTy-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;from sklearn.datasets import&lt;/span&gt; fetch_california_housing&lt;/div&gt;&lt;div&gt;housing = fetch_california_housing()&lt;/div&gt;" vertex="1">
+        <mxCell id="Im4pD4e8zuE_kqrU3kTy-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=8;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;from sklearn.datasets import&lt;/span&gt; fetch_california_housing&lt;/div&gt;&lt;div&gt;housing = fetch_california_housing()&lt;/div&gt;" vertex="1">
           <mxGeometry height="45" width="179" x="-2019.5" y="490" as="geometry" />
         </mxCell>
-        <mxCell id="Im4pD4e8zuE_kqrU3kTy-14" edge="1" parent="1" source="Im4pD4e8zuE_kqrU3kTy-12" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;curved=0;" target="VK5OWhz-ldrb3tFtbXpc-22" value="">
+        <mxCell id="Im4pD4e8zuE_kqrU3kTy-14" edge="1" parent="1" source="Im4pD4e8zuE_kqrU3kTy-12" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;curved=0;" target="-DazOOeXpFmeyrXdLoMI-40" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="-1788" y="584.5" />
@@ -1873,7 +1873,7 @@
             <mxPoint x="-1830" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Im4pD4e8zuE_kqrU3kTy-15" edge="1" parent="1" source="Im4pD4e8zuE_kqrU3kTy-13" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;curved=0;" target="VK5OWhz-ldrb3tFtbXpc-22" value="">
+        <mxCell id="Im4pD4e8zuE_kqrU3kTy-15" edge="1" parent="1" source="Im4pD4e8zuE_kqrU3kTy-13" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;curved=0;" target="-DazOOeXpFmeyrXdLoMI-40" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="-1788" y="512.5" />
@@ -1882,11 +1882,11 @@
             <mxPoint x="-1810" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M9CF0HtTcBQ8SMLniMor-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Import train_test_split.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;from sklearn.model_selection import train_test_split&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Create features X and target y.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;X = pd.DataFrame(housing.data, columns=housing.feature_names)[[&quot;AveRooms&quot;]]&lt;/div&gt;&lt;div&gt;y = housing.target&amp;nbsp; # Median house value in $100,000s&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Split the dataset into training (80%) and testing (20%) sets.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)&lt;/div&gt;" vertex="1">
+        <mxCell id="M9CF0HtTcBQ8SMLniMor-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=8;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Import train_test_split.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;from sklearn.model_selection import train_test_split&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Create features X and target y.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;X = pd.DataFrame(housing.data, columns=housing.feature_names)[[&quot;AveRooms&quot;]]&lt;/div&gt;&lt;div&gt;y = housing.target&amp;nbsp; # Median house value in $100,000s&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Split the dataset into training (80%) and testing (20%) sets.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)&lt;/div&gt;" vertex="1">
           <mxGeometry height="95" width="366" x="-2450" y="490" as="geometry" />
         </mxCell>
-        <mxCell id="M9CF0HtTcBQ8SMLniMor-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Import StandardScaler.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;from sklearn.preprocessing import StandardScaler&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Instantiate StandardScaler.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;scaler = StandardScaler()&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Fit and transform training data.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;X_train_scaled = scaler.fit_transform(X_train)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(128, 128, 128), rgb(255, 255, 255));&quot;&gt;# Also transform test data.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;X_test_scaled = scaler.transform(X_test)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="210.5" x="-2400.5" y="359" as="geometry" />
+        <mxCell id="M9CF0HtTcBQ8SMLniMor-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=8;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Import StandardScaler.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;from sklearn.preprocessing import StandardScaler&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Instantiate StandardScaler.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;scaler = StandardScaler()&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Fit and transform training data.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;X_train_scaled = scaler.fit_transform(X_train)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(128, 128, 128), rgb(255, 255, 255));&quot;&gt;# Also transform test data.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;X_test_scaled = scaler.transform(X_test)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="91" width="210.5" x="-2400.5" y="374" as="geometry" />
         </mxCell>
         <mxCell id="M9CF0HtTcBQ8SMLniMor-18" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.732;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" target="M9CF0HtTcBQ8SMLniMor-15" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -1907,16 +1907,373 @@
             <mxPoint x="-2040" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M9CF0HtTcBQ8SMLniMor-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Import LinearRegression.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;from sklearn.linear_model import LinearRegression&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Instantiate linear regression model.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;model = LinearRegression()&lt;/div&gt;" vertex="1">
-          <mxGeometry height="75" width="160" x="-2160" y="409" as="geometry" />
+        <mxCell id="M9CF0HtTcBQ8SMLniMor-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=8;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Import LinearRegression.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;from sklearn.linear_model import LinearRegression&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Instantiate linear regression model.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;model = LinearRegression()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="61" width="160" x="-2160" y="409" as="geometry" />
         </mxCell>
-        <mxCell id="M9CF0HtTcBQ8SMLniMor-22" edge="1" parent="1" source="M9CF0HtTcBQ8SMLniMor-20" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;curved=0;" target="M9CF0HtTcBQ8SMLniMor-17" value="">
+        <mxCell id="M9CF0HtTcBQ8SMLniMor-22" edge="1" parent="1" source="M9CF0HtTcBQ8SMLniMor-20" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=0.25;exitY=0;exitDx=0;exitDy=0;curved=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="-2120" y="389" />
             </Array>
             <mxPoint x="-2140" y="540" as="sourcePoint" />
-            <mxPoint x="-2170" y="570" as="targetPoint" />
+            <mxPoint x="-2190" y="389" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfkuIB84aIzEkLFAXYDe-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#d79b00;fontFamily=Times New Roman;fontSize=8;fillColor=#ffe6cc;" value="Evaluating model performance" vertex="1">
+          <mxGeometry height="20" width="110" x="-2162" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="cfkuIB84aIzEkLFAXYDe-3" edge="1" parent="1" source="M9CF0HtTcBQ8SMLniMor-20" style="endArrow=none;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2190" y="420" as="sourcePoint" />
+            <mxPoint x="-2080" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=9;" value="&lt;font style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;coefficient of determination (\(R^2 = 1 - \frac{\sum (y_{\mathrm{actual}} - y_{\mathrm{predicted}})^2}{\sum (y_{\mathrm{actual}} - \bar{y})^2}\))&lt;/font&gt;" vertex="1">
+          <mxGeometry height="25" width="220.25" x="-2370" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=9;" value="&lt;font style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;mean squared error (MSE\(\frac{1}{n} \sum_{i=1}^{n} (y_{\mathrm{actual}, i} - y_{\mathrm{predicted}, i})^2\))&lt;/font&gt;" vertex="1">
+          <mxGeometry height="15" width="220.25" x="-2370" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=9;" value="&lt;font style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;root mean squared error (\(\mathrm{RMSE} = \sqrt{\mathrm{MSE}}\))&lt;/font&gt;" vertex="1">
+          <mxGeometry height="15" width="170" x="-2330" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-6" edge="1" parent="1" source="cfkuIB84aIzEkLFAXYDe-1" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=0.294;exitY=-0.021;exitDx=0;exitDy=0;exitPerimeter=0;curved=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2130" y="300" />
+            </Array>
+            <mxPoint x="-2120" y="330" as="sourcePoint" />
+            <mxPoint x="-2150" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-7" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;entryX=0.294;entryY=-0.051;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" target="cfkuIB84aIzEkLFAXYDe-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2130" y="280" />
+            </Array>
+            <mxPoint x="-2150" y="280" as="sourcePoint" />
+            <mxPoint x="-2140" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-8" edge="1" parent="1" source="cfkuIB84aIzEkLFAXYDe-1" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=0.295;exitY=-0.004;exitDx=0;exitDy=0;exitPerimeter=0;curved=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2130" y="257" />
+            </Array>
+            <mxPoint x="-2129.55" y="346.5400000000001" as="sourcePoint" />
+            <mxPoint x="-2160" y="257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=9;" value="&lt;font style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;(\(R^2 = 1 \)) &lt;/font&gt;&lt;font&gt;:&amp;nbsp;model perfectly explains all the variance in the target variable&lt;/font&gt;" vertex="1">
+          <mxGeometry height="29" width="139.5" x="-2560" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=9;" value="&lt;font style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;(\(R^2 = 0 \)) &lt;/font&gt;&lt;font&gt;:&amp;nbsp;model explains none of the variance; predictions are no better than simply using the mean.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="29" width="199.5" x="-2620" y="301" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=9;" value="&lt;font style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;(\(R^2 &amp;lt; 0 \)) &lt;/font&gt;&lt;font&gt;:&amp;nbsp;The model performs worse than simply using the mean, indicating a poor fit&lt;/font&gt;" vertex="1">
+          <mxGeometry height="29" width="159.5" x="-2580" y="341" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-12" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-1" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="-DazOOeXpFmeyrXdLoMI-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2420" y="310" as="sourcePoint" />
+            <mxPoint x="-2390" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-13" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-1" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="-DazOOeXpFmeyrXdLoMI-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2420" y="310" as="sourcePoint" />
+            <mxPoint x="-2390" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-15" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-1" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="-DazOOeXpFmeyrXdLoMI-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2360" y="300" as="sourcePoint" />
+            <mxPoint x="-2390" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=9;" value="&lt;font&gt;* high&lt;/font&gt;&lt;font style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;\(R^2 \)&lt;/font&gt;&lt;font&gt;may indicate overfitting, especially with complex models&lt;/font&gt;" vertex="1">
+          <mxGeometry height="29" width="219.5" x="-2619.58" y="229" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=9;" value="&lt;font&gt;* more features can artificially increase&lt;/font&gt;&lt;font style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;&amp;nbsp;\(R^2 \)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="15" width="170" x="-2619.58" y="189" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-21" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=0.95;endFill=0;strokeColor=#999999;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2620" y="259" as="sourcePoint" />
+            <mxPoint x="-2619.58" y="189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=9;" value="* For multiple regression, use&amp;nbsp;&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;\(\text{Adjusted } R^2 = 1 - (1 - R^2) \times (n - 1) / (n - p - 1)\)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="210" x="-2619.58" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;align=left;verticalAlign=top;fontSize=8;" value="&lt;div&gt;&lt;font style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Import metrics.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;from sklearn.metrics import mean_squared_error, r2_score&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(128, 128, 128);&quot;&gt;# Calculate and print R^2 score.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;r2 = r2_score(y_test, y_pred)&lt;/div&gt;&lt;div&gt;print(f&quot;R-squared: {r2:.4f}&quot;)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="193.5" x="-2225" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-24" edge="1" parent="1" source="cfkuIB84aIzEkLFAXYDe-1" style="endArrow=none;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="-DazOOeXpFmeyrXdLoMI-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2240" y="310" as="sourcePoint" />
+            <mxPoint x="-2210" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=8;horizontal=1;fontFamily=Times New Roman;strokeWidth=0.3;" value="* measure how far a model’s predictions deviate from the actual values." vertex="1">
+          <mxGeometry height="20" width="209.58" x="-2490" y="129" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-33" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=0.3;endFill=0;strokeColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2490.42" y="149" as="sourcePoint" />
+            <mxPoint x="-2490.42" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=8;horizontal=1;fontFamily=Times New Roman;strokeWidth=0.3;" value="* measures how well a regression model explains the variability of the target variable" vertex="1">
+          <mxGeometry height="20" width="209.58" x="-2605.04" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-35" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=0.95;endFill=0;strokeColor=#999999;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2605.04" y="180" as="sourcePoint" />
+            <mxPoint x="-2605.04" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-37" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-30" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=0.65;endFill=1;strokeColor=#808080;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="-DazOOeXpFmeyrXdLoMI-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2450" y="240" as="sourcePoint" />
+            <mxPoint x="-2420" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-38" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-30" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=0.65;endFill=1;strokeColor=#808080;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.124;entryY=-0.144;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="-DazOOeXpFmeyrXdLoMI-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2340" y="150" as="sourcePoint" />
+            <mxPoint x="-2282" y="269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-39" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-1" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=0.65;endFill=1;strokeColor=#808080;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.942;entryY=1.092;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="-DazOOeXpFmeyrXdLoMI-34" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2350" y="200" as="sourcePoint" />
+            <mxPoint x="-2348" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#6c8ebf;fontFamily=Times New Roman;fontSize=8;fillColor=#dae8fc;" value="Evaluating model performance" vertex="1">
+          <mxGeometry height="20" width="110" x="-1843" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#6c8ebf;fontFamily=Times New Roman;fontSize=8;fillColor=#dae8fc;" value="Multiple Linear Regression" vertex="1">
+          <mxGeometry height="20" width="110" x="-2790" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-42" edge="1" parent="1" source="VK5OWhz-ldrb3tFtbXpc-22" style="endArrow=none;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="-DazOOeXpFmeyrXdLoMI-40" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2020" y="660" as="sourcePoint" />
+            <mxPoint x="-1990" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-43" edge="1" parent="1" source="VK5OWhz-ldrb3tFtbXpc-22" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=0;" target="-DazOOeXpFmeyrXdLoMI-41" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1788" y="700" />
+              <mxPoint x="-2735" y="700" />
+            </Array>
+            <mxPoint x="-2250" y="640" as="sourcePoint" />
+            <mxPoint x="-2220" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-45" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-41" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=0.27;exitY=0.024;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;curved=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2760" y="640" />
+              <mxPoint x="-2810" y="640" />
+            </Array>
+            <mxPoint x="-2750" y="670" as="sourcePoint" />
+            <mxPoint x="-2810" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;align=left;verticalAlign=top;fontSize=8;" value="&lt;div&gt;# Import train_test_split.&lt;/div&gt;&lt;div&gt;from sklearn.model_selection import train_test_split&lt;/div&gt;&lt;div&gt;# Create features X and target y.&lt;/div&gt;&lt;div&gt;X = pd.DataFrame(housing.data, columns=housing.feature_names)&lt;/div&gt;&lt;div&gt;y = housing.target&amp;nbsp; # Median house value in $100,000s&lt;/div&gt;&lt;div&gt;# Split the dataset into training (80%) and testing (20%) sets.&lt;/div&gt;&lt;div&gt;X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="300" x="-2995" y="549" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-47" edge="1" parent="1" source="M9CF0HtTcBQ8SMLniMor-15" style="endArrow=blockThin;html=1;rounded=1;strokeWidth=0.65;endFill=1;strokeColor=#808080;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;" target="-DazOOeXpFmeyrXdLoMI-46" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2570" y="540" />
+              <mxPoint x="-2570" y="610" />
+            </Array>
+            <mxPoint x="-2520" y="490" as="sourcePoint" />
+            <mxPoint x="-2490" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;" value="Feature selection" vertex="1">
+          <mxGeometry height="20" width="65" x="-2995" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=middle;" value="Reduces overfitting&lt;div&gt;&amp;nbsp;Fewer features mean less complexity, reducing the risk of overfitting&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="230" x="-2880" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=middle;" value="Improves accuracy&lt;div&gt;Removing irrelevant or redundant features helps the model focus on meaningful patterns.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="290" x="-2880" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=middle;" value="Enhances interpretability&lt;br&gt;models easier to understand by highlighting the most important factors" vertex="1">
+          <mxGeometry height="20" width="240" x="-2880" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=middle;" value="Speeds up training&lt;br&gt;&lt;div&gt;Reducing the number of features decreases computational time and memory usage.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="270" x="-2880" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-53" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-48" style="endArrow=none;html=1;rounded=0;strokeWidth=0.5;endFill=0;strokeColor=#808080;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="-DazOOeXpFmeyrXdLoMI-49" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2790" y="500" as="sourcePoint" />
+            <mxPoint x="-2760" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-54" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-48" style="endArrow=none;html=1;rounded=0;strokeWidth=0.5;endFill=0;strokeColor=#808080;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="-DazOOeXpFmeyrXdLoMI-50" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2790" y="500" as="sourcePoint" />
+            <mxPoint x="-2760" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-55" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-48" style="endArrow=none;html=1;rounded=0;strokeWidth=0.5;endFill=0;strokeColor=#808080;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="-DazOOeXpFmeyrXdLoMI-51" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2790" y="500" as="sourcePoint" />
+            <mxPoint x="-2760" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-56" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-48" style="endArrow=none;html=1;rounded=0;strokeWidth=0.5;endFill=0;strokeColor=#808080;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="-DazOOeXpFmeyrXdLoMI-52" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2790" y="500" as="sourcePoint" />
+            <mxPoint x="-2760" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;" value="multiple features are highly correlated, they are redundant, meaning that they are essentially giving the model the same information" vertex="1">
+          <mxGeometry height="30" width="220" x="-2949.58" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;" value="multicollinearity" vertex="1">
+          <mxGeometry height="20" width="70" x="-2704.58" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-59" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-57" style="endArrow=blockThin;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#808080;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="-DazOOeXpFmeyrXdLoMI-58" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2749.58" y="419" as="sourcePoint" />
+            <mxPoint x="-2719.58" y="389" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;Variance Inflation Factor (VIF)&lt;/span&gt;&lt;div&gt;metric used to detect multicollinearity among predictors\( \mathrm{VIF}(X_i) = \frac{1}{1 - R_i^2} \)&lt;br&gt;&lt;/div&gt;&lt;div&gt;\( R^2 \) value obtained when the predictor \( X_i \) is regressed against all other predictors in the model.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="310" x="-2949.58" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-61" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-58" style="endArrow=blockThin;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;" target="-DazOOeXpFmeyrXdLoMI-60" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2619.58" y="348" />
+              <mxPoint x="-2619.58" y="399" />
+            </Array>
+            <mxPoint x="-2739.58" y="479" as="sourcePoint" />
+            <mxPoint x="-2709.58" y="449" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;" value="VIF = 1: no multicollinearity (ideal scenario)" vertex="1">
+          <mxGeometry height="20" width="150" x="-3150" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;" value="VIF &amp;lt; 5: low to moderate multicollinearity (generally acceptable)" vertex="1">
+          <mxGeometry height="20" width="220" x="-3220" y="351" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;" value="VIF &amp;gt; 5: high multicollinearity (consider removing or combining correlated variables)" vertex="1">
+          <mxGeometry height="20" width="280" x="-3280" y="381" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;" value="VIF &amp;gt; 10: severe multicollinearity (strongly suggests variable redundancy)" vertex="1">
+          <mxGeometry height="20" width="250" x="-3250" y="411" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-66" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#808080;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="-DazOOeXpFmeyrXdLoMI-62" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2970" y="400" />
+              <mxPoint x="-2970" y="330" />
+            </Array>
+            <mxPoint x="-2950" y="400" as="sourcePoint" />
+            <mxPoint x="-3000" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-67" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-65" style="endArrow=none;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2970" y="421" />
+              <mxPoint x="-2970" y="400" />
+            </Array>
+            <mxPoint x="-3000" y="400" as="sourcePoint" />
+            <mxPoint x="-2950" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-68" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-64" style="endArrow=none;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2970" y="391" />
+              <mxPoint x="-2970" y="400" />
+            </Array>
+            <mxPoint x="-3000" y="400" as="sourcePoint" />
+            <mxPoint x="-2950" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-69" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-63" style="endArrow=none;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2970" y="361" />
+              <mxPoint x="-2970" y="400" />
+            </Array>
+            <mxPoint x="-2990" y="410" as="sourcePoint" />
+            <mxPoint x="-2950" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=top;" value="&lt;div&gt;# Import libraries.&lt;/div&gt;&lt;div&gt;import numpy as np&lt;/div&gt;&lt;div&gt;import pandas as pd&lt;/div&gt;&lt;div&gt;import seaborn as sns&lt;/div&gt;&lt;div&gt;import matplotlib.pyplot as plt&lt;/div&gt;&lt;div&gt;from sklearn.datasets import fetch_california_housing&lt;/div&gt;&lt;div&gt;from statsmodels.stats.outliers_influence import variance_inflation_factor&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Load the dataset.&lt;/div&gt;&lt;div&gt;housing = fetch_california_housing()&lt;/div&gt;&lt;div&gt;X = pd.DataFrame(housing.data, columns=housing.feature_names)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Compute the correlation matrix.&lt;/div&gt;&lt;div&gt;corr_matrix = X.corr()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Identify pairs of features with high collinearity (correlation &amp;gt; 0.8 or &amp;lt; -0.8).&lt;/div&gt;&lt;div&gt;high_corr_features = [(col1, col2, corr_matrix.loc[col1, col2])&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;for col1 in corr_matrix.columns&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;for col2 in corr_matrix.columns&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;if col1 != col2 and abs(corr_matrix.loc[col1, col2]) &amp;gt; 0.8]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Convert to a DataFrame for better visualization.&lt;/div&gt;&lt;div&gt;collinearity_df = pd.DataFrame(high_corr_features, columns=[&quot;Feature 1&quot;, &quot;Feature 2&quot;, &quot;Correlation&quot;])&lt;/div&gt;&lt;div&gt;print(&quot;\nHighly Correlated Features:\n&quot;, collinearity_df)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Compute Variance Inflation Factor (VIF) for each feature.&lt;/div&gt;&lt;div&gt;vif_data = pd.DataFrame()&lt;/div&gt;&lt;div&gt;vif_data[&quot;Feature&quot;] = X.columns&lt;/div&gt;&lt;div&gt;vif_data[&quot;VIF&quot;] = [variance_inflation_factor(X.values, i) for i in range(X.shape[1])]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Print VIF values.&lt;/div&gt;&lt;div&gt;print(&quot;\nVariance Inflation Factor (VIF) for each feature:\n&quot;, vif_data)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="379" width="343" x="-3240" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-71" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-46" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=0;" target="-DazOOeXpFmeyrXdLoMI-70" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3300" y="570" />
+              <mxPoint x="-3300" y="184" />
+            </Array>
+            <mxPoint x="-3340" y="420" as="sourcePoint" />
+            <mxPoint x="-3310" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-72" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#d79b00;fontFamily=Times New Roman;fontSize=8;fillColor=#ffe6cc;" value="Extracting Model Insights" vertex="1">
+          <mxGeometry height="20" width="90" x="-2880" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-73" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#6c8ebf;fontFamily=Times New Roman;fontSize=8;fillColor=#dae8fc;" value="Understanding regression coefficients" vertex="1">
+          <mxGeometry height="20" width="140" x="-2860" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#6c8ebf;fontFamily=Times New Roman;fontSize=8;fillColor=#dae8fc;" value="Summarizing model results" vertex="1">
+          <mxGeometry height="20" width="100" x="-2860" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-75" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-72" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=0.115;exitY=-0.044;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="-DazOOeXpFmeyrXdLoMI-73" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2870" y="230" />
+            </Array>
+            <mxPoint x="-2800" y="180" as="sourcePoint" />
+            <mxPoint x="-2770" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-76" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-72" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=0.113;exitY=-0.045;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="-DazOOeXpFmeyrXdLoMI-74" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2870" y="50" />
+            </Array>
+            <mxPoint x="-2810" y="130" as="sourcePoint" />
+            <mxPoint x="-2780" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=top;" value="coefficients can be accessed using model.coef_ and the intercept can be accessed using model.intercept_" vertex="1">
+          <mxGeometry height="30" width="190" x="-2840" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=top;" value="&lt;div&gt;print(&quot;Intercept:&quot;, model.intercept_)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;coeff_df = pd.DataFrame({&quot;Feature&quot;: X.columns, &quot;Coefficient&quot;: model.coef_})&lt;/div&gt;&lt;div&gt;print(&quot;\nFeature Coefficients:\n&quot;, coeff_df)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="260" x="-2840" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-81" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-73" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;entryX=0.001;entryY=0.33;entryDx=0;entryDy=0;exitX=0.071;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;curved=0;" target="-DazOOeXpFmeyrXdLoMI-77" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2850" y="180" />
+            </Array>
+            <mxPoint x="-2820" y="210" as="sourcePoint" />
+            <mxPoint x="-2790" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DazOOeXpFmeyrXdLoMI-82" edge="1" parent="1" source="-DazOOeXpFmeyrXdLoMI-73" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=0.071;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.001;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" target="-DazOOeXpFmeyrXdLoMI-78" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2850" y="130" />
+            </Array>
+            <mxPoint x="-2820" y="210" as="sourcePoint" />
+            <mxPoint x="-2790" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
