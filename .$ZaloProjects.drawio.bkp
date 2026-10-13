@@ -1,0 +1,488 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="nIxBaAliifS4vohVRx6K">
+    <mxGraphModel dx="1965" dy="2496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="centralizeId" vertex="1">
+          <mxGeometry height="20" width="80" x="120" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;align=left;" value="/id/mobile/{ios,android,wphone}&amp;nbsp; -&amp;gt; DeviceIdHandler :&amp;nbsp;tìm lại hoặc cấp Global ID cho thiết bị" vertex="1">
+          <mxGeometry height="20" width="390" x="280" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;align=left;" value="&lt;div&gt;/zaid/mobile/* -&amp;gt; ZADeviceIdHandler :&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;Kiểm tra chữ ký, validate zdId và cập nhật thông tin thiết bị&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="420" x="280" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;align=left;" value="&lt;div&gt;/sdk/mobile/*-&amp;gt; SDKIdHandler :&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cấp SDK ID và private key cho SDK, đẩy event tracking referrer&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="410" x="280" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;align=left;" value="&lt;div&gt;/oauth/mobile/* -&amp;gt; OauthTrackingHandler :&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ghi tracking cho luồng OAuth login&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="330" x="280" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;align=left;" value="&lt;div&gt;/sdk/mobile/setting, /sdk/mobile/preload/setting&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;gt; SettingHandler, PreloadSettingHandler&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Trả cấu hình cho SDK (wakeup interval, danh sách app cần quét, máy preload&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Samsung/Oppo/Vivo...)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="780" x="280" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;align=left;" value="&lt;div&gt;&amp;nbsp;/firebase/submit/*-&amp;gt; FirebaseSubmitHandler&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Nhận Firebase push token kèm thông tin thiết bị, lưu MySQL và ghi log Scribe&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="510" x="280" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;align=left;" value="/static -&amp;gt; phục vụ public/js/globalid-sdk-1.0.0.js" vertex="1">
+          <mxGeometry height="20" width="210" x="280" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;curved=0;fontFamily=Times New Roman;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="190" />
+              <mxPoint x="270" y="470" />
+            </Array>
+            <mxPoint x="290" y="190" as="sourcePoint" />
+            <mxPoint x="290" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;fontFamily=Times New Roman;" target="I4aFVUPHk3ilY1hUrkF0-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="430" />
+              <mxPoint x="220" y="330" />
+            </Array>
+            <mxPoint x="270" y="430" as="sourcePoint" />
+            <mxPoint x="310" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="&amp;nbsp;validate request" vertex="1">
+          <mxGeometry height="20" width="80" x="780" y="139" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="Ids" vertex="1">
+          <mxGeometry height="20" width="40" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;" value="Global ID&lt;br&gt;&amp;nbsp;định danh ổn định của một thiết bị vật lý, dùng chung cho mọi app và SDK của Zalo trên máy đó" vertex="1">
+          <mxGeometry height="20" width="410" x="400" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;" value="ZA ID (zaId)&lt;br&gt;&amp;nbsp;một ID xoay vòng theo chu kỳ za-expired-day = 365 ngày (config)" vertex="1">
+          <mxGeometry height="20" width="290" x="400" y="-41" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;" value="SDK ID&amp;nbsp;&amp;nbsp;(sdkId) kèm privateKey&lt;div&gt;định danh một lần cài SDK trong một app cụ thể. Mỗi lần gọi endpoint là sinh mới, không dedupe theo thiết bị. Lúc cấp ID thì service cũng bắn event tracking referrer.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="540" x="400" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;" value="adId&lt;br&gt;&amp;nbsp;Client gửi lên. Service map adId ↔ GID để tìm lại GID cũ" vertex="1">
+          <mxGeometry height="20" width="250" x="400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;" value="zagid&amp;nbsp;&lt;br&gt;GID do Zalo app giữ. Dùng làm nguồn dự phòng để lấy GID" vertex="1">
+          <mxGeometry height="20" width="290" x="400" y="49" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;" value="sid&lt;br&gt;GID cũ &lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;client đang giữ,&lt;/span&gt; gửi lên để service đối chiếu" vertex="1">
+          <mxGeometry height="20" width="290" x="400" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;" value="uid&lt;br&gt;Middleware map uid ↔ danh sách deviceId" vertex="1">
+          <mxGeometry height="20" width="200" x="400" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;" value="Firebase token&lt;br&gt;Lưu kèm GID và adId qua" vertex="1">
+          <mxGeometry height="20" width="180" x="400" y="139" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-25" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;curved=0;align=left;fontSize=8;fontFamily=Times New Roman;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="-80" />
+              <mxPoint x="390" y="170" />
+            </Array>
+            <mxPoint x="410" y="-80" as="sourcePoint" />
+            <mxPoint x="410" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-26" edge="1" parent="1" source="I4aFVUPHk3ilY1hUrkF0-13" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;fontFamily=Times New Roman;" target="I4aFVUPHk3ilY1hUrkF0-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="50" />
+              <mxPoint x="240" y="330" />
+            </Array>
+            <mxPoint x="600" y="70" as="sourcePoint" />
+            <mxPoint x="570" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;" value="invalid adId, sId not gid of zalo and zagid valid&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;if&lt;/span&gt;&amp;nbsp;getGlobalIdByOauthCode fail&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;else&lt;/span&gt;&amp;nbsp;getFromZAGID&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="940" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-28" edge="1" parent="1" source="I4aFVUPHk3ilY1hUrkF0-11" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" target="I4aFVUPHk3ilY1hUrkF0-27" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="930" y="60.00000000000023" as="sourcePoint" />
+            <mxPoint x="900" y="90.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-29" connectable="0" parent="I4aFVUPHk3ilY1hUrkF0-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontSize=8;" value="ios" vertex="1">
+          <mxGeometry relative="1" x="-0.0725" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;verticalAlign=top;" value="if&amp;nbsp;&lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;validateVisitorSID&lt;br&gt;&lt;div&gt;1. getZdid: chuẩn hoá sId. Nếu là gid visitor đã liên kết với Zalo user thì đổi sang gid Zalo, đồng thời bật cờ cập nhật mapping.&lt;/div&gt;&lt;div&gt;2. getDeviceByGid: lấy danh sách thiết bị đã gắn với gid đó (cache, sau đó DB).&lt;/div&gt;&lt;div&gt;3. getOldGlobalIDInDevice: so thiết bị hiện tại với danh sách đó.&lt;/div&gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="410" x="940" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-31" edge="1" parent="1" source="I4aFVUPHk3ilY1hUrkF0-11" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" target="I4aFVUPHk3ilY1hUrkF0-30" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="960" y="180.00000000000023" as="sourcePoint" />
+            <mxPoint x="930" y="210.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;verticalAlign=top;" value="&lt;div&gt;&amp;nbsp;tìm gid theo chính thông tin phần cứng của thiết bị.&lt;/div&gt;&lt;div&gt;1. getGlobalIDFromDeviceInfo: tìm gid theo thiết bị&lt;/div&gt;&lt;div&gt;nếu là một trong các errorCode sau thì hợp lễ và tiến hành set new gId do client đang giữ&lt;br&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 0px;&quot;&gt;&lt;div&gt;-9 : thiết bị mới, chưa có mapping&lt;/div&gt;&lt;div&gt;-5 : device info không hợp lệ hoặc thiếu&lt;/div&gt;&lt;div&gt;-19 : có mapping nhưng device không khớp với gid đã lưu&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&amp;nbsp;Mục đích: client đã có gid hợp lệ thì không đổi gid chỉ vì device info mới, thiếu hoặc lệch.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="360" x="1000" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="I4aFVUPHk3ilY1hUrkF0-33" edge="1" parent="1" source="I4aFVUPHk3ilY1hUrkF0-30" style="endArrow=none;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=0.099;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" target="I4aFVUPHk3ilY1hUrkF0-32" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1679" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="280" />
+            </Array>
+            <mxPoint x="1130" y="230" as="sourcePoint" />
+            <mxPoint x="1100" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-1" connectable="0" parent="I4aFVUPHk3ilY1hUrkF0-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontFamily=Times New Roman;labelBackgroundColor=#FF9999;" value="fail" vertex="1">
+          <mxGeometry relative="1" x="-0.4262" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="device" vertex="1">
+          <mxGeometry height="20" width="40" x="1790" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="gid" vertex="1">
+          <mxGeometry height="20" width="40" x="1870" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-4" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-2" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_WijTOIEclhUidnIl0df-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1880" y="322.0000000000002" as="sourcePoint" />
+            <mxPoint x="1850" y="352.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="gid" vertex="1">
+          <mxGeometry height="20" width="40" x="1790" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="device lists" vertex="1">
+          <mxGeometry height="20" width="60" x="1870" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-7" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-5" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_WijTOIEclhUidnIl0df-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1880" y="354.0000000000002" as="sourcePoint" />
+            <mxPoint x="1850" y="384.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="newGid + device storage&lt;br&gt;(106–114)" vertex="1">
+          <mxGeometry height="30" width="116" x="1942" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;SID hợp lệ, và máy hiện tại khớp với danh sách máy đã lưu của SID (hoặc danh sách còn rỗng): giữ SID. Nếu có mapping sang userId thì đổi SID&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ẩn danh thành gid Zalo (getZdid)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="300" x="1570" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="Tra theo device info&lt;br&gt;(117)" vertex="1">
+          <mxGeometry height="30" width="100" x="1950" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-12" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-8" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="_WijTOIEclhUidnIl0df-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1920" y="130.00000000000023" as="sourcePoint" />
+            <mxPoint x="1890" y="160.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&amp;nbsp;Tìm gid theo ZDevice, nếu không có thì theo HardDevice. Kết quả: thấy, -9 (máy mới), -5 (data rác) hoặc -19 (mapping bẩn, bị xoá)" vertex="1">
+          <mxGeometry height="40" width="290" x="1660" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-14" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-11" style="endArrow=none;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="_WijTOIEclhUidnIl0df-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1980" y="350" as="sourcePoint" />
+            <mxPoint x="1730" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="&amp;nbsp;Fallback về SID&lt;br&gt;&amp;nbsp;(119–120)" vertex="1">
+          <mxGeometry height="30" width="134" x="1933" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-17" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-11" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_WijTOIEclhUidnIl0df-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2030" y="420.0000000000002" as="sourcePoint" />
+            <mxPoint x="2000" y="450.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="&amp;nbsp;Hotfix theo adId&lt;br&gt;(124–125)" vertex="1">
+          <mxGeometry height="30" width="114" x="1944" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-19" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-16" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="_WijTOIEclhUidnIl0df-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2030" y="500.0000000000002" as="sourcePoint" />
+            <mxPoint x="2000" y="530.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="&amp;nbsp;OAuth / viewer&lt;br&gt;&amp;nbsp;(130–135)" vertex="1">
+          <mxGeometry height="30" width="116" x="1944" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-21" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-18" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_WijTOIEclhUidnIl0df-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2030" y="680.0000000000002" as="sourcePoint" />
+            <mxPoint x="2000" y="710.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="zagid&lt;br&gt;&amp;nbsp;(141–150)" vertex="1">
+          <mxGeometry height="30" width="100" x="1952" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="Tạo mới / tạo lại&lt;br&gt;&amp;nbsp;(152–154)" vertex="1">
+          <mxGeometry height="30" width="100" x="1952" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-25" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-20" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="_WijTOIEclhUidnIl0df-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2030" y="740.0000000000002" as="sourcePoint" />
+            <mxPoint x="2000" y="770.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-26" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-23" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_WijTOIEclhUidnIl0df-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2030" y="910.0000000000002" as="sourcePoint" />
+            <mxPoint x="2000" y="940.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="validateRequest" vertex="1">
+          <mxGeometry height="20" width="100" x="2158" y="-515" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="DeviceSubmit" vertex="1">
+          <mxGeometry height="20" width="100" x="2158" y="-360" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;ZDevice&lt;/span&gt; zDevice;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: rgb(204, 204, 255);&quot;&gt;HardDevice&lt;/span&gt; hardDevice;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;ZDevice zDeviceMappingGid;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;HardDevice hardDeviceMappingGid;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;String adId;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Long timestamp = System.currentTimeMillis();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;boolean updateDeviceInfo = false;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;boolean updateGid = false;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;ZPlatform&lt;/span&gt; pl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;String sid;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;List&amp;lt;String&amp;gt; deviceStorage = new ArrayList&amp;lt;&amp;gt;();&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="220" x="2328" y="-460" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-32" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-31" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;" target="_WijTOIEclhUidnIl0df-30" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="2288" y="-390" />
+              <mxPoint x="2288" y="-350" />
+            </Array>
+            <mxPoint x="2478" y="-500" as="sourcePoint" />
+            <mxPoint x="2448" y="-470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-33" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#000066,#EDEDED);strokeWidth=0.65;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=0;" target="_WijTOIEclhUidnIl0df-35" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.1271" as="geometry">
+            <Array as="points">
+              <mxPoint x="2308" y="-447" />
+              <mxPoint x="2308" y="-505" />
+            </Array>
+            <mxPoint x="2341" y="-447" as="sourcePoint" />
+            <mxPoint x="2311" y="-447" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#000066;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; private String ser;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private String aId;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private String dId;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private String mod;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private String pl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private String mac;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private String adId;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private String osv;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private String adIdSha;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private String macSha;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private String aIdSha;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="150" x="2398" y="-610" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#000066;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; private String ser;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private String aId;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private String dId;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private String mod;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="2398" y="-680" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-37" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-36" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#000066,#EDEDED);strokeWidth=0.65;exitX=0;exitY=0.75;exitDx=0;exitDy=0;curved=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.053" as="geometry">
+            <Array as="points">
+              <mxPoint x="2278" y="-635" />
+              <mxPoint x="2278" y="-435" />
+            </Array>
+            <mxPoint x="2271" y="-435" as="sourcePoint" />
+            <mxPoint x="2341" y="-435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#000066;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; ZP_Web(2000),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ZP_Ios(2001),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ZP_Android(2002),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ZP_WPhone(2003),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ZP_Zalo(3000),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ZP_Bot(4000);&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="100" x="2398" y="-300" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-41" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#000066,#EDEDED);strokeWidth=0.65;entryX=-0.002;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" target="_WijTOIEclhUidnIl0df-38" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0361" as="geometry">
+            <Array as="points">
+              <mxPoint x="2288" y="-350" />
+              <mxPoint x="2288" y="-285.38" />
+            </Array>
+            <mxPoint x="2338" y="-350" as="sourcePoint" />
+            <mxPoint x="2308" y="-320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="ValidateVisitorResult&lt;br&gt;(validateVisitorSID)" vertex="1">
+          <mxGeometry height="30" width="100" x="2158" y="-330" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="ValidateVisitorResult&lt;br&gt;(validateZagid)" vertex="1">
+          <mxGeometry height="30" width="100" x="2158" y="-290" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;fillColor=#FFFFCC;opacity=40;" value="" vertex="1">
+          <mxGeometry height="85" width="130" x="2143" y="-336" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-45" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.85;curved=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.5427" as="geometry">
+            <Array as="points">
+              <mxPoint x="2125" y="-375" />
+              <mxPoint x="2125" y="-215" />
+            </Array>
+            <mxPoint x="2155" y="-375" as="sourcePoint" />
+            <mxPoint x="2155" y="-215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;/// 4000.xxx&lt;/div&gt;&lt;div&gt;/// len 4 : platform | uuid | createdTime | hash(uuid, createdTime, platform)&lt;/div&gt;&lt;div&gt;// len 2 : 3000 | encodeUid&lt;/div&gt;&lt;div&gt;// len 3 :&amp;nbsp; platform|&amp;nbsp; userInforNoised(src|uid|&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;createdTime&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) | version&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="307" x="2263" y="-155" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-48" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-44" style="endArrow=none;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="_WijTOIEclhUidnIl0df-47" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0964" as="geometry">
+            <Array as="points">
+              <mxPoint x="2208" y="-140" />
+            </Array>
+            <mxPoint x="2235" y="-295" as="sourcePoint" />
+            <mxPoint x="2205" y="-265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-49" connectable="0" parent="_WijTOIEclhUidnIl0df-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontFamily=Times New Roman;" value="&lt;div&gt;ZCentralizeCommon.validateVisitor(Sid or ZagId)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.4458" as="geometry">
+            <mxPoint x="7" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-50" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-29" style="endArrow=none;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_WijTOIEclhUidnIl0df-30" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2425" y="-345" as="sourcePoint" />
+            <mxPoint x="2395" y="-315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-51" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;curved=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.4" as="geometry">
+            <Array as="points">
+              <mxPoint x="2230" y="85" />
+              <mxPoint x="2230" y="205" />
+            </Array>
+            <mxPoint x="2270" y="85" as="sourcePoint" />
+            <mxPoint x="2270" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="getZdid" vertex="1">
+          <mxGeometry height="20" width="60" x="2240" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="// check uid nếu có trong DB(MappingVisitorIdListZaloIdModel.Instance.getFrist) thì chuyển SId thành dạng&amp;nbsp;&amp;nbsp;ZP_Zalo&lt;br&gt;nếu có chuyển được thì&amp;nbsp;&lt;br&gt;set field (updateDeviceInfo,&amp;nbsp;updateGid) thành true&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="500" x="2360" y="-2" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-55" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-53" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;" target="_WijTOIEclhUidnIl0df-52" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="2320" y="22.5" />
+              <mxPoint x="2320" y="110" />
+            </Array>
+            <mxPoint x="2460" y="20" as="sourcePoint" />
+            <mxPoint x="2430" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="deviceSubmit.setDeviceStorage" vertex="1">
+          <mxGeometry height="20" width="140" x="2240" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="lấy list deviceId tương ứng với Gid hiện tại rồi set vào deviceSubmit" vertex="1">
+          <mxGeometry height="30" width="180" x="2394" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-58" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-57" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;curved=0;" target="_WijTOIEclhUidnIl0df-56" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="2440" y="140" />
+            </Array>
+            <mxPoint x="2460" y="20" as="sourcePoint" />
+            <mxPoint x="2430" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="getOldGlobalIDInDevice" vertex="1">
+          <mxGeometry height="20" width="116" x="2240" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="JSON giống hệt, hoặc trùng ít nhất một ID: dId, adId, ser, aId, mac. Có so cả dạng SHA1 giữa device hiện tại và device cũ tương ứng gid" vertex="1">
+          <mxGeometry height="40" width="420" x="2480" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-61" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-60" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;curved=0;" target="_WijTOIEclhUidnIl0df-59" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="2585" y="170" />
+            </Array>
+            <mxPoint x="2590" y="20" as="sourcePoint" />
+            <mxPoint x="2560" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-62" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="_WijTOIEclhUidnIl0df-11" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0301" as="geometry">
+            <Array as="points">
+              <mxPoint x="2150" y="150" />
+              <mxPoint x="2150" y="335" />
+            </Array>
+            <mxPoint x="2230" y="150" as="sourcePoint" />
+            <mxPoint x="2060" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-63" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;curved=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.5556" as="geometry">
+            <Array as="points">
+              <mxPoint x="2200" y="300" />
+              <mxPoint x="2200" y="400" />
+            </Array>
+            <mxPoint x="2240" y="300" as="sourcePoint" />
+            <mxPoint x="2240" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="getGlobalIDFromDeviceInfo" vertex="1">
+          <mxGeometry height="20" width="140" x="2212" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=middle;fontSize=10;" value="// get from zdevice || hardDevice" vertex="1">
+          <mxGeometry height="20" width="140" x="2398" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-68" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-66" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;" target="_WijTOIEclhUidnIl0df-64" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="2380" y="250" />
+              <mxPoint x="2380" y="330" />
+            </Array>
+            <mxPoint x="2480" y="150" as="sourcePoint" />
+            <mxPoint x="2450" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;" value="canGetOldGdFromDevice" vertex="1">
+          <mxGeometry height="20" width="140" x="2212" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;// errCode ==-9&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;// errCode ==-5&amp;nbsp;&lt;div&gt;// errCode ==-19 &amp;amp;&amp;amp; platform SID != ZP_Zalo&amp;nbsp;&lt;div&gt;is ok&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="232" x="2398" y="273" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-71" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-70" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;curved=0;" target="_WijTOIEclhUidnIl0df-69" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="2456" y="360" />
+            </Array>
+            <mxPoint x="2480" y="150" as="sourcePoint" />
+            <mxPoint x="2450" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-72" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0.75;entryY=0;entryDx=0;entryDy=0;curved=0;" target="_WijTOIEclhUidnIl0df-16" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.014" as="geometry">
+            <Array as="points">
+              <mxPoint x="2033.5" y="380" />
+            </Array>
+            <mxPoint x="2200" y="380" as="sourcePoint" />
+            <mxPoint x="2020" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="// giới hạn version SDK" vertex="1">
+          <mxGeometry height="30" width="152" x="2200" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-74" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-73" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;" target="_WijTOIEclhUidnIl0df-18" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0256" as="geometry">
+            <Array as="points">
+              <mxPoint x="2120" y="615" />
+              <mxPoint x="2120" y="695" />
+            </Array>
+            <mxPoint x="2140" y="650" as="sourcePoint" />
+            <mxPoint x="2110" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="// fallback về Sid" vertex="1">
+          <mxGeometry height="20" width="90" x="2680" y="298" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-77" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-70" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_WijTOIEclhUidnIl0df-76" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2660" y="370.0000000000002" as="sourcePoint" />
+            <mxPoint x="2630" y="400.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="Không hợp lệ | -9&lt;div&gt;Không hợp lệ |&amp;nbsp;-5 (device info rác)&lt;/div&gt;&lt;div&gt;&amp;nbsp;Không hợp lệ |&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;-5, SDK 2.4.2603&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Không hợp lệ |&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;-19 (mapping bẩn)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Hợp lệ, là gid Zalo, |&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;-19&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;Hợp lệ (bất kỳ loại),&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;device storage không khớp&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;|&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Mã lỗi khác -9/-5/-19,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;Không hợp lệ |&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;Mã lỗi khác&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="360" x="2150" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="_WijTOIEclhUidnIl0df-79" edge="1" parent="1" source="_WijTOIEclhUidnIl0df-78" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;curved=0;" target="_WijTOIEclhUidnIl0df-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="2100" y="962.5" />
+              <mxPoint x="2100" y="1055" />
+            </Array>
+            <mxPoint x="2080" y="870" as="sourcePoint" />
+            <mxPoint x="2050" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
