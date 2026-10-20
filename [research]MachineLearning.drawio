@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="Trang-1" id="bUrqccBIE45um2CTs345">
-    <mxGraphModel dx="3665" dy="1347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="3890" dy="1480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -360,7 +360,7 @@
         <mxCell id="LblZvnUdHKmxPrajxAPx-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="models predict discrete values,&amp;nbsp;&amp;nbsp;outcome or event in the future&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;Binary Classification&lt;/span&gt; (True or False, Default or No Default, Yes or No)&lt;br&gt;&lt;span style=&quot;background-color: rgb(229, 204, 255);&quot;&gt;Multiclass Classification&lt;/span&gt; ( contains more than two possible values)&lt;/div&gt;" vertex="1">
           <mxGeometry height="75" width="330" x="-1085" y="1470" as="geometry" />
         </mxCell>
-        <mxCell id="LblZvnUdHKmxPrajxAPx-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=8;" value="&lt;font style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;algorithms&lt;/font&gt;" vertex="1">
+        <mxCell id="LblZvnUdHKmxPrajxAPx-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=1;fontFamily=Times New Roman;fontSize=8;roundedPerimeter=1;strokeWidth=0.5;" value="&lt;font&gt;algorithms&lt;/font&gt;" vertex="1">
           <mxGeometry height="20" width="64.5" x="-1509.13" y="850" as="geometry" />
         </mxCell>
         <mxCell id="LblZvnUdHKmxPrajxAPx-21" edge="1" parent="1" source="LblZvnUdHKmxPrajxAPx-7" style="endArrow=blockThin;html=1;rounded=0;endFill=1;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;fontFamily=Times New Roman;" target="LblZvnUdHKmxPrajxAPx-12" value="">
@@ -3573,7 +3573,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2h8pMpTKfX5dz2XeYOvV-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#82b366;fontFamily=Times New Roman;fontSize=8;fillColor=#d5e8d4;" value="lasso regression" vertex="1">
-          <mxGeometry height="20" width="64.5" x="-1390" y="960" as="geometry" />
+          <mxGeometry height="20" width="64.5" x="-1390" y="1040" as="geometry" />
         </mxCell>
         <mxCell id="2h8pMpTKfX5dz2XeYOvV-15" edge="1" parent="1" source="XDEPJGhxCib3rmzDLEbu-8" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=0;" target="VK5OWhz-ldrb3tFtbXpc-22" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -3603,88 +3603,201 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2h8pMpTKfX5dz2XeYOvV-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=8;" value="&lt;font style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;OLS&lt;/font&gt;" vertex="1">
-          <mxGeometry height="15" width="23.87" x="-1380" y="1049.5" as="geometry" />
+          <mxGeometry height="15" width="23.87" x="-1380" y="1129.5" as="geometry" />
         </mxCell>
         <mxCell id="2h8pMpTKfX5dz2XeYOvV-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=top;" value="$$\hat{\beta}^{OLS} = \arg\min_{\beta} \sum_{i=1}^{n}\Big(y_i - \beta_0 - \sum_{j=1}^{p} x_{ij}\beta_j\Big)^2$$" vertex="1">
-          <mxGeometry height="45" width="190.5" x="-1370" y="1068.5" as="geometry" />
+          <mxGeometry height="45" width="190.5" x="-1370" y="1148.5" as="geometry" />
         </mxCell>
         <mxCell id="2h8pMpTKfX5dz2XeYOvV-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Comic Sans MS;fontSize=8;" value="&lt;font style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;Lasso = OLS + phạt L1&lt;/font&gt;" vertex="1">
-          <mxGeometry height="15" width="90" x="-1380" y="1129.5" as="geometry" />
+          <mxGeometry height="15" width="90" x="-1380" y="1209.5" as="geometry" />
         </mxCell>
-        <mxCell id="2h8pMpTKfX5dz2XeYOvV-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=top;" value="$$\hat{\beta}^{lasso} = \arg\min_{\beta} \Big\{ \sum_{i=1}^{n}\Big(y_i - \beta_0 - \sum_{j=1}^{p} x_{ij}\beta_j\Big)^2 + \lambda \sum_{j=1}^{p} |\beta_j| \Big\}$$" vertex="1">
-          <mxGeometry height="50" width="213" x="-1370" y="1149.5" as="geometry" />
-        </mxCell>
-        <mxCell id="2h8pMpTKfX5dz2XeYOvV-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=top;" value="$$J(\beta) = \text{RSS} + \lambda \|\beta\|_1, \qquad \|\beta\|_1 = \sum_{j=1}^{p} |\beta_j|$$" vertex="1">
-          <mxGeometry height="45" width="160" x="-1370" y="1209.5" as="geometry" />
+        <mxCell id="2h8pMpTKfX5dz2XeYOvV-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=top;" value="$$\hat{w}^{lasso} = \arg\min_{w,\, b} \Big\{ \frac{1}{2n}\sum_{i=1}^{n}\Big(y_i - b - \sum_{j=1}^{p} x_{ij} w_j\Big)^2 + \alpha \sum_{j=1}^{p} |w_j| \Big\}$$" vertex="1">
+          <mxGeometry height="50" width="240" x="-1370" y="1229.5" as="geometry" />
         </mxCell>
         <mxCell id="2h8pMpTKfX5dz2XeYOvV-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;" value="&lt;div&gt;Hệ số chặn β₀ không bị phạt.&lt;/div&gt;&lt;div&gt;Phạt theo trị tuyệt đối nên một số hệ số β về đúng 0. Biến đó coi như bị loại, mô hình sparse (thưa).&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="330" x="-1370" y="1268.5" as="geometry" />
+          <mxGeometry height="30" width="330" x="-1370" y="1348.5" as="geometry" />
         </mxCell>
         <mxCell id="2h8pMpTKfX5dz2XeYOvV-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=top;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;λ = 0&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Giống hệt OLS&lt;/span&gt;&lt;/div&gt;&lt;div&gt;λ tăng&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;Nhiều β = 0, bias tăng, variance giảm, mô hình đơn giản hơn&lt;/div&gt;&lt;div&gt;λ quá lớn&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;Underfitting (mọi β → 0)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="240" x="-1370" y="1307.5" as="geometry" />
+          <mxGeometry height="40" width="240" x="-1370" y="1387.5" as="geometry" />
         </mxCell>
         <mxCell id="2h8pMpTKfX5dz2XeYOvV-28" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;curved=0;" value="">
           <mxGeometry height="50" relative="1" width="50" x="-0.0004" as="geometry">
             <Array as="points">
-              <mxPoint x="-1390" y="1369.5" />
-              <mxPoint x="-1390" y="1039.5" />
+              <mxPoint x="-1390" y="1449.5" />
+              <mxPoint x="-1390" y="1119.5" />
             </Array>
-            <mxPoint x="-1380" y="1369.5" as="sourcePoint" />
-            <mxPoint x="-1380" y="1039.5" as="targetPoint" />
+            <mxPoint x="-1380" y="1449.5" as="sourcePoint" />
+            <mxPoint x="-1380" y="1119.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2h8pMpTKfX5dz2XeYOvV-29" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#808080;dashed=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-1337" y="1352.5" as="sourcePoint" />
-            <mxPoint x="-1337" y="1302.5" as="targetPoint" />
+            <mxPoint x="-1337" y="1432.5" as="sourcePoint" />
+            <mxPoint x="-1337" y="1382.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2h8pMpTKfX5dz2XeYOvV-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#82b366;fontFamily=Times New Roman;fontSize=8;fillColor=#d5e8d4;" value="&lt;div&gt;Ridge Regression&lt;/div&gt;" vertex="1">
-          <mxGeometry height="20" width="64.5" x="-1160.5" y="959.5" as="geometry" />
-        </mxCell>
-        <mxCell id="2h8pMpTKfX5dz2XeYOvV-31" edge="1" parent="1" source="2h8pMpTKfX5dz2XeYOvV-30" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=0;" target="LblZvnUdHKmxPrajxAPx-6" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="-1128.25" y="940" />
-              <mxPoint x="-1360" y="940" />
-              <mxPoint x="-1360" y="890" />
-            </Array>
-            <mxPoint x="-1250" y="1030" as="sourcePoint" />
-            <mxPoint x="-1220" y="1000" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry height="20" width="64.5" x="-1160.5" y="1039.5" as="geometry" />
         </mxCell>
         <mxCell id="2h8pMpTKfX5dz2XeYOvV-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=top;" value="&amp;nbsp;a linear regression technique that adds a penalty term to the ordinary least squares (OLS) objective function" vertex="1">
-          <mxGeometry height="29" width="180" x="-1359.5" y="1000" as="geometry" />
+          <mxGeometry height="29" width="180" x="-1359.5" y="1080" as="geometry" />
         </mxCell>
         <mxCell id="2h8pMpTKfX5dz2XeYOvV-33" edge="1" parent="1" source="2h8pMpTKfX5dz2XeYOvV-14" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=0;" target="2h8pMpTKfX5dz2XeYOvV-32" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-1373.87" y="1021.75" />
+              <mxPoint x="-1373.87" y="1101.75" />
             </Array>
-            <mxPoint x="-1360" y="1100" as="sourcePoint" />
-            <mxPoint x="-1330" y="1070" as="targetPoint" />
+            <mxPoint x="-1360" y="1180" as="sourcePoint" />
+            <mxPoint x="-1330" y="1150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2h8pMpTKfX5dz2XeYOvV-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=top;" value="a linear regression technique that adds a penalty to the size of the coefficients" vertex="1">
-          <mxGeometry height="30" width="160" x="-1120" y="998" as="geometry" />
+          <mxGeometry height="30" width="160" x="-1120" y="1078" as="geometry" />
         </mxCell>
         <mxCell id="2h8pMpTKfX5dz2XeYOvV-35" edge="1" parent="1" source="2h8pMpTKfX5dz2XeYOvV-34" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;curved=0;" target="2h8pMpTKfX5dz2XeYOvV-30" value="">
           <mxGeometry height="50" relative="1" width="50" x="-0.0135" as="geometry">
             <Array as="points">
-              <mxPoint x="-1144.37" y="1020" />
+              <mxPoint x="-1144.37" y="1100" />
             </Array>
-            <mxPoint x="-1200" y="1090" as="sourcePoint" />
-            <mxPoint x="-1170" y="1060" as="targetPoint" />
+            <mxPoint x="-1200" y="1170" as="sourcePoint" />
+            <mxPoint x="-1170" y="1140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2h8pMpTKfX5dz2XeYOvV-36" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#808080;" value="">
+        <mxCell id="2h8pMpTKfX5dz2XeYOvV-36" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;curved=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-1000" y="1370" />
-              <mxPoint x="-1000" y="1040" />
+              <mxPoint x="-1000" y="1450" />
+              <mxPoint x="-1000" y="1120" />
             </Array>
-            <mxPoint x="-990" y="1370" as="sourcePoint" />
-            <mxPoint x="-990" y="1040" as="targetPoint" />
+            <mxPoint x="-990" y="1450" as="sourcePoint" />
+            <mxPoint x="-990" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-1" edge="1" parent="1" source="LblZvnUdHKmxPrajxAPx-6" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.48;entryY=-0.036;entryDx=0;entryDy=0;curved=0;entryPerimeter=0;" target="2h8pMpTKfX5dz2XeYOvV-30" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.1212" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1360" y="890" />
+              <mxPoint x="-1360" y="1020" />
+              <mxPoint x="-1128.25" y="1020" />
+            </Array>
+            <mxPoint x="-1230" y="960" as="sourcePoint" />
+            <mxPoint x="-1260" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=1;fontFamily=Times New Roman;fontSize=8;roundedPerimeter=1;strokeWidth=0.5;" value="&lt;font&gt;loss function&lt;/font&gt;" vertex="1">
+          <mxGeometry height="15" width="45" x="-1285" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=middle;fontSize=8;" value="(yᵢ − w·xᵢ)²&amp;nbsp; // each&amp;nbsp;sample" vertex="1">
+          <mxGeometry height="15" width="151" x="-1215" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=8;" value="&lt;span style=&quot;background-color: rgb(229, 204, 255);&quot;&gt;Hypothesis function / Model function&lt;/span&gt;" vertex="1">
+          <mxGeometry height="15" width="130" x="-2400.5" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=8;" value="&lt;span style=&quot;background-color: rgb(229, 204, 255);&quot;&gt;Hypothesis function / Model function&lt;/span&gt;" vertex="1">
+          <mxGeometry height="15" width="130" x="-1950" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=1;fontFamily=Times New Roman;fontSize=8;roundedPerimeter=1;strokeWidth=0.5;" value="&lt;font&gt;cost function&lt;/font&gt;" vertex="1">
+          <mxGeometry height="15" width="54.5" x="-1285" y="942" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=1;fontFamily=Times New Roman;fontSize=8;roundedPerimeter=1;strokeWidth=0.5;" value="&lt;font&gt;objective function&lt;/font&gt;" vertex="1">
+          <mxGeometry height="15" width="60" x="-1285" y="965" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;curved=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1290" y="910" />
+              <mxPoint x="-1290" y="990" />
+            </Array>
+            <mxPoint x="-1280" y="910" as="sourcePoint" />
+            <mxPoint x="-1280" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=middle;fontSize=8;" value="Σ (yᵢ − w·xᵢ)²&amp;nbsp; // total&amp;nbsp;sample&amp;nbsp;" vertex="1">
+          <mxGeometry height="15" width="151" x="-1215" y="943" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=middle;fontSize=8;" value="Σ (yᵢ − w·xᵢ)²&amp;nbsp; +&amp;nbsp; alpha·||w||²&amp;nbsp; // loss + penalty" vertex="1">
+          <mxGeometry height="15" width="151" x="-1215" y="965" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-13" edge="1" parent="1" source="LblZvnUdHKmxPrajxAPx-6" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0511" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1360" y="890" />
+              <mxPoint x="-1360" y="950" />
+            </Array>
+            <mxPoint x="-1240" y="860" as="sourcePoint" />
+            <mxPoint x="-1290" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=10;" value="The model has to strike a balance between fitting the data and keeping the coefficients small.regularization improves the conditioning of the problem and reduces the variance of the estimates; the larger the alpha, the stronger the regularization" vertex="1">
+          <mxGeometry height="61.5" width="320" x="-1040" y="869" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;align=left;" value="keeping the coefficients small" vertex="1">
+          <mxGeometry height="15" width="151" x="-1012" y="945" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;align=left;" value="improves the conditioning of the problem" vertex="1">
+          <mxGeometry height="15" width="190.5" x="-1013" y="1024.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=10;align=left;" value="reduces the variance of the estimates" vertex="1">
+          <mxGeometry height="15" width="190.5" x="-1013" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=8;" value="ŷ = w₁x₁ + w₂x₂ + .... Each coefficient w acts like a gain knob for its feature: the larger w is, the more strongly that feature is amplified." vertex="1">
+          <mxGeometry height="45" width="190.5" x="-855" y="935" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-20" edge="1" parent="1" source="JR-vqk0xA_UdthHj2_4z-14" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=0.045;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="JR-vqk0xA_UdthHj2_4z-15" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0024" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1025.6" y="952.5" />
+            </Array>
+            <mxPoint x="-860" y="960" as="sourcePoint" />
+            <mxPoint x="-890" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-21" edge="1" parent="1" source="JR-vqk0xA_UdthHj2_4z-14" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=0.045;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="JR-vqk0xA_UdthHj2_4z-16" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.155" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1025.6" y="1032" />
+            </Array>
+            <mxPoint x="-940" y="940" as="sourcePoint" />
+            <mxPoint x="-970" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-22" edge="1" parent="1" source="JR-vqk0xA_UdthHj2_4z-14" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=0.045;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="JR-vqk0xA_UdthHj2_4z-17" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0794" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1025.6" y="1057.5" />
+            </Array>
+            <mxPoint x="-960" y="960" as="sourcePoint" />
+            <mxPoint x="-990" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=8;" value="Regularization reduces variance because it always pulls w toward zero, like an anchor. Even when the training data changes, w doesn&#39;t drift too far from that anchor." vertex="1">
+          <mxGeometry height="50" width="180" x="-810.25" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=middle;fontSize=8;" value="$$J(w) = \sum_{i=1}^{n} \left( y_i - \sum_{j=1}^{p} w_j x_{ij} - b \right)^2 + \alpha \sum_{j=1}^{p} w_j^2$$" vertex="1">
+          <mxGeometry height="40" width="190.5" x="-980" y="1148.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=8;" value="- to mininize result of object function, we need:&amp;nbsp;&lt;div&gt;* (w − z)² term pulls w toward z (fitting the data), while the penalty term pulls w toward 0.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="308" x="-1320" y="1289" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-30" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="JR-vqk0xA_UdthHj2_4z-29" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0625" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1350" y="1304" />
+            </Array>
+            <mxPoint x="-1350" y="1280" as="sourcePoint" />
+            <mxPoint x="-1170" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=middle;fontSize=10;" value="$$\frac{\partial J}{\partial w_k} = -2 \sum_{i=1}^{n} x_{ik} \left( y_i - \sum_{j=1}^{p} w_j x_{ij} - b \right) + 2\alpha w_k$$" vertex="1">
+          <mxGeometry height="50" width="245.5" x="-910" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="JR-vqk0xA_UdthHj2_4z-32" edge="1" parent="1" source="JR-vqk0xA_UdthHj2_4z-26" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="JR-vqk0xA_UdthHj2_4z-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-932.37" y="1225" />
+            </Array>
+            <mxPoint x="-840" y="1190" as="sourcePoint" />
+            <mxPoint x="-870" y="1220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
