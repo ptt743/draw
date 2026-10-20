@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="Page-1" id="lTk_YM_8AerEHsBu_3yp">
-    <mxGraphModel dx="3023" dy="1554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3737" dy="1887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1403,7 +1403,7 @@
         <mxCell id="JIhAfnByFY173I8j4Z0U-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;verticalAlign=top;" value="&lt;div&gt;DP on games&lt;/div&gt;&lt;div&gt;dp[state] = thắng/thua cho người đi trước&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="160" x="2030.25" y="1880" as="geometry" />
         </mxCell>
-        <mxCell id="JIhAfnByFY173I8j4Z0U-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;verticalAlign=top;" value="DP on tree" vertex="1">
+        <mxCell id="JIhAfnByFY173I8j4Z0U-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;verticalAlign=top;" value="DP on tree&lt;div&gt;dp[u][...] tính từ các con của u&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="160" x="1840" y="1941" as="geometry" />
         </mxCell>
         <mxCell id="JIhAfnByFY173I8j4Z0U-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;verticalAlign=top;" value="&lt;div&gt;DP profile&lt;/div&gt;&lt;div&gt;dp[col][mask] = hình dạng biên&lt;/div&gt;" vertex="1">
@@ -1412,11 +1412,11 @@
         <mxCell id="JIhAfnByFY173I8j4Z0U-69" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;curved=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="1820" y="1620" />
-              <mxPoint x="1820" y="2000" />
+              <mxPoint x="1829" y="1620" />
+              <mxPoint x="1829" y="2000" />
             </Array>
-            <mxPoint x="1840" y="1620" as="sourcePoint" />
-            <mxPoint x="1840" y="2000" as="targetPoint" />
+            <mxPoint x="1849" y="1620" as="sourcePoint" />
+            <mxPoint x="1849" y="2000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JIhAfnByFY173I8j4Z0U-71" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;" value="">
