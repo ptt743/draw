@@ -5615,7 +5615,7 @@
             <mxPoint x="-990" y="-200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xSIe_KTaW1_rC7dgUtgw-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=top;" value="" vertex="1">
+        <mxCell id="xSIe_KTaW1_rC7dgUtgw-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=top;" value="*&amp;nbsp;using a logistic function (also known as a sigmoid function) to squeeze the output of a linear equation between 0 and 1&lt;div&gt;*&amp;nbsp;The model learns the best coefficients for the linear equation based on the training data&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="220" x="-520" y="2200" as="geometry" />
         </mxCell>
       </root>
