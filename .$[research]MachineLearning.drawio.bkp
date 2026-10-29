@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="Trang-1" id="bUrqccBIE45um2CTs345">
-    <mxGraphModel dx="4546" dy="4215" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="3890" dy="3818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5839,10 +5839,10 @@
           <mxGeometry height="26.5" width="105.25" x="-170.38" y="2097.75" as="geometry" />
         </mxCell>
         <mxCell id="-qjTo809Xu4y-duA6Ajx-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=middle;" value="&lt;div&gt;$$p = \sigma(\eta) = \frac{1}{1 + e^{-\eta}}, \qquad \sigma: \mathbb{R} \to (0, 1)$$&lt;/div&gt;" vertex="1">
-          <mxGeometry height="25" width="144.75" x="-190" y="2133" as="geometry" />
+          <mxGeometry height="25" width="149.13" x="-190" y="2133" as="geometry" />
         </mxCell>
         <mxCell id="-qjTo809Xu4y-duA6Ajx-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=middle;" value="&lt;div&gt;$$\text{logit}(p) = \ln\frac{p}{1-p} = \eta$$&lt;/div&gt;" vertex="1">
-          <mxGeometry height="25" width="100" x="-190" y="2160" as="geometry" />
+          <mxGeometry height="25" width="90" x="-190" y="2160" as="geometry" />
         </mxCell>
         <mxCell id="-qjTo809Xu4y-duA6Ajx-19" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#808080;defaultLabelBackgroundColor=page;curved=0;" value="">
           <mxGeometry height="50" relative="1" width="50" x="-0.6036" as="geometry">
@@ -5861,7 +5861,7 @@
           <mxGeometry height="20" width="80" x="-230.75" y="2200" as="geometry" />
         </mxCell>
         <mxCell id="-qjTo809Xu4y-duA6Ajx-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=middle;" value="&lt;div&gt;$$P(y = 1 \mid \mathbf{x}) = p = \sigma(\mathbf{w}^\top\mathbf{x} + b), \qquad P(y = 0 \mid \mathbf{x}) = 1 - p$$&lt;/div&gt;" vertex="1">
-          <mxGeometry height="20" width="209.75" x="-145.75" y="2200" as="geometry" />
+          <mxGeometry height="20" width="218" x="-145.75" y="2200" as="geometry" />
         </mxCell>
         <mxCell id="-qjTo809Xu4y-duA6Ajx-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;" value="Bernoulli" vertex="1">
           <mxGeometry height="20" width="40" x="-230.75" y="2230" as="geometry" />
@@ -5872,22 +5872,22 @@
         <mxCell id="-qjTo809Xu4y-duA6Ajx-25" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=0.65;endFill=0;strokeColor=#808080;defaultLabelBackgroundColor=page;" value="">
           <mxGeometry height="50" relative="1" width="50" x="0.2667" as="geometry">
             <Array as="points">
-              <mxPoint x="70" y="2260" />
-              <mxPoint x="70" y="2190" />
+              <mxPoint x="77" y="2259.5" />
+              <mxPoint x="77" y="2189.5" />
             </Array>
-            <mxPoint x="60" y="2260" as="sourcePoint" />
-            <mxPoint x="60" y="2190" as="targetPoint" />
+            <mxPoint x="67" y="2259.5" as="sourcePoint" />
+            <mxPoint x="67" y="2189.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-qjTo809Xu4y-duA6Ajx-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0.5;strokeColor=#808080;fontFamily=Times New Roman;fontSize=8;align=left;verticalAlign=middle;" value="&lt;div&gt;$$P(y = 1 \mid \mathbf{x}) = \frac{1}{1 + e^{-(\mathbf{w}^\top\mathbf{x} + b)}}$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="29" width="112.75" x="80" y="2210" as="geometry" />
         </mxCell>
         <mxCell id="-qjTo809Xu4y-duA6Ajx-27" edge="1" parent="1" source="YJCPUg4q5MW8LFl8TfDE-2" style="endArrow=none;html=1;rounded=1;strokeWidth=0.65;endFill=0;strokeColor=#808080;defaultLabelBackgroundColor=page;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
+          <mxGeometry height="50" relative="1" width="50" x="0.0701" as="geometry">
             <Array as="points">
               <mxPoint x="-99.25" y="2290" />
-              <mxPoint x="-260" y="2290" />
-              <mxPoint x="-260" y="2190" />
+              <mxPoint x="-250" y="2290" />
+              <mxPoint x="-250" y="2190" />
             </Array>
             <mxPoint x="-150" y="2270" as="sourcePoint" />
             <mxPoint x="-240" y="2190" as="targetPoint" />
