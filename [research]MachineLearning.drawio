@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="Trang-1" id="bUrqccBIE45um2CTs345">
-    <mxGraphModel dx="3908" dy="3850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="3793" dy="3766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6112,13 +6112,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iQp-7-xH1mAx51UWwM3L-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;curved=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
+          <mxGeometry height="50" relative="1" width="50" x="0.25" as="geometry">
             <Array as="points">
               <mxPoint x="-100" y="2280" />
-              <mxPoint x="-100" y="2360" />
+              <mxPoint x="-100" y="2340" />
             </Array>
             <mxPoint x="-90" y="2280" as="sourcePoint" />
-            <mxPoint x="-90" y="2360" as="targetPoint" />
+            <mxPoint x="-90" y="2340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iQp-7-xH1mAx51UWwM3L-2" edge="1" parent="1" source="YJCPUg4q5MW8LFl8TfDE-3" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=0.25;exitY=1;exitDx=0;exitDy=0;curved=0;" value="">
@@ -6370,6 +6370,55 @@
             </Array>
             <mxPoint x="-270" y="-2000" as="sourcePoint" />
             <mxPoint x="-240" y="-2030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="td9ZUp2ohTKbo_nLoQ0U-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=8;" value="&lt;span style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;Using with&lt;/span&gt;&lt;div&gt;*&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;Pro&lt;/span&gt;&lt;/div&gt;&lt;div&gt;*&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;Cons&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;*&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="130" x="-2959" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="td9ZUp2ohTKbo_nLoQ0U-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=8;" value="&lt;span style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;Using with&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;* Scatter plot shows a curve (parabola, slight S-shape).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;* Residual plot of a linear model is arc-shaped, meaning there’s a systematic pattern it missed.&lt;/div&gt;&lt;div&gt;* Domain knowledge says it’s nonlinear (e.g., free-fall distance ∝ t², crop yield rises then falls with fertilizer).&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;Pro&lt;/span&gt;&lt;/div&gt;&lt;div&gt;*&amp;nbsp;Easy implement&lt;/div&gt;&lt;div&gt;*&amp;nbsp;Flexible&lt;/div&gt;&lt;div&gt;* Fast&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;Cons&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;*&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Overfitting at high degree&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;*&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Poor extrapolation&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;*&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Multicollinearity&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144.5" width="261.5" x="-1661.5" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="td9ZUp2ohTKbo_nLoQ0U-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=8;" value="&lt;span style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;Using with&lt;/span&gt;&lt;div&gt;*&amp;nbsp;Continuous target&lt;br&gt;*&amp;nbsp;Roughly linear relationship&lt;br&gt;*&amp;nbsp;Interpretability matters&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;Pro&lt;/span&gt;&lt;/div&gt;&lt;div&gt;*&amp;nbsp;Easy to interpret&lt;/div&gt;&lt;div&gt;*&amp;nbsp;Fast and cheap&lt;/div&gt;&lt;div&gt;*&amp;nbsp;Solid statistical foundation&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;Cons&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;*&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Assumes linearity&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;*&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Multicollinearity&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112.5" width="100" x="-1680" y="638.75" as="geometry" />
+        </mxCell>
+        <mxCell id="td9ZUp2ohTKbo_nLoQ0U-8" edge="1" parent="1" source="td9ZUp2ohTKbo_nLoQ0U-7" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;" target="XDEPJGhxCib3rmzDLEbu-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1700" y="695" />
+            </Array>
+            <mxPoint x="-1630" y="730" as="sourcePoint" />
+            <mxPoint x="-1660" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="td9ZUp2ohTKbo_nLoQ0U-9" edge="1" parent="1" source="XDEPJGhxCib3rmzDLEbu-10" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;exitX=0.75;exitY=1;exitDx=0;exitDy=0;curved=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0685" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1680" y="1250" />
+            </Array>
+            <mxPoint x="-1610" y="1070" as="sourcePoint" />
+            <mxPoint x="-1662.81" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxpzOhwKZ1QYX3tfp4UF-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=8;" value="&lt;span style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;Using with&lt;/span&gt;&lt;div&gt;*&amp;nbsp;KNN works best on small to medium datasets&lt;/div&gt;&lt;div&gt;*&amp;nbsp;recommendation systems, handwriting and small image recognition, anomaly detection, missing value imputation, and similarity search on embedding vectors&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 230, 204);&quot;&gt;Pro&lt;/span&gt;&lt;/div&gt;&lt;div&gt;*&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Small to medium datasets with few dimensions (under about 20 features)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Complex, non-linear decision boundaries&lt;/div&gt;&lt;div&gt;Need a quick baseline&lt;/div&gt;&lt;div&gt;Need an easily interpretable model&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;Cons&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;*&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="129" width="240" x="-1120" y="1843" as="geometry" />
+        </mxCell>
+        <mxCell id="GxpzOhwKZ1QYX3tfp4UF-2" edge="1" parent="1" source="GxpzOhwKZ1QYX3tfp4UF-1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;curved=0;" target="bJ1JEDWSpiqF8vzV2BRM-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-848" y="1940" />
+            </Array>
+            <mxPoint x="-860" y="1920" as="sourcePoint" />
+            <mxPoint x="-890" y="1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxpzOhwKZ1QYX3tfp4UF-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=#808080;strokeWidth=0.65;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="YJCPUg4q5MW8LFl8TfDE-33" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0103" as="geometry">
+            <Array as="points">
+              <mxPoint x="-290" y="2400" />
+              <mxPoint x="-290" y="2336.5" />
+            </Array>
+            <mxPoint x="-280" y="2400" as="sourcePoint" />
+            <mxPoint x="-210" y="2360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
