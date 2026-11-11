@@ -1,6 +1,6 @@
 <mxfile host="Electron" pages="3">
   <diagram id="lPDLhIvXcLG16itzplzv" name="[writing]">
-    <mxGraphModel dx="705" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="586" dy="272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,6 +77,16 @@
         <mxCell id="-QWBH_VcyUlIsAyMl8M9-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;fontSize=8;align=left;verticalAlign=middle;" value="Two-part Question" vertex="1">
           <mxGeometry height="20" width="70" x="560" y="559" as="geometry" />
         </mxCell>
+        <mxCell id="Egpl9p01ZHF1mNADfMx6-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="430" />
+              <mxPoint x="550" y="590" />
+            </Array>
+            <mxPoint x="560" y="430" as="sourcePoint" />
+            <mxPoint x="560" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -88,11 +98,66 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="ADCUqf9BW11ZBsie1Fe8" name="Page-3">
-    <mxGraphModel dx="1466" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="VERClb4BwDp32bMs8j3v" name="[writing][education]">
+    <mxGraphModel dx="1555" dy="1427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5qt7c4frreWZox9U0XG2-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=8;fillColor=none;" value="Some people say free time activities for children should be organized by parents. Others say that children should be free to choose what they do in their free time. Discuss both views and give your opinion." vertex="1">
+          <mxGeometry height="40" width="310" x="160" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="5qt7c4frreWZox9U0XG2-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=left;verticalAlign=top;fontSize=8;" value="&lt;div&gt;The topic of how children should spend their free time is a contentious issue. &lt;span style=&quot;background-color: rgb(204, 255, 204);&quot;&gt;Some people believe that children should engage in organized activities during their free time, while others argue that children should have the freedom to choose what they do&lt;/span&gt;. &lt;u&gt;In my opinion, while organized activities can be beneficial for children, it is important to strike a balance between structured and unstructured free time.&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;On the one hand, doing organized activities during free time provide structure and discipline, and help children develop important life skills. For example, participation in sports or music lessons can help children to develop teamwork, leadership, and time management skills, while also promoting physical and mental health. Additionally, organized activities can provide a sense of community and belonging, which can be particularly important for children who may struggle to find a sense of belonging elsewhere.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;On the other hand, children also should have the freedom to choose how they spend their free time. Forcing children to participate in organized activities can be stressful and can lead to burnout, particularly if the child is not interested in the activity. For example, imagine a child who is forced to participate in a soccer team. If the child finds the practices and games to be tedious and stressful, this will lead to burnout and frustration. Furthermore, children who are allowed to choose their own activities may be more likely to discover and pursue their passions, leading to a more fulfilling and meaningful life.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;In conclusion, the debate over how children should spend their free time is a complex issue, and there are valid arguments on both sides. While organized activities can provide important benefits, it is important to also allow children the freedom to explore and pursue their own interests.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="310" x="160" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="5qt7c4frreWZox9U0XG2-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="473" y="3" />
+            </Array>
+            <mxPoint x="473" y="-7" as="sourcePoint" />
+            <mxPoint x="463" y="3" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qt7c4frreWZox9U0XG2-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="473" y="-43" />
+            </Array>
+            <mxPoint x="463" y="-43" as="sourcePoint" />
+            <mxPoint x="473" y="-33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qt7c4frreWZox9U0XG2-5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="157" y="3" />
+            </Array>
+            <mxPoint x="167" y="3" as="sourcePoint" />
+            <mxPoint x="157" y="-7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qt7c4frreWZox9U0XG2-6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="157" y="-43" />
+            </Array>
+            <mxPoint x="157" y="-33" as="sourcePoint" />
+            <mxPoint x="167" y="-43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qt7c4frreWZox9U0XG2-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;strokeColor=#808080;strokeWidth=0.5;align=center;verticalAlign=middle;fontSize=15;dashed=1;" value="education" vertex="1">
+          <mxGeometry height="30" width="80" x="-80" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5qt7c4frreWZox9U0XG2-8" edge="1" parent="1" source="5qt7c4frreWZox9U0XG2-1" style="endArrow=none;html=1;rounded=1;endFill=0;strokeColor=light-dark(#929090, #ededed);strokeWidth=0.65;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;" target="5qt7c4frreWZox9U0XG2-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="-20" />
+              <mxPoint x="90" y="135" />
+            </Array>
+            <mxPoint x="230" y="20" as="sourcePoint" />
+            <mxPoint x="200" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
